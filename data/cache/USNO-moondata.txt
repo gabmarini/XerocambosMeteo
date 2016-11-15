@@ -1,0 +1,42 @@
+HTTP/1.1 200 OK
+Date: Tue, 15 Nov 2016 20:07:02 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/json
+
+2cc
+{
+"error":false,
+"apiversion":"1.3.0",
+"year":2016,
+"month":11,
+"day":15,
+"dayofweek":"Tuesday",
+"datechanged":false,
+"lon":26.227628,
+"lat":35.043122,
+"tz":2,
+
+"sundata":[
+            {"phen":"BC", "time":"06:23"},
+            {"phen":"R", "time":"06:50"},
+            {"phen":"U", "time":"12:00"},
+            {"phen":"S", "time":"17:09"},
+            {"phen":"EC", "time":"17:36"}],
+
+"moondata":[
+            {"phen":"U", "time":"00:25"},
+            {"phen":"S", "time":"07:27"},
+            {"phen":"R", "time":"18:21"}],
+
+"prevmoondata":[
+            {"phen":"R","time":"17:29"}],
+
+"closestphase":{"phase":"Full Moon","date":"November 14, 2016","time":"15:52"},
+"fracillum":"99%",
+"curphase":"Waning Gibbous"
+}
+0
+
