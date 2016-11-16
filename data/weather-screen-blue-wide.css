@@ -5,8 +5,10 @@
  **********************************/
 
 body {
-  color: black;
-  background-color: #F3F2EB;
+  /*color: black;*/
+  color: #AAFFFF;
+  /*background-color: #F3F2EB;*/
+  background-color: #000066;
   font-family: verdana, helvetica, arial, sans-serif;
   font-size: 73%;  /* Enables font size scaling in MSIE */
   margin: 0;
@@ -18,9 +20,9 @@ html > body {
 }
 
 #page {
-  margin: 20px auto;
+  margin: 0px auto;
   color: black;
-  background-color: white;
+  /*background-color: white;*/
 }
 
 .doNotDisplay {
@@ -54,7 +56,7 @@ html > body {
 
 #header {
   color: inherit;
-  background-color: #3173B1;
+  /*background-color: #3173B1;*/
 }
 
 .headerTitle {
@@ -63,7 +65,8 @@ html > body {
 }
 
 .headerTitle a {
-  color: white;
+  /*color: white;*/
+  color: #AAFFFF;
   background-color: transparent;
   text-decoration: none;
   font-size: 110%;  /* For MSIE */
@@ -97,11 +100,13 @@ html > body {
 }
 
 .subHeader {
-  color: white;
+  /*color: white;*/
+  color: #AAFFFF;
   float: left;
   clear: left;
   position: relative;
-  background-color: #666666;
+  /*background-color: #666666;*/
+  background-color: #000055;
   font-size: 109%;
   margin: 0;
   padding: 0.5ex 1ex;
@@ -109,11 +114,12 @@ html > body {
 
 .subHeaderRight {
   color: white;
-  background-color: #666666;
+  /*background-color: #666666;*/
+  background-color: #000055;
   font-size: 109%;
   text-align: right;
   margin:  0;
-  padding: 0.5ex 2ex;
+  padding: 1ex 2ex;
 }
 
 .subHeader a {
@@ -132,7 +138,8 @@ html > body {
 
 .leftSideBar .sideBarTitle {
   color: white;
-  background-color: #3173B1;
+  /*background-color: #3173B1;*/
+  background-color: #000055;
   font-weight: bold;
   margin: 0;
   padding: 0.5ex 1ex;
@@ -152,7 +159,8 @@ html > body {
 
 .leftSideBar a {
 display: block;
-color: #336699;
+/*color: #336699;*/
+color: #AAFFFF;
 background-color: transparent;
 width: 89px;
 padding: .05em;
@@ -202,17 +210,20 @@ color: white;
 /* ##### Main Copy ##### */
 
 #main-copy {
-  color: black;
-  background-color: white;
+  /*color: black;*/
+  color: #AAFFFF;
+  /*background-color: white;*/
+  background-color: #000055;
   text-align: justify;
   line-height: 1.5em;
-  margin: 0 0 0 9.5em;
+  margin: 3px 0 0 9.5em;
   padding: .5ex 1em 1em 1em;
   border-left: 1px solid rgb(216,210,195);
 }
 
 #main-copy-dark {
-  color: white;
+  /*color: white;*/
+  color: #AAFFFF;
   background-color: black;
   text-align: justify;
   line-height: 1.5em;
@@ -222,19 +233,19 @@ color: white;
 }
 
 #main-copy h1 {
-  color: black;
+  /*color: black;*/
   background-color: transparent;
-  font-family: arial, verdana, helvetica, sans-serif;
+  /*font-family: arial, verdana, helvetica, sans-serif;*/
   font-size: 175%;
   font-weight: bold;
   margin: 1em 0 0 0;
   padding: 1em 0 0 0;
-  border-top: 1px solid rgb(216,210,195);
+  /*border-top: 1px solid rgb(216,210,195);*/
 }
 
 #main-copy a {
   color: #336699;
-  background-color: transparent;
+  /*background-color: transparent;*/
   text-decoration: underline;
 }
 #main-copy a:hover {
@@ -249,9 +260,12 @@ color: white;
 }
 
 .column-dark {
-  color: black;
-  background-color: #F1F8FE;
+  /*color: black;*/
+  /*background-color: #F1F8FE;*/
+  background-color: #000055;
 }
+
+/*VISTO FINO A QUA!!!*/
 
 .column-light {
   color: black;

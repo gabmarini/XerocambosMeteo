@@ -49,7 +49,7 @@ $SITE['CSSprint']		= 'weather-print-php.css';
 # Mike Challis' Theme Switch configuration
 $SITE['allowThemeSwitch']   = false;  // set to false to disable the use of Theme Switcher 
 $SITE['CSSscreenDefault'] = 'weather-screen-blue.css'; // leave -narrow or -wide off this .. just change color here
-$SITE['CSSwideOrNarrowDefault'] = 'narrow'; // 'narrow' or 'wide'
+$SITE['CSSwideOrNarrowDefault'] = 'wide'; // 'narrow' or 'wide'
 # CSSsettings_mode
 # sets allowable user style select options:
 # 1 user can select style and screen width (show style select and screen width select)
@@ -70,26 +70,26 @@ $SITE['languageSelectDropdown'] = true; // true=show dropdown list for languages
 $SITE['languageSelectButton'] = true;  // true=show 'Set' button for language select, false=use onchange to submit
 $SITE['langavail'] = array('it',     // select languages to offer here.  Use comments to remove languages
 // array('en', should be first entry on line above
-  'af',  // afrikaans
-  'bg',  // bulgarian
-  'ct', // 'catalan',
-  'dk', // 'danish',
-  'nl', // 'dutch',
+//  'af',  // afrikaans
+//  'bg',  // bulgarian
+//  'ct', // 'catalan',
+//  'dk', // 'danish',
+//  'nl', // 'dutch',
   'en', // 'english',
-  'fi', // 'finnish',
+//  'fi', // 'finnish',
   'fr', // 'french',
 //  'ga', // 'irish',
   'de', // 'german',
   'el', // 'greek',
-  'he', // 'hebrew',
-  'hu', // 'hungarian',
+//  'he', // 'hebrew',
+//  'hu', // 'hungarian',
   'it', // 'italian',
-  'no', // 'norwegian',
-  'pl', // 'polish',
-  'pt', // 'portuguese',
-  'ro', // 'romanian',
-  'es', // 'spanish',
-  'se', // 'swedish',
+//  'no', // 'norwegian',
+//  'pl', // 'polish',
+//  'pt', // 'portuguese',
+//  'ro', // 'romanian',
+//  'es', // 'spanish',
+//  'se', // 'swedish',
 );
 // if your software uploads almanac dates using a language OTHER THAN English, please put the month
 // names in your language to replace the English ones below.  This is used primarily by the

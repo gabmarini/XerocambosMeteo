@@ -52,10 +52,10 @@
 // announcements of new versions will be on wxforum.net and Twitter @saratogaWXPHP
 
 // -- begin settings --------------------------------------------------------------------------
-var flashcolor = '#00CC00'; // color to flash for changed observations RGB
+var flashcolor = '#FFCC33'; // color to flash for changed observations RGB
 var flashtime  = 2000;       // miliseconds to keep flash color on (2000 = 2 seconds);
-var reloadTime = 5000;       // reload AJAX conditions every 5 seconds (= 5000 ms)
-var maxupdates = 20;	         // Maxium Number of updates allowed (set to zero for unlimited)
+var reloadTime = 3000;       // reload AJAX conditions every 5 seconds (= 5000 ms)
+var maxupdates = 0;	         // Maxium Number of updates allowed (set to zero for unlimited)
                              // maxupdates * reloadTime / 1000 = number of seconds to update
 var realtimeFile = 'MBrealtime.txt'; //  URL location of MBrealtime.php relative to document root of website
 var ajaxLoaderInBody = false; // set to true if you have <body onload="ajaxLoader(..."

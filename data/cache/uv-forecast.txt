@@ -1,5 +1,5 @@
 HTTP/1.1 200 OK
-Date: Tue, 15 Nov 2016 20:07:02 GMT
+Date: Wed, 16 Nov 2016 17:30:19 GMT
 Server: Apache/2.4.6 (Red Hat) PHP/5.4.16
 X-Powered-By: PHP/5.4.16
 Content-Length: 5322
@@ -167,29 +167,29 @@ Content-Type: text/html; charset=UTF-8
 <tr><td align=left ><i>&nbsp;<br>&nbsp; Date</i> </td>
     <td align=right><i>UV <br>&nbsp; index</i> </td>
     <td align=right><i>ozone <br>column</i> </td></tr>
-<tr><td align=right nowrap>&nbsp; 15 Nov 2016 </td>
-    <td align=right nowrap> 3.2 </td>
-    <td align=right nowrap>&nbsp;  278.9 DU </td>
-</tr>
 <tr><td align=right nowrap>&nbsp; 16 Nov 2016 </td>
     <td align=right nowrap> 3.0 </td>
-    <td align=right nowrap>&nbsp;  294.2 DU </td>
+    <td align=right nowrap>&nbsp;  295.9 DU </td>
 </tr>
 <tr><td align=right nowrap>&nbsp; 17 Nov 2016 </td>
-    <td align=right nowrap> 2.9 </td>
-    <td align=right nowrap>&nbsp;  295.5 DU </td>
+    <td align=right nowrap> 3.0 </td>
+    <td align=right nowrap>&nbsp;  293.2 DU </td>
 </tr>
 <tr><td align=right nowrap>&nbsp; 18 Nov 2016 </td>
     <td align=right nowrap> 2.9 </td>
-    <td align=right nowrap>&nbsp;  290.4 DU </td>
+    <td align=right nowrap>&nbsp;  290.1 DU </td>
 </tr>
 <tr><td align=right nowrap>&nbsp; 19 Nov 2016 </td>
-    <td align=right nowrap> 2.9 </td>
-    <td align=right nowrap>&nbsp;  291.6 DU </td>
+    <td align=right nowrap> 3.0 </td>
+    <td align=right nowrap>&nbsp;  283.6 DU </td>
 </tr>
 <tr><td align=right nowrap>&nbsp; 20 Nov 2016 </td>
     <td align=right nowrap> 2.9 </td>
-    <td align=right nowrap>&nbsp;  285.1 DU </td>
+    <td align=right nowrap>&nbsp;  289.5 DU </td>
+</tr>
+<tr><td align=right nowrap>&nbsp; 21 Nov 2016 </td>
+    <td align=right nowrap> 2.7 </td>
+    <td align=right nowrap>&nbsp;  301.6 DU </td>
 </tr>
 </table>
 </dl>
