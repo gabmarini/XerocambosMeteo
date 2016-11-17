@@ -56,7 +56,7 @@ include("menubar.php");
 	<img src="<?php echo $SITE['imagesDir']; ?>spacer.gif" alt="spacer"
 	height="2" width="620" style="padding:0; margin:0; border: none" />
 <div align="center">
-<h1 align=center>Dati in tempo reale</h1>
+<h1 align=center>Dati in tempo Reale</h1>
 <br>
 
 
