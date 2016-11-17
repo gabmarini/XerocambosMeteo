@@ -117,6 +117,7 @@ if(isset($useHTML5) and $useHTML5) {
     <link rel="stylesheet" type="text/css" href="<?php echo $SITE['CSSscreen']; ?>" media="screen" title="screen" />
     <link rel="stylesheet" type="text/css" href="<?php echo $SITE['CSSprint']; ?>" media="print" />
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	<script type="text/javascript" src="cssrefresh.js"></script>
 <?php 
 if(isset($useHTML5) and $useHTML5) { // no pragma/cache-control for us
 
