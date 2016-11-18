@@ -393,12 +393,14 @@ width: 110px;
 /* style the list items */
 .flyoutmenu li {
 color: ${LC};
-background:${LBG} url(${imagesDir}${SC});
+/*background:${LBG} url(${imagesDir}${SC});*/
+width: 15.2em;
 /* for IE7 */
 float:left;
 margin:0; /* mchallis added to tighten gaps between links */
+padding: 2px 0px 2px 0px;
 }
-.flyoutmenu li.sub {background:${LBG} url(${imagesDir}flyout-sub.gif) no-repeat right center;}
+.flyoutmenu li.sub {background:transparent url(${imagesDir}flyout-sub1.gif) no-repeat right center;}
 
 /* get rid of the table */
 .flyoutmenu table {position:absolute; border-collapse:collapse; top:0; left:0; z-index:100; font-size:1em;}
@@ -408,10 +410,10 @@ margin:0; /* mchallis added to tighten gaps between links */
 display:block;
 text-decoration:none;
 line-height: 1.8em; 
-width:95px; /* mchallis changed for adjusting firefox link width */
-color:${LC};
+width:auto; /* mchallis changed for adjusting firefox link width */
+color:#AAFFFF;
 padding: 0 2px 0 5px; 
-border:1px solid ${BC};
+/*border:1px solid ${BC};*/
 border-width:0 1px 1px 1px;
 }
 /* hack for IE5.5 */
@@ -426,7 +428,11 @@ border-width:0 1px 1px 1px;
 .flyoutmenu a:active, .flyoutmenu a:focus {color:${HC}; background:${HBG};}
 
 /* retain the hover colors for each sublevel IE7 and Firefox etc */
-.flyoutmenu li:hover > a {color:${HC}; background:${HBG};}
+.flyoutmenu li:hover > a {
+color:#000066; 
+background:#AAFFFF;
+width:auto;
+}
 
 /* hide the sub levels and give them a positon absolute so that they take up no room */
 .flyoutmenu li ul {
@@ -434,7 +440,7 @@ visibility:hidden;
 position:absolute;
 top:-10px;
 /* set up the overlap (minus the overrun) */
-left:90px;
+left:14.2em;
 /* set up the overrun area */
 padding:10px;
 /* this is for IE to make it interpret the overrrun padding */

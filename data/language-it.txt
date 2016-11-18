@@ -756,3 +756,4 @@ langlookup|Map and data courtesy of|Dati e Mappa a cura di|
 langlookup|United States Geological Survey|Osservatorio Geologico degli Stati Uniti|
 langlookup|Earthquakes|Terremoti|
 #
+langlookup|Real time data|Dati in tempo reale|

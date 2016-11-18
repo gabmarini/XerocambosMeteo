@@ -1,5 +1,5 @@
 HTTP/1.1 200 OK
-Date: Thu, 17 Nov 2016 18:15:05 GMT
+Date: Fri, 18 Nov 2016 15:49:08 GMT
 Server: Apache/2.4.6 (Red Hat) PHP/5.4.16
 X-Powered-By: PHP/5.4.16
 Content-Length: 5322
@@ -167,10 +167,6 @@ Content-Type: text/html; charset=UTF-8
 <tr><td align=left ><i>&nbsp;<br>&nbsp; Date</i> </td>
     <td align=right><i>UV <br>&nbsp; index</i> </td>
     <td align=right><i>ozone <br>column</i> </td></tr>
-<tr><td align=right nowrap>&nbsp; 17 Nov 2016 </td>
-    <td align=right nowrap> 2.9 </td>
-    <td align=right nowrap>&nbsp;  293.7 DU </td>
-</tr>
 <tr><td align=right nowrap>&nbsp; 18 Nov 2016 </td>
     <td align=right nowrap> 2.8 </td>
     <td align=right nowrap>&nbsp;  298.6 DU </td>
@@ -190,6 +186,10 @@ Content-Type: text/html; charset=UTF-8
 <tr><td align=right nowrap>&nbsp; 22 Nov 2016 </td>
     <td align=right nowrap> 2.5 </td>
     <td align=right nowrap>&nbsp;  313.2 DU </td>
+</tr>
+<tr><td align=right nowrap>&nbsp; 23 Nov 2016 </td>
+    <td align=right nowrap> 2.7 </td>
+    <td align=right nowrap>&nbsp;  297.2 DU </td>
 </tr>
 </table>
 </dl>

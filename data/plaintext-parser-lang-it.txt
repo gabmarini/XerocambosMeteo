@@ -286,3 +286,5 @@ langlookup|Violent storm|Tempesta violenta|
 langlookup|Hurricane|Uragano|
 #
 # --- end of language file ------
+
+langlookup|Real time data|Dati in tempo reale|

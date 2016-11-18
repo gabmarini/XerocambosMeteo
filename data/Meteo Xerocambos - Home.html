@@ -1,0 +1,1294 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+
+
+
+
+    <!-- ##### start AJAX mods ##### -->
+    <script src="Meteo%20Xerocambos%20-%20Home_files/a_002.js" async="" type="text/javascript"></script><script type="text/javascript" src="Meteo%20Xerocambos%20-%20Home_files/ajaxMBwx.js"></script>
+    <!-- AJAX updates by Ken True - http://saratoga-weather.org/wxtemplates/ -->
+    <script type="text/javascript" src="Meteo%20Xerocambos%20-%20Home_files/ajaxgizmo.js"></script>
+    <script type="text/javascript"> showUV = false; </script>
+    <script type="text/javascript" src="Meteo%20Xerocambos%20-%20Home_files/language-it.js"></script>
+	<!-- language for AJAX script included -->
+    <meta name="description" content="Personal weather station.">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <link rel="stylesheet" type="text/css" href="Meteo%20Xerocambos%20-%20Home_files/weather-screen-blue-wide.css" media="screen" title="screen">
+    <link rel="stylesheet" type="text/css" href="Meteo%20Xerocambos%20-%20Home_files/weather-print-php.css" media="print">
+	<link rel="shortcut icon" href="http://192.168.33.10/favicon.ico" type="image/x-icon">
+	<script type="text/javascript" src="Meteo%20Xerocambos%20-%20Home_files/cssrefresh.js"></script>
+	<meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <title>Meteo Xerocambos - Home</title>
+<!-- begin flyout-menu.php CSS definition style='blue' -->
+<style type="text/css">
+/* ================================================================
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/flyout_4level.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any
+way to fit your requirements.
+Modified by Ken True and Mike Challis for Weather-Display/AJAX/PHP
+template set.
+=================================================================== */
+.flyoutmenu {
+font-size:90%;
+}
+
+/* remove all the bullets, borders and padding from the default list styling */
+.flyoutmenu ul {
+position:relative;
+z-index:500;
+padding:0;
+margin:0;
+padding-left: 4px; /* mchallis added to center links in firefox */
+list-style-type:none;
+width: 110px;
+}
+
+/* style the list items */
+.flyoutmenu li {
+color: #336699;
+background:white url(./ajax-images/flyout-shade-white.gif);
+width: 15.2em;
+/* for IE7 */
+float:left;
+margin:0; /* mchallis added to tighten gaps between links */
+padding: 2px 0px 2px 0px;
+}
+.flyoutmenu li.sub {background:white url(./ajax-images/flyout-sub.gif) no-repeat right center;}
+
+/* get rid of the table */
+.flyoutmenu table {position:absolute; border-collapse:collapse; top:0; left:0; z-index:100; font-size:1em;}
+
+/* style the links */
+.flyoutmenu a, .flyoutmenu a:visited {
+display:block;
+text-decoration:none;
+line-height: 1.8em; 
+width:auto; /* mchallis changed for adjusting firefox link width */
+color:#336699;
+padding: 0 2px 0 5px; 
+/*border:1px solid black;*/
+border-width:0 1px 1px 1px;
+}
+/* hack for IE5.5 */
+         /* mchallis lowered the two width values to (101, 100)to fix IE6 links wider than menu width */
+* html .flyoutmenu a, * html .flyoutmenu a:visited {width:95px; w\idth:94px;}
+/* style the link hover */
+* html .flyoutmenu a:hover {color:white; background:#3173B1; position:relative;}
+
+.flyoutmenu li:hover {position:relative;}
+
+/* For accessibility of the top level menu when tabbing */
+.flyoutmenu a:active, .flyoutmenu a:focus {color:white; background:#3173B1;}
+
+/* retain the hover colors for each sublevel IE7 and Firefox etc */
+.flyoutmenu li:hover > a {
+color:white; 
+background:#3173B1;
+width:auto;
+}
+
+/* hide the sub levels and give them a positon absolute so that they take up no room */
+.flyoutmenu li ul {
+visibility:hidden;
+position:absolute;
+top:-10px;
+/* set up the overlap (minus the overrun) */
+left:14.2em;
+/* set up the overrun area */
+padding:10px;
+/* this is for IE to make it interpret the overrrun padding */
+background:transparent url(./ajax-images/flyout-transparent.gif);
+}
+
+/* for browsers that understand this is all you need for the flyouts */
+.flyoutmenu li:hover > ul {visibility:visible;}
+
+
+/* for IE5.5 and IE6 you need to style each level hover */
+
+/* keep the third level+ hidden when you hover on first level link */
+.flyoutmenu ul a:hover ul ul{
+visibility:hidden;
+}
+/* keep the fourth level+ hidden when you hover on second level link */
+.flyoutmenu ul a:hover ul a:hover ul ul{
+visibility:hidden;
+}
+/* keep the fifth level hidden when you hover on third level link */
+.flyoutmenu ul a:hover ul a:hover ul a:hover ul ul{
+visibility:hidden;
+}
+
+/* make the second level visible when hover on first level link */
+.flyoutmenu ul a:hover ul {
+visibility:visible;
+}
+/* make the third level visible when you hover over second level link */
+.flyoutmenu ul a:hover ul a:hover ul{
+visibility:visible;
+}
+/* make the fourth level visible when you hover over third level link */
+.flyoutmenu ul a:hover ul a:hover ul a:hover ul {
+visibility:visible;
+}
+/* make the fifth level visible when you hover over fourth level link */
+.flyoutmenu ul a:hover ul a:hover ul a:hover ul a:hover ul {
+visibility:visible;
+}
+
+</style>
+<!-- end of flyout-menu.php CSS definition -->
+<!-- World-ML template from http://saratoga-weather.org/wxtemplates/ -->
+<!-- end of top -->
+
+</head>
+<body>
+
+
+
+
+
+
+<div id="page"><!-- page wrapper -->
+<!-- header -->
+    <div id="header">
+      <h1 class="headerTitle">
+
+<!--
+	/* modificato MASSI
+	disattivato il collegamento
+    attivo nell'intestazione
+    cliccando su "Meteo Xerocambos"
+	/* <a href="index.php" title="Browse to homepage">Meteo Xerocambos</a> */
+-->
+      
+        <a title="Browse to homepage">Meteo Xerocambos</a>
+      </h1>	
+	  <div class="headerTemp">
+	    <span class="doNotPrint">
+ 		  <span class="ajax" id="ajaxbigtemp" lastobs="16&amp;deg;C" style="">16°C</span>
+		</span>
+ 	  </div>
+
+      <div class="subHeader">
+        Xerokampos | Lassithi | Creta Est | Grecia					   <br>
+		<!-- begin language select -->
+		
+<form method="get" name="lang_select" action="#" style="padding: 0px; margin: 0px">
+<span style="font-size: 10px">Lingua:&nbsp; </span><select id="lang" name="lang" style="font-size: 9px; padding: 0px; margin: 0px;">
+<option value="it" selected="selected">Italiano</option>
+<option value="en">English</option>
+<option value="fr">Français</option>
+<option value="de">Deutsch</option>
+<option value="el">&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;</option>
+</select>
+<input name="Set" value="Set" style="font-size: 9px" type="submit">  <img src="Meteo%20Xerocambos%20-%20Home_files/flag-it.gif" alt="Italiano" title="Italiano" style="border: 0">
+</form>		<!-- end language select -->
+		      </div>
+      <div class="subHeaderRight">
+	  <!-- Lang='it' -->
+<script type="text/javascript">// Language translation for conditions by ajaxWDwx.js for lang='it'
+//
+  langTransLookup['Dry'] = 'Secco';
+  langTransLookup['Drizzle'] = 'Pioviggine';
+  langTransLookup['Light rain'] = 'Pioviggine';
+  langTransLookup['Moderate drizzle'] = 'Pioggia';
+  langTransLookup['Moderate rain'] = 'Pioggia moderata';
+  langTransLookup['Heavy rain'] = 'Pioggia intensa';
+  langTransLookup['Stopped raining'] = 'Pioggia terminata';
+  langTransLookup['Recent rain'] = 'Pioggia recente';
+  langTransLookup['Snowing'] = 'Neve';
+  langTransLookup['Raining'] = 'Pioggia';
+  langTransLookup['Thundershower'] = 'Rovescio temporalesco';
+  langTransLookup['Thunderstorm'] = 'Temporale';
+  langTransLookup['Heavy thunderstorm'] = 'Forte temporale';
+  langTransLookup['Dawn'] = 'Alba';
+  langTransLookup['Dusk'] = 'Tramonto';
+  langTransLookup['Night time'] = 'Notte';
+  langTransLookup['Night'] = 'Notte';
+  langTransLookup['Fine weather'] = 'Fine weather';
+  langTransLookup['Clear'] = 'Sereno';
+  langTransLookup['Sunny'] = 'Soleggiato';
+  langTransLookup['Clear skies'] = 'Cielo sereno';
+  langTransLookup['Mostly sunny'] = 'Prev. soleggiato';
+  langTransLookup['A few clouds'] = 'Poco nuvoloso';
+  langTransLookup['Sc'] = 'Nubi sparse';
+  langTransLookup['Scattered clouds'] = 'Nubi sparse';
+  langTransLookup['Scattered'] = 'Nubi sparse';
+  langTransLookup['Partly cloudy'] = 'Parz. nuvoloso';
+  langTransLookup['Mostly cloudy'] = 'Molto nuvoloso';
+  langTransLookup['Cloudy with clear patches'] = 'Nuvoloso con schiarite';
+  langTransLookup['Overcast'] = 'Coperto';
+  langTransLookup['Misty'] = 'Foschia';
+  langTransLookup['Fog'] = 'Nebbia';
+  langTransLookup['Cloudbase'] = 'Altezza Nuvole';
+  langTransLookup['Recente showers'] = 'Rovescio recente';
+  langTransLookup['Partly cloudy  -  fog'] = 'Molto nuvoloso - Nebbia';
+  langTransLookup['fog'] = 'Nebbia';
+  langTransLookup['Day time'] = 'Giorno';
+  langTransLookup['Mostly clear'] = 'Prev. sereno';
+  langTransLookup['Mostly clear -  mist'] = 'Prevalentemente sereno - Foschia';
+  langTransLookup['Mostly clear -  fog in the vicinity'] = 'Prevalentemente sereno - Nebbia nelle vicinanze';
+  langTransLookup['Mostly clear -  freezing fog'] = 'Prevalentemente sereno - Nebbia congelantesi';
+  langTransLookup['Mostly clear -  shallow fog'] = 'Prevalentemente sereno - Nebbia bassa';
+  langTransLookup['Mostly clear -  partial fog'] = 'Prevalentemente sereno - Parz. nebbioso';
+  langTransLookup['Mostly clear -  towering cumulus clouds observed'] = 'Prevalentemente sereno - Avvistate nubi temporalesche accastellate';
+  langTransLookup['Mostly clear -  light with thunder in the vicinity'] = 'Prevalentemente sereno - Tuoni e Fulmini nelle vicinanze';
+  langTransLookup['Mostly clear -  cumulonimbus clouds observed'] = 'Prevalentemente sereno - Avvistati cumulonembi';
+  langTransLookup['Windy'] = 'Ventoso';
+  langTransLookup['Partly cloudy -  mist'] = 'Parzialmente nuvoloso - Foschia';
+  langTransLookup['Partly cloudy -  light drizzle'] = 'Parzialmente nuvoloso - Leggera Pioviggine';
+  langTransLookup['Partly cloudy -  drizzle'] = 'Parzialmente nuvoloso - Pioviggine';
+  langTransLookup['Partly cloudy -  patches of fog'] = 'Parzialmente nuvoloso - Banchi di Nebbia';
+  langTransLookup['Partly cloudy -  shallow fog'] = 'Parzialmente nuvoloso - Nebbia bassa';
+  langTransLookup['Partly cloudy -  cumulonimbus clouds observed'] = 'Parzialmente nuvoloso - Avvistati cumulonembi';
+  langTransLookup['Partly cloudy -  towering cumulus clouds observed'] = 'Parzialmente nuvoloso - Avvistate nubi temporalesche accastellate';
+  langTransLookup['Partly cloudy -  thunder in the vicinity; cumulonimbus clouds observed'] = 'Parzialmente nuvoloso - Tuoni nelle vicinanze; Avvistati cumulonenbi';
+  langTransLookup['Partly cloudy -  light rain with thunder; cumulonimbus clouds observed'] = 'Parzialmente nuvoloso - Pioggia leggera con tuoni; Avvistati cumulonembi';
+  langTransLookup['Partly cloudy -  light rain'] = 'Parzialmente nuvoloso - Pioggia leggera';
+  langTransLookup['Partly cloudy -  cumulonimbus clouds, towering cumulus clouds observed'] = 'Parzialmente nuvoloso - Avvistati cumulonembi e nubi temporalesche';
+  langTransLookup['Partly cloudy -  light with thunder; cumulonimbus clouds observed'] = 'Parzialmente nuvoloso - Tuoni e fulmini; Avvistati cumulonembi';
+  langTransLookup['Partly cloudy -  rain'] = 'Parzialmente nuvoloso - Pioggia';
+  langTransLookup['Mostly cloudy -  snow'] = 'Molto nuvoloso - NEVE';
+  langTransLookup['Mostly cloudy -  mist'] = 'Molto nuvoloso - Foschia';
+  langTransLookup['Mostly cloudy -  drizzle'] = 'Molto nuvoloso - Pioviggine';
+  langTransLookup['Mostly cloudy -  light drizzle'] = 'Molto nuvoloso - Leggera Pioviggine';
+  langTransLookup['Mostly cloudy -  light drizzle, mist'] = 'Molto nuvoloso - Leggera Pioviggine, Foschia';
+  langTransLookup['Mostly cloudy -  patches of fog'] = 'Molto nuvoloso - Banchi di nebbia';
+  langTransLookup['Mostly cloudy -  fog'] = 'Molto nuvoloso - Nebbia';
+  langTransLookup['Mostly cloudy -  freezing fog'] = 'Parzialmente nuvoloso - Nebbia congelantesi';
+  langTransLookup['Mostly cloudy -  shallow fog'] = 'Molto nuvoloso - Nebbia bassa';
+  langTransLookup['Mostly cloudy -  light rain; mist'] = 'Molto nuvoloso - Pioggia leggera; Foschia';
+  langTransLookup['Mostly cloudy -  light rain'] = 'Molto nuvoloso - Pioggia leggera';
+  langTransLookup['Mostly cloudy -  rain'] = 'Molto nuvoloso - Pioggia';
+  langTransLookup['Mostly cloudy -  mist, drizzle'] = 'Molto nuvoloso - Foschia, Pioviggine';
+  langTransLookup['Mostly cloudy -  rain; towering cumulus clouds observed'] = 'Molto nuvoloso - Pioggia; Avvistate nubi temporalesche';
+  langTransLookup['Mostly cloudy -  rain; cumulonimbus clouds observed'] = 'Molto nuvoloso, - Pioggia; Avvistati cumulonembi';
+  langTransLookup['Mostly cloudy -  rain; thunder in the vicinity; cumulonimbus clouds observed'] = 'Molto nuvoloso - Pioggia; Tuoni nelle vicinanze; Avvistati cumulonembi';
+  langTransLookup['Mostly cloudy -  rain, mist'] = 'Molto nuvoloso - Pioggia, Foschia';
+  langTransLookup['Mostly cloudy -  rain; mist'] = 'Molto nuvoloso - Pioggia; Foschia';
+  langTransLookup['Mostly cloudy -  cumulonimbus clouds observed'] = 'Molto nuvoloso - Avvistati cumulonembi';
+  langTransLookup['Mostly cloudy -  towering cumulus clouds observed'] = 'Molto nuvoloso - Avvistate nubi temporalesche accastellate';
+  langTransLookup['Mostly cloudy -  light rain; cumulonimbus clouds observed'] = 'Molto nuvoloso - Pioviggine; Avvistati cumulonembi';
+  langTransLookup['Mostly cloudy -  light rain;towering cumulus clouds observed'] = 'Molto nuvoloso - Pioviggine; Avvistate nubi temporalesche';
+  langTransLookup['Mostly cloudy -  light rain; towering cumulus clouds observed'] = 'Molto nuvoloso - Pioviggine; Avvistate nubi temporalesche';
+  langTransLookup['Mostly cloudy -  cumulonimbus clouds, towering cumulus clouds observed'] = 'Molto nuvoloso - Avvistati cumulonembi e nubi temporalesche accastellate';
+  langTransLookup['Mostly cloudy -  rain with thunder; cumulonimbus clouds observed'] = 'Molto nuvoloso - Temporale; Avvistati cumulonembi';
+  langTransLookup['Mostly cloudy -  thunder; cumulonimbus clouds observed'] = 'Molto nuvoloso - Tuoni; Avvistati cumulonembi';
+  langTransLookup['Mostly cloudy -  squalls; towering cumulus clouds observed'] = 'Molto nuvoloso - Burrascoso; Avvistate nubi temporalesche accastellate';
+  langTransLookup['Mostly cloudy -  thunder in the vicinity; cumulonimbus clouds, towering cumulus clouds observed'] = 'Molto nuovoloso  - Tuoni nelle vicinanze; Avvistati cumulonembi e nubi temporalesche';
+  langTransLookup['Mostly cloudy -  light with thunder; cumulonimbus clouds observed'] = 'Molto nuvoloso - Tuoni e fulmini; Avvistati cumulonembi';
+  langTransLookup['Mostly cloudy -  light with thunder; rain; cumulonimbus clouds observed'] = 'Molto nuvoloso - Tuoni e fulmini; Pioggia; Avvistati cumulonembi';
+  langTransLookup['Mostly cloudy -  thunder in the vicinity; cumulonimbus clouds observed'] = 'Molto nuvoloso - Tuoni nelle vicinanze; Avvistati cumulonembi';
+  langTransLookup['Mostly cloudy -  thunder in the vicinity; rain; cumulonimbus clouds observed'] = 'Molto nuvoloso - Tuoni nelle vicinanze; Pioggia; Avvistati cumulonembi';
+  langTransLookup['Mostly cloudy -  thunder; rain; cumulonimbus clouds observed'] = 'Molto nuvoloso - Tuoni; Pioggia; Avvistati cumulonembi';
+  langTransLookup['--- freezing patches of fog'] = 'Nebbia a banchi congelantesi';
+  langTransLookup['--- patches of fog'] = 'Banchi di nebbia';
+  langTransLookup['--- mist'] = 'Foschia';
+  langTransLookup['--- fog'] = 'Nebbia';
+  langTransLookup['--- shallow fog'] = 'Nebbia bassa';
+  langTransLookup['Obscured -  fog'] = 'Oscuro - Nebbia';
+  langTransLookup['Obscured -  freezing fog'] = 'Oscuro - Nebbia congelantesi';
+  langTransLookup['Overcast -  snow'] = 'Coperto - NEVE';
+  langTransLookup['Overcast -  fog'] = 'Coperto - Nebbia';
+  langTransLookup['Overcast -  rain; mist'] = 'Coperto - Pioggia; Foschia';
+  langTransLookup['Overcast -  mist'] = 'Coperto - Foschia';
+  langTransLookup['Overcast -  light rain'] = 'Coperto - Pioggia leggera';
+  langTransLookup['Overcast -  drizzle'] = 'Coperto - Pioviggine';
+  langTransLookup['Overcast -  light drizzle'] = 'Coperto - Leggera Pioviggine';
+  langTransLookup['Overcast -  light rain; mist'] = 'Coperto - Pioggia leggera; Foschia';
+  langTransLookup['Overcast -  heavy rain; mist'] = 'Coperto - Pioggia forte; Foschia';
+  langTransLookup['Overcast -  light rain; fog'] = 'Coperto - Pioggia leggera; Nebbia';
+  langTransLookup['Overcast -  rain'] = 'Coperto - Pioggia';
+  langTransLookup['Overcast -  mist; drizzle'] = 'Coperto - Foschia; Pioviggine';
+  langTransLookup['Overcast -  drizzle; mist'] = 'Coperto - Pioviggine; Foschia';
+  langTransLookup['Overcast -  drizzle, rain'] = 'Coperto - Pioviggine';
+  langTransLookup['Overcast -  light drizzle; mist'] = 'Coperto - Leggera pioviggine; Foschia';
+  langTransLookup['Overcast -  heavy drizzle; mist'] = 'Coperto - Intensa pioviggine; Foschia';
+  langTransLookup['Overcast -  rain; cumulonimbus clouds observed'] = 'Coperto - Pioggia; Avvistati cumulonembi';
+  langTransLookup['Overcast -  thunder; rain showers; cumulonimbus clouds observed'] = 'Coperto  - Tuoni; Rovesci di pioggia; Avvistati cumulonembi';
+  langTransLookup['Overcast -  rain with thunder; mist; cumulonimbus clouds observed'] = 'Coperto  - Tuoni con pioggia; Foschia; Avvistati cumulonembi';
+  langTransLookup['Overcast -  rain, drizzle; mist'] = 'Coperto - Pioggia / Pioviggine; Foschia';
+  langTransLookup['Overcast -  rain; towering cumulus clouds observed'] = 'Coperto - Pioggia; Avvistate nubi temporalesche accastellate';
+  langTransLookup['Sleet fall'] = 'Nevischio';
+  langTransLookup['Overcast -  snow; mist'] = 'Coperto - Neve; Foschia';
+</script>
+<!-- ajax-gizmo.php V1.14 - 17-Mar-2013 - Multilingual -->
+<div class="ajaxgizmo">
+   <div class="doNotPrint">
+	  <!-- ##### start of AJAX gizmo ##### -->
+	    <noscript>[Abilitate JavaScript per gli aggiornamenti Live]&nbsp;</noscript>
+	    <span class="ajax" id="gizmoindicator" style="">Dati ricevuti</span>:&nbsp;
+		<span class="ajax" id="gizmodate" lastobs="15/11/2016" style="">15/11/2016</span>&nbsp; 
+		<span class="ajax" id="gizmotime" lastobs="22:35:35" style="">22:35:35</span>
+		
+	  <br>&nbsp;<img src="Meteo%20Xerocambos%20-%20Home_files/spacer.gif" alt=" " width="1" height="14">
+		<span class="ajaxcontent0" style="display: none;">
+		  <span class="ajax" id="gizmocurrentcond">Mist, Nuvoloso</span>
+		</span>
+		<span class="ajaxcontent1" style="display: none;">Temperatura: 
+			<span class="ajax" id="gizmotemp" lastobs="15.8&amp;deg;C" style="">15.8°C</span>
+            
+	        <span class="ajax" id="gizmotemparrow">			</span>&nbsp;
+			<span class="ajax" id="gizmotemprate"></span>		</span>
+		<span class="ajaxcontent2" style="display: none;">Umidità: 
+		  <span class="ajax" id="gizmohumidity" lastobs="58" style="">58</span>%		</span>
+		<span class="ajaxcontent3" style="display: none;">P.to Rugiada: 
+		  <span class="ajax" id="gizmodew" lastobs="7.6&amp;deg;C" style="">7.6°C</span>		</span>
+		<span class="ajaxcontent4" style="display: none;">Vento: 
+	    	<span class="ajax" id="gizmowindicon" lastobs="&lt;img src=&quot;./ajax-images/WNW.gif&quot; width=&quot;14&quot; height=&quot;14&quot; alt=&quot;Vento da ONO&quot; title=&quot;Vento da ONO&quot; /&gt; " style=""><img src="Meteo%20Xerocambos%20-%20Home_files/WNW.gif" alt="Vento da ONO" title="Vento da ONO" width="14" height="14"> </span> 
+			<span class="ajax" id="gizmowinddir" lastobs="ONO" style="">ONO</span>&nbsp; 
+			<span class="ajax" id="gizmowind" lastobs="17.3 km/h" style="">17.3 km/h</span>
+		</span>
+		<span class="ajaxcontent5" style="display: none;">Raffica: 
+  			<span class="ajax" id="gizmogust" lastobs="48.6 km/h" style="">48.6 km/h</span>
+		</span>
+		<span class="ajaxcontent6" style="display: inline;">Barometro: 
+    		<span class="ajax" id="gizmobaro" lastobs="1020.1 hPa" style="">1020.1 hPa</span>&nbsp;
+             <span class="ajax" id="gizmobarotrendtext">--</span>			
+		</span> 
+		<span class="ajaxcontent7" style="display: none;">Pioggia odierna: 
+    		<span class="ajax" id="gizmorain" lastobs="0.0 mm" style="">0.0 mm</span>
+		</span>
+		<span class="ajaxcontent8" style="display: none">UV Index: 
+           <span class="ajax" id="gizmouv"><br>
+<b>Notice</b>:  Undefined variable: VPuv in <b>/var/www/public/ajax-gizmo.php</b> on line <b>206</b><br>
+</span>&nbsp;
+		   <span style="color: #ffffff">
+	         <span class="ajax" id="gizmouvword" lastobs="&lt;span style=&quot;border: solid 1px; color: #FFFF00; background-color: #807780;&quot;&gt;&amp;nbsp;Estremo&amp;nbsp;&lt;/span&gt;" style=""><span style="border: solid 1px; color: #FFFF00; background-color: #807780;">&nbsp;Estremo&nbsp;</span></span>
+		   </span>
+		</span>
+	  </div>
+	  <!-- ##### end of AJAX gizmo  ##### -->
+
+</div>
+<!-- end of ajax-gizmo.php -->
+	  </div><!-- end subHeaderRight -->
+</div>
+<!-- end of header -->	
+<!-- menubar -->
+<div class="doNotPrint">
+      <div class="leftSideBar">
+        <p class="sideBarTitle">Nav Menu</p>
+<div class="flyoutmenu">
+<!-- begin generated flyout menu -->
+<!-- flyout-menu.php (ML) Version 1.08 - 05-Feb-2013 -->
+<!-- by Ken True - webmaster[at]saratoga-weather.org and -->
+<!-- by Mike Challis - webmaster[at]642weather.com  -->
+<!-- Adapted from Stu Nicholl's CSS/XHTML at http://www.cssplay.co.uk/menus/flyout_4level.html -->
+<!-- script available at http://saratoga-weather.org/scripts-CSSmenu.php#flyout -->
+<!-- using 
+Array
+(
+    [NAME] => blue
+    [SHADE_IMAGE] => flyout-shade-white.gif
+    [BORDER_COLOR] => black
+    [LINK_COLOR] => #336699
+    [LINK_BACKGROUND] => white
+    [HOVER_COLOR] => white
+    [HOVER_BACKGROUND] => #3173B1
+)
+ -->
+<!-- using ./flyout-menu.xml for XML, doTrans=1 -->
+<ul>
+  <li><a href="http://192.168.33.10/wxindex.php" title="Home Page">Tempo reale</a></li>
+  <!-- not used with MB <li><a href="wxmesonet.php" title="Local Weather Exchange Stations">Mesonet</a></li> -->
+  <li><a href="http://192.168.33.10/wxradar.php" title="Satellite">Satellite</a></li>
+  <li><a href="http://192.168.33.10/wxuvforecast.php" title="Weather outlook">UV Previsioni</a></li>
+  <li class="sub"><a href="#" title="Trends, Sun/Moon, Earthquakes">Almanacco<!--[if gte IE 7]><!--></a><!--<![endif]-->
+    <!--[if lte IE 6]><table><tr><td><![endif]-->
+    <ul>
+    <li><a href="http://192.168.33.10/wxtrends.php">Statistiche</a></li>
+    <!-- not used with MB <li><a href="wxgraphs.php">Grafici</a></li> -->
+    <!-- not used with MB <li><a href="wxstationrecords.php">Station Records</a></li> -->
+    <!-- not used with MB <li><a href="wxjournal.php">Station Journal</a></li> -->
+    <!-- not used with MB <li><a href="wxrecent.php">Recent Weather Summary</a></li> -->
+    <!-- not used with MB <li><a href="wxthismonth.php">Summary This Month</a></li> -->
+    <!-- not used with MB <li><a href="wxyearoveryear.php">Summary Year over Year</a></li> -->
+    <!-- not used with MB <li><a href="wxhistory.php">Report mensili</a></li> -->
+    <!-- not used with MB <li><a href="wxnoaaclimatereports.php">NOAA reports</a></li> -->
+    <li><a href="http://192.168.33.10/wxastronomy.php">Almanacco Sole/Luna</a></li>
+    </ul>
+    <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+  </li>
+</ul>
+<!-- end generated flyout menu -->
+</div>
+<!-- external links -->
+<p class="sideBarTitle">Links Esterni</p>
+<ul>
+
+
+<!--
+/* modificato MASSI
+	cambiati collegamenti ai siti
+    di previsione esterni*/
+   <li><a href="http://www.wunderground.com/" title="Weather Underground">Weather Underground</a></li>
+   <li><a href="http://www.wxforum.net/" title="WXForum">WXforum.net</a></li>
+-->
+
+   <li><a href="http://meteokrites.gr/stations.php" title="Meteokrites" target="_blank">Meteokrites</a></li>
+   <li><a href="http://www.poseidon.hcmr.gr/weather_forecast.php?area_id=gr" title="Poseidon" target="_blank">Poseidon</a></li>
+   <li><a href="http://www.xerocamboscreta.com/Meteo.Xero.it.htm" title="Wind Finder" target="_blank">Wind Finder</a></li>
+
+</ul>
+<!-- end external links -->
+      </div><!-- end leftSidebar -->
+</div><!-- end doNotPrint -->	
+<!-- end of menubar -->
+
+<div id="main-copy">
+
+
+
+<div class="column-dark">
+	<img src="Meteo%20Xerocambos%20-%20Home_files/spacer.gif" alt="spacer" style="padding:0; margin:0; border: none" width="620" height="2">
+<div align="center">
+<h1 align="center">Dati in tempo reale</h1>
+<br>
+
+
+	<div align="center">
+	<!--  ajax-dashboard.php - Version 1.26 - 12-Jan-2013 - Multilingual -->
+<br>
+<b>Notice</b>:  Undefined index: fcstscript in <b>/var/www/public/ajax-dashboard.php</b> on line <b>169</b><br>
+<br>
+<b>Notice</b>:  Undefined index: fcstorg in <b>/var/www/public/ajax-dashboard.php</b> on line <b>169</b><br>
+<!-- fcstby='' fcstscript='' fcstorg='' -->
+<!-- Lang='it' -->
+<!-- checking for './ajax-images/wr-it-calm.png' -->
+<!-- alternate windrose for 'it' loaded -->
+<script type="text/javascript">
+ var wrCalm = "wr-it-calm.png";
+ var wrName = "wr-it-";
+</script>
+<!-- new wrName='wr-it-', wrCalm='wr-it-calm.png' -->
+<!-- cGetMoonInfo returns
+stdClass Object
+(
+    [date] => 1479482360
+    [datetxt] => Fri, 18-Nov-2016 15:19 GMT
+    [age] => 18 days, 21 hours, 41 minutes
+    [ill] => 79
+    [pic] => 18
+    [phase] => Waning Gibbous
+    [NM] => 1477849080
+    [NMGMT] => Sun, 30-Oct-2016 17:38 GMT
+    [NMWD] => 17:38 GMT 30 October 2016
+    [Q1] => 1478548260
+    [Q1GMT] => Mon, 07-Nov-2016 19:51 GMT
+    [Q1WD] => 19:51 GMT 07 November 2016
+    [FM] => 1479131520
+    [FMGMT] => Mon, 14-Nov-2016 13:52 GMT
+    [FMWD] => 13:52 GMT 14 November 2016
+    [Q3] => 1479717180
+    [Q3GMT] => Mon, 21-Nov-2016 08:33 GMT
+    [Q3WD] => 08:33 GMT 21 November 2016
+    [Q4] => 1480421880
+    [Q4GMT] => Tue, 29-Nov-2016 12:18 GMT
+    [Q4WD] => 12:18 GMT 29 November 2016
+    [FM2] => 1481673900
+    [FM2GMT] => Wed, 14-Dec-2016 00:05 GMT
+    [FM2WD] => 00:05 GMT 14 December 2016
+    [moons] => Array
+        (
+            [0] => Array
+                (
+                    [0] => Last Quarter
+                    [1] => 1479717180
+                    [2] => Q3
+                    [3] => Mon, 21 Nov 2016 10:33:00 +0200
+                )
+
+            [1] => Array
+                (
+                    [0] => New Moon
+                    [1] => 1480421880
+                    [2] => NM
+                    [3] => Tue, 29 Nov 2016 14:18:00 +0200
+                )
+
+            [2] => Array
+                (
+                    [0] => First Quarter
+                    [1] => 1481101380
+                    [2] => Q1
+                    [3] => Wed, 07 Dec 2016 11:03:00 +0200
+                )
+
+            [3] => Array
+                (
+                    [0] => Full Moon
+                    [1] => 1481673900
+                    [2] => FM
+                    [3] => Wed, 14 Dec 2016 02:05:00 +0200
+                )
+
+            [4] => Array
+                (
+                    [0] => Last Quarter
+                    [1] => 1482285360
+                    [2] => Q3
+                    [3] => Wed, 21 Dec 2016 03:56:00 +0200
+                )
+
+        )
+
+)
+ -->
+<!-- get-USNO-sunmoon.php - Version 2.03 - 01-Aug-2015 -->
+<!-- using Cached version of ./cache/USNO-moondata.txt -->
+<!-- unchunking response -->
+<!-- in=913 out=913 bytes -->
+<!-- processing JSON entries for Moon data -->
+<!-- json_decode returns  - No errors -->
+<!-- USNOdata
+Array
+(
+    [beginciviltwilight] => 06:26
+    [beginciviltwilightdate] => 18/11/2016
+    [sunrise] => 06:53
+    [sunrisedate] => 18/11/2016
+    [suntransit] => 12:00
+    [suntransitdate] => 18/11/2016
+    [sunset] => 17:08
+    [sunsetdate] => 18/11/2016
+    [endciviltwilight] => 17:35
+    [endciviltwilightdate] => 18/11/2016
+    [moontransit] => 03:28
+    [moontransitdate] => 18/11/2016
+    [moonset] => 10:37
+    [moonsetdate] => 18/11/2016
+    [moonrise] => 21:18
+    [moonrisedate] => 18/11/2016
+    [moonriseprior] => 20:17
+    [moonrisepriordate] => 17/11/2016
+    [moonphase] => Waning Gibbous
+    [illumination] => 80%
+    [hoursofpossibledaylight] => 10:15
+)
+ -->
+<!-- start of ajax-dashboard.php -->
+<div class="ajaxDashboard" style="width: 632px;">
+      <table style="border:solid; border-color: #CCCCCC;" width="620" cellspacing="1" cellpadding="2" border="0">
+        <tbody><tr align="center">
+          <td class="data1" colspan="4" style="text-align: center">
+		    <span class="ajax" id="ajaxindicator" style="">Dati ricevuti:</span>&nbsp;@ 
+		    <span class="ajax" id="ajaxdate" lastobs="15/11/2016" style="">15/11/2016</span>&nbsp;<span class="ajax" id="ajaxtime" lastobs="22:35:35" style="">22:35:35</span>
+                        <script type="text/javascript">
+<!--
+document.write('<b> - aggiornato <span id="ajaxcounter"></span>&nbsp;sec fa</b>');
+//-->
+            </script><b> - aggiornato <span id="ajaxcounter">184</span>&nbsp;sec fa</b>
+                      </td>
+        </tr>
+        <tr align="center">
+          <td class="datahead">Summary / Temperatura</td>
+          <td class="datahead">Vento</td>
+	            <td class="datahead">Pioggia</td>
+	           <td class="datahead">Previsioni</td>
+        </tr>
+        <tr align="left">
+          <td rowspan="5" valign="top">
+		    <table width="180" cellspacing="0" cellpadding="2" border="0">
+			  <tbody><tr>
+				<td class="data1" style="text-align: center;border: none" valign="top" align="center">
+				<span class="ajax" id="ajaxconditionicon2">
+				  <img src="Meteo%20Xerocambos%20-%20Home_files/mist.jpg" alt="Mist, Nuvoloso" title="Mist, Nuvoloso" width="55" height="58">
+				</span> 
+				</td>
+				<td class="data1" style="text-align: center;border: none"><span class="ajax" id="ajaxcurrentcond">
+				  Mist, Nuvoloso </span> 
+				</td>
+			  </tr>
+              <tr align="center">
+                <td class="data1" style="text-align: center;border: none" valign="top" align="center">
+				  <span class="ajax" id="ajaxthermometer" lastobs="&lt;img src=&quot;./thermometer.php?t=15.8&quot; width=&quot;54&quot; height=&quot;170&quot; alt=&quot;Currently: 15.8&amp;deg;C, Max: 18.4&amp;deg;C, Min: 15.5&amp;deg;C&quot; title=&quot;Currently: 15.8&amp;deg;C, Max: 18.4&amp;deg;C, Min: 15.5&amp;deg;C&quot; /&gt;" style=""><img src="Meteo%20Xerocambos%20-%20Home_files/thermometer.png" alt="Currently: 15.8°C, Max: 18.4°C, Min: 15.5°C" title="Currently: 15.8°C, Max: 18.4°C, Min: 15.5°C" width="54" height="170"></span> 
+				</td>
+                <td class="data1" style="text-align: center;border: none" valign="middle">
+				  <span class="ajax" id="ajaxtemp" style="font-size: 20px;" lastobs="15.8&amp;deg;C">15.8°C</span>
+				  <br>
+				  <span class="ajax" id="ajaxtemparrow"></span>
+				  <br><br>
+                  <span class="ajax" id="ajaxheatcolorword" lastobs="&lt;span style=&quot;border: solid 1px; color: black; background-color: #89B2EA;&quot;&gt;&amp;nbsp;Fresco&amp;nbsp;&lt;/span&gt;" style=""><span style="border: solid 1px; color: black; background-color: #89B2EA;">&nbsp;Fresco&nbsp;</span></span>
+                  <br><br>
+                                    Percepita: <span class="ajax" id="ajaxfeelslike" lastobs="14&amp;deg;C" style="">14°C</span>
+				  <br><br>
+                                                    </td>
+              </tr>
+                            <tr>
+                <td colspan="2" align="center">
+				  <table class="data1" style="font-size: 9px;border: none" width="100%">
+                    <tbody><tr>
+                      <th>&nbsp;</th>
+                      <th style="text-align: center;">Oggi</th>
+                                            <th style="text-align: center;">Ieri</th>
+                                          </tr>
+                    <tr>
+                      <td style="text-align: right;"><strong>Max:</strong></td>
+                      <td style="text-align: center;">
+					    <span class="ajax" id="ajaxtempmax" lastobs="18.4&amp;deg;C" style="">18.4°C</span><br>
+                        00:56					  </td>
+                                            <td style="text-align: center;">21.2°C                        <br>
+                        12:09					  </td>
+                                          </tr>
+                    <tr>
+                      <td style="text-align: right;"><strong>Min:</strong></td>
+                      <td style="text-align: center;">
+					    <span class="ajax" id="ajaxtempmin" lastobs="15.5&amp;deg;C" style="">15.5°C</span><br>
+                        20:09					  </td>
+                                            <td style="text-align: center;">17.8°C                        <br>
+                        06:17					  </td>
+                                          </tr>
+                  </tbody></table>
+				</td>
+              </tr>
+                          </tbody></table>
+		  </td>
+          <td valign="middle">
+		    <table width="180" cellspacing="0" cellpadding="2" border="0">
+              <tbody><tr>
+                <td class="data1" style="border: none" valign="middle" align="center">
+				  <img src="Meteo%20Xerocambos%20-%20Home_files/spacer.gif" alt=" " width="1" height="58" align="left">
+				  <span class="ajax" id="ajaxwindiconwr" lastobs="&lt;img src=&quot;./ajax-images/wr-it-WNW.png&quot; width=&quot;58&quot; height=&quot;58&quot; alt=&quot;Vento da ONO&quot; title=&quot;Vento da ONO&quot; /&gt; " style=""><img src="Meteo%20Xerocambos%20-%20Home_files/wr-it-WNW.png" alt="Vento da ONO" title="Vento da ONO" width="58" height="58"> </span> 
+				 </td>
+                <td class="data1" style="text-align: center; border: none;" valign="middle">
+					<span class="ajax" id="ajaxwinddir" lastobs="ONO" style="">ONO</span><br> 
+					<span class="ajax" id="ajaxwind" lastobs="17.3 km/h" style="">17.3 km/h</span><br>
+					<span class="meas">Raffica:<br></span> 
+					<span class="ajax" id="ajaxgust" lastobs="48.6 km/h" style="">48.6 km/h</span> 
+				</td>
+              </tr>
+               <tr>
+                <td colspan="2" class="data1" style="text-align:center" align="center">
+				  <span class="ajax" id="ajaxbeaufortnum" lastobs="3" style="">3</span> Bft - <i>
+				  <span class="ajax" id="ajaxbeaufort" lastobs="Brezza tesa" style="">Brezza tesa</span></i>
+				</td>
+              </tr>
+                          <tr>
+                <td colspan="2" class="data1" align="center">
+				  Oggi: 
+				  <span class="ajax" id="ajaxwindmaxgust" lastobs="49.7 km/h" style="">49.7 km/h</span> 
+				  <span class="ajax" id="ajaxwindmaxgusttime" lastobs="19:35" style="">19:35</span>
+				</td>
+              </tr>
+                                          <tr>
+                <td colspan="2" class="data1" align="center">
+				  Raffica max mensile:
+                  <br>
+				  99.7  km/h 
+                  				  Novembre 01 
+                  				</td>
+              </tr>
+                          </tbody></table>
+		  </td>
+          <td valign="middle"><table width="166" cellspacing="0" cellpadding="2" border="0">
+                  <tbody><tr>
+                <td class="data1">Pioggia odierna:</td>
+                <td style="text-align: right;" class="data1">
+				  <span class="ajax" id="ajaxrain" lastobs="0.0 mm" style="">0.0 mm</span>
+				</td>
+              </tr>
+              <tr>
+                <td class="data1">Accumulo (/hr):</td>
+                <td style="text-align: right;" class="data1">
+				  <span class="ajax" id="ajaxrainratehr" lastobs="0.00 mm" style="">0.00 mm</span>
+				</td>
+              </tr>
+                            <tr>
+                <td class="data1" nowrap="nowrap">Pioggia ieri: </td>
+                <td style="text-align: right;" class="data1">
+				  <span class="ajax" id="ajaxrainydy">
+                  0.0 mm                  </span>
+				</td>
+              </tr>
+              			               <tr>
+                <td class="data1">questo mese:</td>
+                <td style="text-align: right;" class="data1">
+				  <span class="ajax" id="ajaxrainmo" lastobs="2.3 mm" style="">2.3 mm</span>
+				</td>
+              </tr>
+              <tr>
+                <td class="data1" nowrap="nowrap">Stagionale:</td>
+                <td style="text-align: right;" class="data1">
+				  <span class="ajax" id="ajaxrainyr" lastobs="55.7 mm" style="">55.7 mm</span>
+				</td>
+              </tr>
+			                	             </tbody></table>
+		  </td>
+          <td valign="middle" align="center">
+		    <table cellspacing="0" cellpadding="2" border="0">
+              <tbody><tr>
+                <td class="data1" style="font-size: 8pt; border:none;text-align: center" align="center">
+				  
+				  <br>
+<b>Notice</b>:  Undefined variable: forecasticons in <b>/var/www/public/ajax-dashboard.php</b> on line <b>682</b><br>
+                  
+                  -- N.D. --
+			   </td>
+              </tr>
+            </tbody></table>
+		  </td>
+        </tr>
+        <tr valign="top" align="center">
+          <td class="datahead">Umidità &amp; Barometro</td>
+          <td class="datahead">Almanacco</td>
+          <td class="datahead">Moon</td>
+        </tr>
+        <tr valign="middle" align="center">
+          <td valign="middle"><table width="180" cellspacing="0" cellpadding="2" border="0">
+              <tbody><tr>
+                <td class="data1">Umidità:</td>
+                <td style="text-align: center;" class="data1">
+				  <span class="ajax" id="ajaxhumidity" lastobs="58" style="">58</span>%
+                  				</td>
+              </tr>
+              <tr>
+                <td class="data1">P.to Rugiada: </td>
+                <td style="text-align: center;" class="data1">
+				  <span class="ajax" id="ajaxdew" lastobs="7.6&amp;deg;C" style="">7.6°C</span>
+                                  </td>
+              </tr>
+              <tr>
+                <td class="data1">Barometro:</td>
+                <td style="text-align: center;" class="data1">
+				  <span class="ajax" id="ajaxbaro" lastobs="1020.1 hPa" style="">1020.1 hPa</span>
+				  <span class="ajax" id="ajaxbaroarrow">
+                                     </span>
+				 </td>
+              </tr>
+              <tr>
+                <td class="data1">Tendenza: </td>
+                <td style="text-align: center;" class="data1">
+				  <span class="ajax" id="ajaxbarotrendtext">
+                  --                  </span>
+				</td>
+              </tr>
+            </tbody></table>
+		  </td>
+          <td valign="middle" align="center">
+		    <table width="166" cellspacing="0" cellpadding="2" border="0">
+              <tbody><tr>
+                <td class="data1">Alba:</td>
+                <td style="text-align: right;" class="data1">
+				  06:53			    </td>
+              </tr>
+              <tr>
+                <td class="data1">Tramonto:</td>
+                <td style="text-align: right;" class="data1">
+				  17:08				</td>
+              </tr>
+              <!-- moonset='10:37' before moonrise='21:18' today -->
+              <tr>
+                <td class="data1">Tramonto Luna:</td>
+                <td style="text-align: right;" class="data1">
+				  10:37				</td>
+              </tr>
+               <tr>
+                <td class="data1">Levata Luna:</td>
+                <td style="text-align: right;" class="data1">
+				  21:18				</td>
+              </tr>
+                         </tbody></table>
+		  </td>
+          <td rowspan="3" valign="middle" align="center">
+		    <table cellspacing="0" cellpadding="4" border="0">
+              <tbody><tr>
+                <td class="data1" style="text-align: center; border: none;">
+				  Calante				</td>
+              </tr>
+              <tr>
+                <td style="text-align: center;"><img src="Meteo%20Xerocambos%20-%20Home_files/moon18.gif" alt="Waning Gibbous, Moon at 18 days in cycle" title="Waning Gibbous, Moon at 18 days in cycle" style="border: 0;" width="48" height="48">
+			    </td>
+              </tr>
+              <tr>
+                <td class="data1" style="text-align: center; border: none;">
+				  80%                    <br>
+                  Illuminazione				</td>
+              </tr>
+            </tbody></table>
+		  </td>
+        </tr>
+<!-- get-UV-forecast-inc.php V1.07 - 30-Mar-2012 -->
+<!-- UV forecast courtesy of and Copyright &copy; KNMI/ESA (http://www.temis.nl/). Used with permission. -->
+<!-- UV data load from from cache ./cache/uv-forecast.txt -->
+<!-- Date='18/11/2016', UV='2.8' DOW='Friday' YMD='20161118' -->
+<!-- Date='19/11/2016', UV='3.0' DOW='Saturday' YMD='20161119' -->
+<!-- Date='20/11/2016', UV='2.8' DOW='Sunday' YMD='20161120' -->
+<!-- Date='21/11/2016', UV='2.6' DOW='Monday' YMD='20161121' -->
+<!-- Date='22/11/2016', UV='2.5' DOW='Tuesday' YMD='20161122' -->
+<!-- Date='23/11/2016', UV='2.7' DOW='Wednesday' YMD='20161123' -->
+        <tr>
+          <td class="datahead" style="text-align:center">Indice UV</td>
+          <td class="datahead" style="text-align:center">Indice UV</td>
+        </tr>
+        <tr>
+          <td align="center">
+		    <table width="180" cellspacing="0" cellpadding="2" border="0">
+              <tbody><tr>
+                <td class="data1" style="text-align: center; " nowrap="nowrap">
+				    18/11/2016				</td>
+              </tr>
+              <tr>
+                <td class="data1" style="text-align:center; font-size: 8pt;" nowrap="nowrap">
+				    <b><a href="http://www.temis.nl/uvradiation/nrt/uvindex.php?lon=26.2276&amp;lat=35.0431" title="UV forecast courtesy of and Copyright © KNMI/ESA (http://www.temis.nl/). Used with permission.">2.8</a></b>
+				  &nbsp;&nbsp;
+				    <span style="border: solid 1px; color: black; background-color: #A4CE6a;">&nbsp;Min&nbsp;</span>				</td>
+              </tr>
+			              </tbody></table>
+		  </td>
+          <td align="center">
+		    <table width="166" cellspacing="0" cellpadding="2" border="0">
+              <tbody><tr>
+                <td class="data1" style="text-align: center; " nowrap="nowrap">
+				    19/11/2016				</td>
+              </tr>
+              <tr>
+                <td class="data1" style="text-align:center; font-size: 8pt;" nowrap="nowrap">
+				    <b><a href="http://www.temis.nl/uvradiation/nrt/uvindex.php?lon=26.2276&amp;lat=35.0431" title="UV forecast courtesy of and Copyright © KNMI/ESA (http://www.temis.nl/). Used with permission.">3.0</a></b>
+				  &nbsp;&nbsp;
+				    <span style="border: solid 1px; color: black; background-color: #FBEE09;">&nbsp;Medio&nbsp;</span>				</td>
+              </tr>
+            </tbody></table>
+		  </td>
+        </tr>
+     </tbody></table>
+     
+     
+
+<!--
+/* modificato MASSI inizio
+inizio tabella
+contenente 2 tabelle nidificate (eliminate nidificate)
+dove in origine erano previste le previsioni
+
+>>>> ho eliminato il contenuto originale
+>>>> ma mantenuto la struttura e le propietÃ  originali
+
+>>>> povare ad inserire nelle varie celle
+>>>> tipo il counter
+>>>> o la webcam
+>>>> o quello che vuoi
+-----------------------------------------------------------------------------------------------------------------------------------------
+-->
+
+
+<!-- -------------------------------------------------------------------------------------------------------------------- -->
+<!-- >>>> INIZIO TABELLA PREVISIONI -->
+
+<table width="620" cellspacing="3" cellpadding="3" border="0">
+	
+    <tbody><tr>
+      <td colspan="3" style="text-align: center">
+<!--	
+		--- 111--- prima riga tabella contenitore
+        inserito come segnaposto
+        
+		(formato - class=datahead = tx bianco e sfondo)
+		(formato - class=data1 = tx bianco, bordo sotto, no sfondo)
+		(formato - senza class = eredita celeste xero, no bordo sotto, no sfondo)
+-->
+      </td>
+    </tr>
+   <tr>
+      <td colspan="3" style="text-align: center">
+<!--	
+        inserito come segnaposto
+        
+		(formato - class=datahead = tx bianco e sfondo)
+		(formato - class=data1 = tx bianco, bordo sotto, no sfondo)
+		(formato - senza class = eredita celeste xero, no bordo sotto, no sfondo)
+-->
+      </td>
+    </tr>
+   <tr>
+      <td colspan="3" style="text-align: center">
+<!--	
+        inserito come segnaposto
+        
+		(formato - class=datahead = tx bianco e sfondo)
+		(formato - class=data1 = tx bianco, bordo sotto, no sfondo)
+		(formato - senza class = eredita celeste xero, no bordo sotto, no sfondo)
+-->
+      </td>
+    </tr>
+
+
+
+
+<!--inizio cella divisa in 3 - tramite propietÃ  'colspan="3"'-->
+<!-- 
+VUOTA COME BASE
+
+	<tr>
+      <td style="text-align: center">111</td>
+      <td style="text-align: center">222</td>
+      <td style="text-align: center">333</td>
+    </tr>
+
+VUOTA COME BASE
+-->
+<!--fine cella divisa in 3 - tramite propietÃ  'colspan="3"'-->
+
+
+
+
+<!--inizio cella divisa in 3 - tramite propietÃ  'colspan="3"'-->
+	<tr>
+      <td style="text-align: center" valign="top">
+		Webcam in diretta da Xerocambos
+		<br>
+		<p align="center"><a href="http://www.xerocamboscreta.com/Webcam.Kavalo1.Xero.it.php" target="_blank">
+		<img src="Meteo%20Xerocambos%20-%20Home_files/CGIProxy.jpeg" width="200"></a></p>
+      </td>
+      
+      <td style="text-align: center" valign="top">
+		Immagine dal satellite sulla Grecia
+		<br>
+		<p align="center"><a href="http://192.168.33.10/wxradar.php" target="_blank"><img src="Meteo%20Xerocambos%20-%20Home_files/3023890.gif" width="200"></a></p>
+      </td>
+      
+      <td style="text-align: center" valign="top">
+		La giornata di ieri in 60 secondi
+		<br>
+        
+<!-- INIZIO PROVA_01 SLIDE ------------------------------------------------------------------------- -->        
+
+
+
+<style fprolloverstyle="">A:hover {color: #AAFFFF; font-family: Comic Sans MS; font-weight: bold}
+</style>
+
+<link rel="stylesheet" href="Meteo%20Xerocambos%20-%20Home_files/jquery-ui.css">
+<style>
+  
+#custom-handle {
+    width: 3em;
+    height: 1.6em;
+    top: 50%;
+    margin-top: -.8em;
+    text-align: center;
+    line-height: 1.6em;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px #0000FF;
+}
+
+.ui-widget-content {
+    background: #AAFFFF
+}
+</style>
+  
+<br>
+<b>Warning</b>:  file_get_contents(../Kavalo1/FI9900P_00626E65B357/snap/slides.txt): failed to open stream: No such file or directory in <b>/var/www/public/ajax-dashboard.php</b> on line <b>1093</b><br>
+
+
+
+		<p align="center"><a href="http://www.xerocamboscreta.com/slide.kavalo1.it.php" target="_blank">
+
+		<img id="image" src="Meteo%20Xerocambos%20-%20Home_files/undefined.html" alt="timelapse kavalo1" width="200"></a></p>
+                
+	<div id="slider" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content"> 
+		<div id="custom-handle" class="ui-slider-handle ui-corner-all ui-state-default" tabindex="0" style="">0</div>
+	</div>
+
+<script src="Meteo%20Xerocambos%20-%20Home_files/jquery-1.js"></script>
+<script src="Meteo%20Xerocambos%20-%20Home_files/jquery-ui.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var handle = $( "#custom-handle" );
+        var prova = false;
+        var max = prova.length-1;
+        var i = 0;
+        var intervalID;
+
+        function startTimelapse() {
+            intervalID = setInterval(function(){
+                prova[i] != undefined ? i : i=0;
+                $('#image').attr('src', '../Kavalo1/FI9900P_00626E65B357/snap/'+prova[i]);
+                $('#slider').slider('value', i);
+                handle.text(i);
+                i++;
+            }, 500);
+        }
+
+
+        handle.focusout(function() {
+            startTimelapse();
+        });
+
+        $( "#slider" ).slider({
+            max: max,
+            create: function() {
+                handle.text( $( this ).slider( "value" ) );
+            },
+            start: function( event, ui ) {
+                clearInterval(intervalID);
+            },
+            slide: function( event, ui ) {
+                handle.text( ui.value );
+                $('#image').attr('src', '../Kavalo1/FI9900P_00626E65B357/snap/'+prova[ui.value]);
+                i = ui.value;
+            }
+        });
+        startTimelapse();
+    });
+    </script>
+    
+<!-- FINE PROVA_01 SLIDE ------------------------------------------------------------------------- -->        
+        
+        
+        
+      </td>
+    </tr>
+<!--fine cella divisa in 3 - tramite propietÃ  'colspan="3"'-->
+
+
+
+
+   <tr>
+      <td colspan="3" class="data1" style="text-align: center">
+      <!--	
+        inserito come segnaposto
+        
+		(formato - class=datahead = tx bianco e sfondo)
+		(formato - class=data1 = tx bianco, bordo sotto, no sfondo)
+		(formato - senza class = eredita celeste xero, no bordo sotto, no sfondo)
+-->
+      </td>
+    </tr>
+   <tr>
+      <td colspan="3" style="text-align: center">
+<!--	
+        inserito come segnaposto
+                
+		(formato - class=datahead = tx bianco e sfondo)
+		(formato - class=data1 = tx bianco, bordo sotto, no sfondo)
+		(formato - senza class = eredita celeste xero, no bordo sotto, no sfondo)
+-->
+      </td>
+    </tr>
+   <tr>
+      <td colspan="3" style="text-align: center">
+      <br>
+      <p align="center"><font color="#AAFFFF">
+          <span style="font-family: Comic Sans MS; font-size: 8.0pt"><a href="http://192.168.33.10/index.htm" target="_blank">
+          <span style="left: -12; top: 222"><font color="#AAFFFF">| Home page</font></span></a>&nbsp;
+          |&nbsp; <a href="http://192.168.33.10/Vettori%20aerei%20it.htm" target="_blank">
+          <span style="left: -12; top: 222"><font color="#AAFFFF">Voli per Creta</font></span></a>&nbsp;
+          |&nbsp; </span>
+          <span style="font-family: Comic Sans MS; left: -12; top: 222; font-size: 8.0pt"><a href="http://192.168.33.10/Autonoleggio%20it.htm" target="_blank">
+          <font color="#AAFFFF">Autonoleggio
+          in Creta</font></a></span><span style="font-family: Comic Sans MS; font-size: 8.0pt">&nbsp;
+          |&nbsp; <a href="http://192.168.33.10/Vacanze.Creta.it.htm" target="_blank">
+          <span style="left: -12; top: 222"><font color="#AAFFFF">Appartamenti 
+          vacanze</font></span></a>&nbsp;|
+          
+          <br>
+          
+          |&nbsp; </span>
+          <span style="font-family: Comic Sans MS; left: -12; top: 222; font-size: 8.0pt"> <a href="http://192.168.33.10/InfoCreta.htm" target="_blank">
+          <font color="#AAFFFF">Info Creta</font></a></span><span style="font-family: Comic Sans MS; font-size: 8.0pt">&nbsp;
+          |&nbsp; </span>
+          <span style="font-family: Comic Sans MS; left: -12; top: 222; font-size: 8.0pt"> <a href="http://192.168.33.10/Raccordo%20Carte%20Stradali.htm" target="_blank">
+          <font color="#AAFFFF">Carte
+          stradali</font></a></span><span style="font-family: Comic Sans MS; font-size: 8.0pt">&nbsp;
+          |&nbsp; <a href="http://192.168.33.10/Distanze.Creta.it.htm" target="_blank">
+          <span style="left: -12; top: 222"><font color="#AAFFFF">Distanze a Creta</font></span></a>&nbsp;
+          |&nbsp; <a target="_blank" href="mailto:andrea18@otenet.gr">
+            <font color="#AAFFFF">Contattateci</font></a>&nbsp;|</span></font>
+
+
+
+<!--	
+        inserito come segnaposto
+        <br>
+		(formato - class=datahead = tx bianco e sfondo)
+		(formato - class=data1 = tx bianco, bordo sotto, no sfondo)
+		(formato - senza class = eredita celeste xero, no bordo sotto, no sfondo)
+-->
+      </p></td>
+    </tr>
+   <tr>
+      <td colspan="3" style="text-align: center">
+<!--	
+        inserito come segnaposto
+                
+		(formato - class=datahead = tx bianco e sfondo)
+		(formato - class=data1 = tx bianco, bordo sotto, no sfondo)
+		(formato - senza class = eredita celeste xero, no bordo sotto, no sfondo)
+-->
+      </td>
+    </tr>
+   <tr>
+      <td colspan="3" style="text-align: center">
+		<br>
+<!--      
+/* modificato MASSI
+avevo messo qui il counter
+poi messo nel footer.php
+cosÃ¬ lo carica automaticamente in tutte le pagine
+            
+<!--      
+/* modificato MASSI
+inserito caricamento PHP della frase
+e disattivato dal pie di pagina "footer.php"
+per non averlo doppio-->
+-----
+<br>Non prendere mai decisioni importanti sulla base di questo o altri servizi meteo da internet.<br class="doNotPrint">
+-----
+            
+<!--	
+        inserito come segnaposto
+        
+		(formato - class=datahead = tx bianco e sfondo)
+		(formato - class=data1 = tx bianco, bordo sotto, no sfondo)
+		(formato - senza class = eredita celeste xero, no bordo sotto, no sfondo)
+-->
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <td colspan="3" style="text-align: center">
+<!--	
+        inserito come segnaposto
+        
+		(formato - class=datahead = tx bianco e sfondo)
+		(formato - class=data1 = tx bianco, bordo sotto, no sfondo)
+		(formato - senza class = eredita celeste xero, no bordo sotto, no sfondo)
+-->
+        </td>
+	</tr>
+    
+    <tr>
+      <td colspan="3" style="text-align: center">
+<!--	
+        inserito come segnaposto
+        
+		(formato - class=datahead = tx bianco e sfondo)
+		(formato - class=data1 = tx bianco, bordo sotto, no sfondo)
+		(formato - senza class = eredita celeste xero, no bordo sotto, no sfondo)
+-->
+      </td>
+    </tr>
+	<tr>
+      <td colspan="3" style="text-align: center">
+<!--	
+        inserito come segnaposto
+        
+		(formato - class=datahead = tx bianco e sfondo)
+		(formato - class=data1 = tx bianco, bordo sotto, no sfondo)
+		(formato - senza class = eredita celeste xero, no bordo sotto, no sfondo)
+-->
+        </td>
+	</tr>
+</tbody></table>
+
+
+<!-- >>>> FINE TABELLA PREVISIONI -->
+<!-- -------------------------------------------------------------------------------------------------------------------- -->
+<!--
+/* modificato MASSI fine -->
+
+
+ 
+ 
+
+
+
+</div>
+
+<!-- end of ajax-dashboard.php -->
+
+
+
+
+
+
+	</div>
+</div>
+
+
+</div><!-- end column-dark -->
+
+</div><!-- end main-copy -->
+
+    <!-- ##### Footer ##### -->
+
+    <div id="footer">
+      <div class="doNotPrint">
+        <a href="#header">Inizio</a> |
+
+        <a href="mailto:andrea18@otenet.gr" title="E-mail us">Contatti</a>
+        <script type="text/javascript">
+        <!--
+        if (navigator.appName == 'Microsoft Internet Explorer' && 
+        parseInt(navigator.appVersion) >= 4)
+        {
+        document.write('| <a href=\"#\" onclick=\"javascript:window.external.AddFavorite        (location.href,document.title)\">');
+        document.write('Aggiungi ai Preferiti</a>');
+        }else
+        {var msg = '| <a href="" title="Aggiungi ai Preferiti" onClick="alert(' + "'Hit CTRL-D to bookmark this page'"+ ');">Aggiungi ai Preferiti</a>';
+        if(navigator.appName == "Netscape") msg += " (CTRL-D)";
+document.write(msg);
+        }
+        // -->
+        </script>| <a href="" title="Aggiungi ai Preferiti" onclick="alert('Hit CTRL-D to bookmark this page');">Aggiungi ai Preferiti</a> (CTRL-D)
+      </div><!-- end doNotPrint -->
+
+<div>
+	© 2016, www.xerocamboscreta.com by Andrea Maria Marini<span class="doNotPrint"> |  
+	<a href="http://www.meteobridge.com/wiki/index.php/Main_Page" title="Powered by Meteobridge">Meteobridge	 (3.1 build 10731 TL-MR3020) </a> |
+	<a href="http://validator.w3.org/check?uri=referer">Verifica 
+	XHTML 1.0</a> |
+	<a href="http://jigsaw.w3.org/css-validator/check/referer">Verifica CSS</a> 
+	</span><br class="doNotPrint">
+	
+    <!--<br/>Non prendere mai decisioni importanti sulla base di questo o altri servizi meteo da internet.<br class="doNotPrint" />-->
+
+</div>
+
+<div>
+
+<!--AAA-->
+
+<br>
+
+
+			<!-- Histats.com START counter ANDREA-->
+<!--			<a href="http://www.histats.com/it/" target="_blank" title="contatore free"> -->
+			<script type="text/javascript" language="javascript">
+			var s_sid = 293098;var st_dominio = 4;
+			var cimg = 424;var cwi =112;var che =75;
+			</script>
+
+			<script type="text/javascript" language="javascript" src="Meteo%20Xerocambos%20-%20Home_files/js9.js"></script><div id="histats_counter_9975" style="display: block;"><a href="http://www.histats.com/viewstats/?sid=293098&amp;ccid=424" target="_blank"><canvas id="histats_counter_9975_canvas" width="112" height="77"></canvas></a></div>
+			
+			<noscript>
+<!--			<a href="http://www.histats.com/it/" target="_blank"> -->
+			<img src="http://s103.histats.com/stats/0.gif?293098&1" alt="contatore free" border="0"></a></noscript>
+			<!-- Histats.com END counter ANDREA-->
+
+
+
+</div>
+
+<!--      
+/* modificato MASSI
+eliminato collegamento informativa -->
+<!--<a href=""> Informativa cookie </a>-->
+
+
+    </div><!-- end id="footer" -->
+  </div><script async="" type="text/javascript" src="Meteo%20Xerocambos%20-%20Home_files/293098.html"></script><!-- end id="page" wrapper -->
+
+  
+
+<script async="" type="text/javascript" src="Meteo%20Xerocambos%20-%20Home_files/cc_424.js"></script><script async="" src="Meteo%20Xerocambos%20-%20Home_files/a.js"></script></body></html>
