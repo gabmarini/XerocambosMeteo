@@ -67,8 +67,13 @@ $html = '
 '; // end of links set for site. Don't change this line in any way
  if (isset($SITE['flyoutmenu']) and $SITE['flyoutmenu']) {
    global $FlyoutMenuText;
+   global $secondFlyoutMenuText;
    print "<div class=\"flyoutmenu\">\n";
    print $FlyoutMenuText;
+   print "</div>\n";
+   print "<p class=\"sideBarTitle\">".langtransstr('Site Nav')."</p>\n";
+   print "<div class=\"flyoutmenu\">\n";
+   print $secondFlyoutMenuText;
    print "</div>\n";
  } else {
 	gen_navlinks($html); // generate the links set with highlight for the current page
@@ -88,6 +93,7 @@ $html = '
 #   down to and including
 # <!-- end external links -->
 ?>
+
 <!-- external links -->
 <p class="sideBarTitle"><?php langtrans('External Links'); ?></p>
 <ul>

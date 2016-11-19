@@ -37,11 +37,11 @@
 <!--
 	/* modificato MASSI
 	nego tutto
-	è stato Andrea
+	Ã¨ stato Andrea
 	non so cosa ha fatto
 	credo che doveva cambiare nel file TXT della lingua
 -->
-	<item caption="Tempo reale" link="wxindex.php" title="Home Page"/>
+	<item caption="Test1" link="wxindex.php" title="Home Page"/>
 	<item wxonly="VWS" caption="Mesonet" title="Local Weather Exchange Stations" link="wxmesonet.php"/>
 
 
@@ -69,7 +69,7 @@
     al menu root restante
 	nel menu di sx
  -->
-<item caption="Radar" link="wxradar.php" title="Radar"/>
+<item caption="Test2" link="wxradar.php" title="Radar"/>
 
 <!--	<item caption="Local Radar" link="wxradar.php" title="Radar"/>
 		<item caption="GRLevel3 Radar" link="wxgr3radar.php" title="NEXRAD Radar using GRLevel3" />
@@ -108,7 +108,7 @@
 		<item wxonly="WCT" caption="Summary Year over Year" link="wxyearoveryear.php"/>
 		<item wxonly="WD" caption="Station Monthly Reports" link="wxhistory.php"/>
 		<item wxonly="CU,VWS,WL,WV" caption="NOAA reports" link="wxnoaaclimatereports.php"/>
-		<item caption="Sun/Moon Almanac" link="wxastronomy.php"/>
+		<item caption="Sotto1Sotto2" link="wxastronomy.php"/>
 <!--		<item caption="Earthquake activity" link="wxquake.php"/> -->
 <!--		<item caption="Nearby METAR Reports" link="wxmetar.php"/> -->
 <!--

@@ -464,7 +464,7 @@ function print_language_selects_dropdown() {
  $arr = $SITE['installedLanguages'];
  if (is_array($arr)){
     $string = '
-<form method="get" name="lang_select" action="#" style="padding: 0px; margin: 0px">
+<form method="get" id="languageSelector" name="lang_select" action="#">
 ';
     # text links use bracket for indicator, image links print lang code
     if($SITE['useLanguageFlags'] == true) {
