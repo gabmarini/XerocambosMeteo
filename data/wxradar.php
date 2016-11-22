@@ -57,7 +57,7 @@ include("menubar.php");
 -->      
 
 <!--<p align=center><IMG SRC="http://en.sat24.com/image?type=forecastTemp&region=europa"></p>-->
-	<p align=center><IMG SRC="http://api.sat24.com/animated/GR/visual/1/GTB%20Standard%20Time/3023890"></p>
+	<p align=center><IMG SRC="http://api.sat24.com/animated/TU/visual/3/GTB%20Standard%20Time/8334810"></p>
 
 </div><!-- end main-copy -->
 
