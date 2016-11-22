@@ -329,8 +329,8 @@ $decimalComma = (strpos($temperature,',') !==false)?true:false; // using comma f
 // --- end of initialization code ---------
 ?>
 <!-- start of ajax-dashboard.php -->
-<div class="ajaxDashboard" style="width: 632px;">
-      <table width="620" border="0" cellpadding="2" cellspacing="1" style="border:solid; border-color: #CCCCCC;">
+<div class="ajaxDashboard" style="width: auto;">
+      <table width="620" border="0" cellpadding="2" cellspacing="1" style="border:solid; border-color: #CCCCCC;width:800px;">
         <tr align="center">
           <td class="data1" colspan="4" style="text-align: center">
 		    <span class="ajax" id="ajaxindicator"><?php langtrans('Updated'); ?>:</span>&nbsp;@ 
@@ -988,7 +988,7 @@ dove in origine erano previste le previsioni
 <!-- -------------------------------------------------------------------------------------------------------------------- -->
 <!-- >>>> INIZIO TABELLA PREVISIONI -->
 
-<table width="620" border="0" cellpadding="3" cellspacing="3">
+<table width="800" border="0" cellpadding="3" cellspacing="3">
 	
     <tr>
       <td colspan="3" style="text-align: center">
