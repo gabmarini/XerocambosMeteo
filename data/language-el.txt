@@ -359,4 +359,5 @@ langlookup|Depth|Βάθος|
 langlookup|Distance to epicenter|Απόσταση από επίκεντρο|
 langlookup|Map and data courtesy of|Χάρτης και δεδομένα ευγενική προσφορά από|
 langlookup|United States Geological Survey|Γεωλογικό Παρατηρητήριο Ηνωμένων Πολιτειών|
+langlookup|Real time data|δεδομένων σε πραγματικό χρόνο|
 #
