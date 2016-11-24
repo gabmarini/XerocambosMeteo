@@ -69,7 +69,7 @@
     al menu root restante
 	nel menu di sx
  -->
-<item caption="Test2" link="wxradar.php" title="Radar"/>
+<item caption="Test2" link="langtransstr('Real time data');" title="Radar"/>
 
 <!--	<item caption="Local Radar" link="wxradar.php" title="Radar"/>
 		<item caption="GRLevel3 Radar" link="wxgr3radar.php" title="NEXRAD Radar using GRLevel3" />

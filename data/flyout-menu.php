@@ -15,6 +15,7 @@
 // Version 1.07 - 04-Mar-2011 - fixed errata casting Strict: messages
 // Version 1.08 - 05-Feb-2013 - fixed HTML5 validation with literal quote in translation
 //
+include_once("common.php");  // for language translation
 $Version = 'flyout-menu.php (ML) Version 1.08 - 05-Feb-2013';
 //
 // ---------- settings ------------------------------
@@ -352,7 +353,8 @@ for ($i=1;$i<count($MENU);$i++) { // loop over all menu items -1
   }
   
   if ($link <> '') {
-    $link = 'href="' . $link . '"';
+    //$link = 'href="' . eval('return '.$link) . '"';
+	$link = 'href="' . $link . '"';
   } else {
     $link = 'href="' . "#" . '"';
   }
