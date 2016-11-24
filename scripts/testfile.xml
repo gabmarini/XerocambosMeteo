@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<menu>
+<item caption="Dati in tempo reale" link="wxindex.php"\>
+<item caption="Satellite grecia" link="wxradar.php"\>
+<item caption="Indice UV" link="wxuvforecast.php"\>
+<item caption="Statistiche" link="wxtrends.php"\>
+<item caption="Almanacco Sole/Luna" link="wxastronomy.php"\>
+<item caption="Calendario 2016" link="http://www.xerocamboscreta.com/Calendario.16.htm"\>
+<item caption="Info stazione meteo" link="wxabout.php"\>
+<item caption="Links esterni" link="">
+	<item caption="Meteokrites" link="http://meteokrites.gr/stations.php"/>
+	<item caption="Poseidon" link="http://www.poseidon.hcmr.gr/weather_forecast.php?area_id=gr"/>
+	<item caption="Windfinder" link="http://www.xerocamboscreta.com/Meteo.Xero.it.htm"/>
+<item>
+<item caption="Links europei meteo" link="">
+	<item caption="MeteoNetwork" link="http://www.meteonetwork.it/rete/livemap/"/>
+	<item caption="Meteospinaceto" link="http://www.meteospinaceto.it/"/>
+<item>
+<menu>

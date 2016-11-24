@@ -29,7 +29,21 @@
 # -voli colà
 # Le spiaggie di xerocambos
 #
-# Si ricorda che i token "Item" verranno cercati nei file di traduzione, pertanto è necessario fornire tutte e 4 le traduzioni corrispondenti per ogni token (it,fr,de,gr)
-
+# Si ricorda che i token "Item" verranno cercati nei file di traduzione, pertanto è necessario fornire tutte e 4 le traduzioni corrispondenti per ogni token {it,fr,de,gr}
 
 # scrivere il proprio menù sotto questa riga
+
+Real-time data{wxindex.php}[Dati in tempo reale{}|Echtzeitdaten{}|Données en temps réel{}|Στοιχεία Πραγματικού Χρόνου{}]
+Satellite Greece{wxradar.php}[Satellite grecia{}|Satelliten Griechenland{}|Satellite Grèce{}|Δορυφορική Ελλάδα{}]
+UV Index{wxuvforecast.php}[Indice UV{}|UV-Index{}|Indice UV{}|Δείκτης UV{}]
+Statistics{wxtrends.php}[Statistiche{}|Statistiken{}|Statistiques{}|Στατιστικά στοιχεία{}]
+Sun/Moon Almanac{wxastronomy.php}[Almanacco Sole/Luna{}|Sonne/Mond Almanach{}|Almanach Soleil/Lune{}|Ημερολόγιο Ηλιου/Σελήνης{}]
+Calendar 2016{http://www.xerocamboscreta.com/Calendario.16.htm}[Calendario 2016{}|Kalender 2016{}|Calendrier 2016{}|Ημερολόγιο 2016{}]
+Weather station info{wxabout.php}[Info stazione meteo{}|Wetterstation Info{}|Infos station météo{}|Πληροφορίες σταθμού{}]
+External links{}[Links esterni{}|Außenstehende Links{}|Liens externes{}|Σύνδεσμοι{}]
+-Meteokrites{http://meteokrites.gr/stations.php}[|||]
+-Poseidon{http://www.poseidon.hcmr.gr/weather_forecast.php?area_id=gr}[|||]
+-Windfinder{http://www.xerocamboscreta.com/Meteo.Xero.it.htm}[{http://www.xerocamboscreta.com/Meteo.Xero.uk.htm}|{http://www.xerocamboscreta.com/Meteo.Xero.D.htm}|{http://www.xerocamboscreta.com/Meteo.Xero.F.htm}|{http://www.xerocamboscreta.com/Meteo.Xero.gr.htm}]
+European meteo links{}[Links europei meteo{}|Europäische Wetter Links{}|Liens européens météo{}|Σύνδεσμοι καιρούΕυρώπης{}]
+-MeteoNetwork{http://www.meteonetwork.it/rete/livemap/}[|||]
+-Meteospinaceto{http://www.meteospinaceto.it/}[|||]
