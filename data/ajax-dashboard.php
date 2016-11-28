@@ -330,7 +330,7 @@ $decimalComma = (strpos($temperature,',') !==false)?true:false; // using comma f
 ?>
 <!-- start of ajax-dashboard.php -->
 <div class="ajaxDashboard" style="width: auto;">
-      <table width="620" border="0" cellpadding="2" cellspacing="1" style="border:solid; border-color: #CCCCCC;width:850px;">
+      <table width="620" border="0" cellpadding="2" cellspacing="1" style="border:solid; border-color: #CCCCCC;width:750px;">
         <tr align="center">
           <td class="data1" colspan="4" style="text-align: center">
 		    <span class="ajax" id="ajaxindicator"><?php langtrans('Updated'); ?>:</span>&nbsp;@ 
