@@ -1,0 +1,10 @@
+langlookup|Real-time data|Στοιχεία Πραγματικού Χρόνου|
+langlookup|Satellite Greece|Δορυφορική Ελλάδα|
+langlookup|UV Index|Δείκτης UV|
+langlookup|Statistics|Στατιστικά στοιχεία|
+langlookup|Wind/Sea scale|Άνεμο/θάλασσα κλίμακας|
+langlookup|Sun/Moon Almanac|Ημερολόγιο Ηλιου/Σελήνης|
+langlookup|Calendar 2016|Ημερολόγιο 2016|
+langlookup|Weather station info|Πληροφορίες σταθμού|
+langlookup|External links|Σύνδεσμοι|
+langlookup|European meteo links|Σύνδεσμοι καιρούΕυρώπης|

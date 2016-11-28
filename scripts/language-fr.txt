@@ -1,0 +1,10 @@
+langlookup|Real-time data|Données en temps réel|
+langlookup|Satellite Greece|Satellite Grèce|
+langlookup|UV Index|Indice UV|
+langlookup|Statistics|Statistiques|
+langlookup|Wind/Sea scale|Vent/Mer échelle|
+langlookup|Sun/Moon Almanac|Almanach Soleil/Lune|
+langlookup|Calendar 2016|Calendrier 2016|
+langlookup|Weather station info|Infos station météo|
+langlookup|External links|Liens externes|
+langlookup|European meteo links|Liens européens météo|

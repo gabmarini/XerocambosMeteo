@@ -614,7 +614,7 @@ width: 110px;
 .flyoutmenu li {
 color: ${LC};
 /*background:${LBG} url(${imagesDir}${SC});*/
-width: 15.2em;
+width: 17.5em;
 /* for IE7 */
 float:left;
 margin:0; /* mchallis added to tighten gaps between links */
@@ -661,7 +661,7 @@ visibility:hidden;
 position:absolute;
 top:-10px;
 /* set up the overlap (minus the overrun) */
-left:14.2em;
+left:16.5em;
 /* set up the overrun area */
 padding:10px;
 /* this is for IE to make it interpret the overrrun padding */
