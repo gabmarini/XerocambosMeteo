@@ -359,5 +359,106 @@ langlookup|Depth|Βάθος|
 langlookup|Distance to epicenter|Απόσταση από επίκεντρο|
 langlookup|Map and data courtesy of|Χάρτης και δεδομένα ευγενική προσφορά από|
 langlookup|United States Geological Survey|Γεωλογικό Παρατηρητήριο Ηνωμένων Πολιτειών|
-langlookup|Real time data|δεδομένων σε πραγματικό χρόνο|
+langlookup|Real-time data|δεδομένων σε πραγματικό χρόνο|
 #
+#
+#
+#
+#
+#
+langlookup|Connections|Συνδέσεις|
+langlookup|Flights to Crete|Πτήσεις για Κρήτη|
+langlookup|Ferries booking|Κρατήσεις πλοίων|
+langlookup|Once in Crete|Είστε στην Κρήτη|
+langlookup|Temperatures|Θερμοκρασίες|
+langlookup|Road maps|Οδικός Χάρτης|
+langlookup|Distances|Αποστάσεις|
+langlookup|Car Rental|Ενοικίαση αυτοκινήτου|
+langlookup|Public transport|Λεωφορεία Κ.Τ.Ε.Λ|
+langlookup|Hicking|Πεζοπορία|
+langlookup|Accomodations|Καταλύματα|
+langlookup|Crete by Yacht|Κρήτη με γιοτ|
+langlookup|Kastelli/Kissamos|Κίσσαμος/Καστέλι|
+langlookup|Falassarna|Φαλάσαρνα|
+langlookup|Paleochora|Παλαιόχωρα|
+langlookup|Frangokastello|Φραγκοκάστελλο|
+langlookup|District Rethymno|Νομός Ρεθύμνου|
+langlookup|District Heraklion|Νομός Ηρακλείου|
+langlookup|Pano Hersonissos|¶νω Χερσόνησος|
+langlookup|District Lassithi|Νομός Λασιθίου|
+langlookup|Sissi|Σίσι|
+langlookup|Mochlos|Μόχλος|
+langlookup|Sitia|Σητείας|
+langlookup|Vai|Βάϊ|
+langlookup|Palekastro|Παλαίκαστρο|
+langlookup|Zakros|Ζάκρος|
+langlookup|Kato Zakros|Κάτω Ζάκρος|
+langlookup|Agia Irini|Αγία Ειρήνη|
+langlookup|Hametoulo|Χαμαίτουλο|
+langlookup|Ziros|Ζήρος|
+langlookup|Makrigialos|Μακρύ Γιαλός|
+langlookup|Myrtos|Μύρτος|
+langlookup|Fishing East Crete|Ψάρεμα Ανατ. Κρήτη|
+langlookup|Not only Crete|Όχι μόνο Κρήτη|
+langlookup|http://www.xerocamboscreta.com/Vettori.aerei.uk.htm|http://www.xerocamboscreta.com/Vettori.aerei.gr.htm|
+langlookup|http://www.xerocamboscreta.com/Prenotazioni.navi.uk.htm|http://www.xerocamboscreta.com/Prenotazioni.navi.gr.htm|
+langlookup|http://www.xerocamboscreta.com/Average%20temperatures.htm|http://www.xerocamboscreta.com/Temperature%20medie%20gr.htm|
+langlookup|http://www.xerocamboscreta.com/Index%20Road%20Maps.htm|http://www.xerocamboscreta.com/Raccordo%20Carte%20Stradali%20gr.htm|
+langlookup|http://www.xerocamboscreta.com/Distanze.Creta.uk.htm|http://www.xerocamboscreta.com/Distanze.Creta.gr.htm|
+langlookup|http://www.xerocamboscreta.com/Car%20Rental%20uk.htm|http://www.xerocamboscreta.com/Car%20Rental%20gr.htm|
+langlookup|https://rethymnon.com/TheBus-Bus-Service-Crete/default.html|https://rethymnon.com/TheBus-Bus-Service-Crete/bindexgr.html|
+langlookup|http://www.xerocamboscreta.com/Sentieri.uk.htm|http://www.xerocamboscreta.com/Sentieri.gr.htm|
+langlookup|http://www.xerocamboscreta.com/Vacanze.Creta.uk.htm|http://www.xerocamboscreta.com/Vacanze.Creta.gr.htm|
+langlookup|http://www.xerocamboscreta.com/Creta.bk.uk.htm|http://www.xerocamboscreta.com/Creta.bk.gr.htm|
+langlookup|http://www.xerocamboscreta.com/Kissamosuk.htm|http://www.xerocamboscreta.com/Kissamosgr.htm|
+langlookup|http://www.xerocamboscreta.com/Falassarna.uk.htm|http://www.xerocamboscreta.com/Falassarna.gr.htm|
+langlookup|http://www.xerocamboscreta.com/Paleochora.uk.htm|http://www.xerocamboscreta.com/Paleochora.gr.htm|
+langlookup|http://www.xerocamboscreta.com/Frangokastello.uk.htm|http://www.xerocamboscreta.com/Frangokastello.gr.htm|
+langlookup|http://www.xerocamboscreta.com/Plakiasuk.htm|http://www.xerocamboscreta.com/Plakiasgr.htm|
+langlookup|http://www.xerocamboscreta.com/Pano.Hersonissos.uk.htm|http://www.xerocamboscreta.com/Pano.Hersonissos.gr.htm|
+langlookup|http://www.xerocamboscreta.com/Sissi.uk.htm|http://www.xerocamboscreta.com/Sissi.gr.htm|
+langlookup|http://www.xerocamboscreta.com/Mochlosuk.htm|http://www.xerocamboscreta.com/Mochlosgr.htm|
+langlookup|http://www.xerocamboscreta.com/Sitiauk.htm|http://www.xerocamboscreta.com/Sitiagr.htm|
+langlookup|http://www.xerocamboscreta.com/Vaiuk.htm|http://www.xerocamboscreta.com/Vaigr.htm|
+langlookup|http://www.xerocamboscreta.com/Palekastrouk.htm|http://www.xerocamboscreta.com/Palekastrogr.htm|
+langlookup|http://www.xerocamboscreta.com/Agathiasuk.htm|http://www.xerocamboscreta.com/Agathiasgr.htm|
+langlookup|http://www.xerocamboscreta.com/Zakrosuk.htm|http://www.xerocamboscreta.com/Zakrosgr.htm|
+langlookup|http://www.xerocamboscreta.com/KatoZakrosuk.htm|http://www.xerocamboscreta.com/KatoZakrosgr.htm|
+langlookup|http://www.xerocamboscreta.com/Agia%20Irini%20uk.htm|http://www.xerocamboscreta.com/Agia%20Irini%20gr.htm|
+langlookup|http://www.xerocamboscreta.com/Hametoulouk.htm|http://www.xerocamboscreta.com/Hametoulogr.htm|
+langlookup|http://www.xerocamboscreta.com/Zirosuk.htm|http://www.xerocamboscreta.com/Zirosgr.htm|
+langlookup|http://www.xerocamboscreta.com/Makrigialos%20uk.htm|http://www.xerocamboscreta.com/Makrigialos%20gr.htm|
+langlookup|http://www.xerocamboscreta.com/Myrtosuk.htm|http://www.xerocamboscreta.com/Myrtosgr.htm|
+langlookup|http://www.xerocamboscreta.com/PTuk.htm|http://www.xerocamboscreta.com/PTgr.htm|
+langlookup|Description|Περιγραφή|
+langlookup|Photos|Φωτογραφίες|
+langlookup|Drone|Drone|
+langlookup|Accomodations|Καταλύματα|
+langlookup|Houses & land|Σπίτια &amp; οικόπεδα|
+langlookup|Friends|Φίλοι|
+langlookup|Meteo database (it)|Αρχείο καιρού (it)|
+langlookup|Yesterday (it)|Εχθές (it)|
+langlookup|From 2004 (it)|Από το 2004 (it)|
+langlookup|Winds graphs|Διαγράμματα ανέμου|
+langlookup|Temperatures graphs|Διαγράμματα θερμοκρασίας|
+langlookup|http://www.xerocamboscreta.com/Description%20uk.htm|http://www.xerocamboscreta.com/Descrizione%20Xgr.htm|
+langlookup|http://www.xerocamboscreta.com/Photographic%20Album.htm|http://www.xerocamboscreta.com/Album%20Foto%20gr.htm|
+langlookup|http://www.xerocamboscreta.com/Volare.uk.htm|http://www.xerocamboscreta.com/Volare.gr.htm|
+langlookup|http://www.xerocamboscreta.com/Appuk.htm|http://www.xerocamboscreta.com/Appgr.htm|
+langlookup|http://www.xerocamboscreta.com/V.uk.htm|http://www.xerocamboscreta.com/V.gr.htm|
+langlookup|http://www.xerocamboscreta.com/Amici%20uk.htm|http://www.xerocamboscreta.com/Amici%20gr.htm|
+langlookup|http://www.xerocamboscreta.com/Vento%20uk.htm|http://www.xerocamboscreta.com/Vento.gr.htm|
+langlookup|http://www.xerocamboscreta.com/Temperature%20uk.htm|http://www.xerocamboscreta.com/Temperature.gr.htm|
+langlookup|Real-time data|Στοιχεία Πραγματικού Χρόνου|
+langlookup|Satellite Greece|Δορυφορική Ελλάδα|
+langlookup|UV Index|Δείκτης UV|
+langlookup|Statistics|Στατιστικά στοιχεία|
+langlookup|Wind/Sea scale|¶νεμο/θάλασσα κλίμακας|
+langlookup|Sun/Moon Almanac|Ημερολόγιο Ηλιου/Σελήνης|
+langlookup|Calendar 2016|Ημερολόγιο 2016|
+langlookup|Weather station info|Πληροφορίες σταθμού|
+langlookup|External links|Σύνδεσμοι|
+langlookup|European meteo links|Σύνδεσμοι καιρούΕυρώπης|
+langlookup|https://en.wikipedia.org/wiki/Beaufort_scale|https://el.wikipedia.org/wiki/%CE%9A%CE%BB%CE%AF%CE%BC%CE%B1%CE%BA%CE%B1_%CE%9C%CF%80%CE%BF%CF%86%CF%8C%CF%81|
+langlookup|http://www.xerocamboscreta.com/Meteo.Xero.uk.htm|http://www.xerocamboscreta.com/Meteo.Xero.gr.htm|
+

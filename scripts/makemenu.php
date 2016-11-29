@@ -26,11 +26,9 @@ function create_xml_menu_structure($menuLines){
         $entry_link = get_string_between($menuLines[$key], "{", "}");
         if(!hasSubMenu($menuLines, $key) && !isPartOfSubmenu($menuLines,$key)){
             $menu .= "<item caption=\"".$menu_entry."\" link=\"".$entry_link."\"/>\n";
-            iconv('utf-8', 'iso-8859-1',$menu);
         }
         if(hasSubMenu($menuLines, $key) && !isPartOfSubmenu($menuLines,$key)){
             $menu .= "<item caption=\"".$menu_entry."\" link=\"".$entry_link."\">\n";
-            iconv('utf-8', 'iso-8859-1',$menu);
             $menu .= generateSubMenu($menuLines, $key);
         }
     }
@@ -123,7 +121,6 @@ function generateSubMenu($menuLines, $index){
             break;
         }
     }
-    iconv('utf-8', 'iso-8859-1',$sub_menu);
     $sub_menu .= "</item>\n";
     return $sub_menu;
 }

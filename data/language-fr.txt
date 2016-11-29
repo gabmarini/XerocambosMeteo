@@ -360,3 +360,94 @@ langlookup|Cloudy with clear patches|nuageux avec déchirures|
 langlookup|Overcast|couvert|
 conditions|end||
 #
+#
+#
+#
+#
+langlookup|Connections|Connections|
+langlookup|Flights to Crete|Vols vers la Crète|
+langlookup|Ferries booking|Ferries réservation|
+langlookup|Once in Crete|Lorsque en Crète|
+langlookup|Temperatures|Températures|
+langlookup|Road maps|Cartes routières|
+langlookup|Distances|Distances|
+langlookup|Car Rental|Locations de voitures|
+langlookup|Public transport|Bus publics (en)|
+langlookup|Hicking|Randonnée|
+langlookup|Accomodations|Hébergements|
+langlookup|Crete by Yacht|Crète par Yacht|
+langlookup|District Chanià|Région Chanià|
+langlookup|Kastelli/Kissamos|Kastelli/Kissamos|
+langlookup|Falassarna|Falassarna|
+langlookup|Paleochora|Paleochora|
+langlookup|Frangokastello|Frangokastello|
+langlookup|District Rethymno|Région Rethymno|
+langlookup|Plakiàs|Plakiàs|
+langlookup|District Heraklion|Région Heraklion|
+langlookup|Pano Hersonissos|Pano Hersonissos|
+langlookup|District Lassithi|Région Lassithi|
+langlookup|Fishing East Crete|Pêche Est Crète|
+langlookup|Not only Crete|Pas seulement Crète|
+langlookup|http://www.xerocamboscreta.com/Vettori.aerei.uk.htm|http://www.xerocamboscreta.com/Vettori.aerei.F.htm|
+langlookup|http://www.xerocamboscreta.com/Prenotazioni.navi.uk.htm|http://www.xerocamboscreta.com/Prenotazioni.navi.F.htm|
+langlookup|http://www.xerocamboscreta.com/Average%20temperatures.htm|http://www.xerocamboscreta.com/Temperature%20medie%20F.htm|
+langlookup|http://www.xerocamboscreta.com/Index%20Road%20Maps.htm|http://www.xerocamboscreta.com/Index%20Road%20Maps%20F.htm|
+langlookup|http://www.xerocamboscreta.com/Distanze.Creta.uk.htm|http://www.xerocamboscreta.com/Distanze.Creta.F.htm|
+langlookup|http://www.xerocamboscreta.com/Car%20Rental%20uk.htm|http://www.xerocamboscreta.com/Autonoleggio%20F.htm|
+langlookup|https://rethymnon.com/TheBus-Bus-Service-Crete/default.html|https://rethymnon.com/TheBus-Bus-Service-Crete/default.html|
+langlookup|http://www.xerocamboscreta.com/Sentieri.uk.htm|http://www.xerocamboscreta.com/Sentieri.F.htm|
+langlookup|http://www.xerocamboscreta.com/Vacanze.Creta.uk.htm|http://www.xerocamboscreta.com/Vacanze.Creta.F.htm|
+langlookup|http://www.xerocamboscreta.com/Creta.bk.uk.htm|http://www.xerocamboscreta.com/Creta.bk.F.htm|
+langlookup|http://www.xerocamboscreta.com/Kissamosuk.htm|http://www.xerocamboscreta.com/KissamosF.htm|
+langlookup|http://www.xerocamboscreta.com/Falassarna.uk.htm|http://www.xerocamboscreta.com/Falassarna.F.htm|
+langlookup|http://www.xerocamboscreta.com/Paleochora.uk.htm|http://www.xerocamboscreta.com/Paleochora.F.htm|
+langlookup|http://www.xerocamboscreta.com/Frangokastello.uk.htm|http://www.xerocamboscreta.com/Frangokastello.F.htm|
+langlookup|http://www.xerocamboscreta.com/Plakiasuk.htm|http://www.xerocamboscreta.com/PlakiasF.htm|
+langlookup|http://www.xerocamboscreta.com/Pano.Hersonissos.uk.htm|http://www.xerocamboscreta.com/Pano.Hersonissos.F.htm|
+langlookup|http://www.xerocamboscreta.com/Sissi.uk.htm|http://www.xerocamboscreta.com/Sissi.F.htm|
+langlookup|http://www.xerocamboscreta.com/Mochlosuk.htm|http://www.xerocamboscreta.com/MochlosF.htm|
+langlookup|http://www.xerocamboscreta.com/Sitiauk.htm|http://www.xerocamboscreta.com/SitiaF.htm|
+langlookup|http://www.xerocamboscreta.com/Vaiuk.htm|http://www.xerocamboscreta.com/VaiF.htm|
+langlookup|http://www.xerocamboscreta.com/Palekastrouk.htm|http://www.xerocamboscreta.com/PalekastroF.htm|
+langlookup|http://www.xerocamboscreta.com/Agathiasuk.htm|http://www.xerocamboscreta.com/AgathiasF.htm|
+langlookup|http://www.xerocamboscreta.com/Zakrosuk.htm|http://www.xerocamboscreta.com/ZakrosF.htm|
+langlookup|http://www.xerocamboscreta.com/KatoZakrosuk.htm|http://www.xerocamboscreta.com/KatoZakrosF.htm|
+langlookup|http://www.xerocamboscreta.com/Agia%20Irini%20uk.htm|http://www.xerocamboscreta.com/Agia%20Irini%20F.htm|
+langlookup|http://www.xerocamboscreta.com/Hametoulouk.htm|http://www.xerocamboscreta.com/HametouloF.htm|
+langlookup|http://www.xerocamboscreta.com/Zirosuk.htm|http://www.xerocamboscreta.com/ZirosF.htm|
+langlookup|http://www.xerocamboscreta.com/Makrigialos%20uk.htm|http://www.xerocamboscreta.com/Makrigialos%20F.htm|
+langlookup|http://www.xerocamboscreta.com/Myrtosuk.htm|http://www.xerocamboscreta.com/MyrtosF.htm|
+langlookup|http://www.xerocamboscreta.com/PTuk.htm|http://www.xerocamboscreta.com/PTF.htm|
+langlookup|Xerocampos|Xérocambos|
+langlookup|Description|Description|
+langlookup|Photos|Photos|
+langlookup|Drone|Drone|
+langlookup|Accomodations|Hébergements|
+langlookup|Houses &amp; land|Maisons &amp; terrains|
+langlookup|Friends|Amis|
+langlookup|Meteo database (it)|Archives météo (it)|
+langlookup|Yesterday (it)|Hier (it)|
+langlookup|From 2004 (it)|À partir de 2004 (it)|
+langlookup|Winds graphs|Graphiques du vent|
+langlookup|Temperatures graphs|Graphiques température|
+langlookup|http://www.xerocamboscreta.com/Description%20uk.htm|http://www.xerocamboscreta.com/Description%20F.htm|
+langlookup|http://www.xerocamboscreta.com/Photographic%20Album.htm|http://www.xerocamboscreta.com/Photographic%20Album%20F.htm|
+langlookup|http://www.xerocamboscreta.com/Volare.uk.htm|http://www.xerocamboscreta.com/Volare.F.htm|
+langlookup|http://www.xerocamboscreta.com/Appuk.htm|http://www.xerocamboscreta.com/AppF.htm|
+langlookup|http://www.xerocamboscreta.com/V.uk.htm|http://www.xerocamboscreta.com/V.F.htm|
+langlookup|http://www.xerocamboscreta.com/Amici%20uk.htm|http://www.xerocamboscreta.com/Amici%20F.htm|
+langlookup|http://www.xerocamboscreta.com/Vento%20uk.htm|http://www.xerocamboscreta.com/Vento.F.htm|
+langlookup|http://www.xerocamboscreta.com/Temperature%20uk.htm|http://www.xerocamboscreta.com/Temperature.F.htm|
+langlookup|Real-time data|Données en temps réel|
+langlookup|Satellite Greece|Satellite Grèce|
+langlookup|UV Index|Indice UV|
+langlookup|Statistics|Statistiques|
+langlookup|Wind/Sea scale|Vent/Mer échelle|
+langlookup|Sun/Moon Almanac|Almanach Soleil/Lune|
+langlookup|Calendar 2016|Calendrier 2016|
+langlookup|Weather station info|Infos station météo|
+langlookup|External links|Liens externes|
+langlookup|European meteo links|Liens européens météo|
+langlookup|https://en.wikipedia.org/wiki/Beaufort_scale|https://fr.wikipedia.org/wiki/%C3%89chelle_de_Beaufort|
+langlookup|http://www.xerocamboscreta.com/Meteo.Xero.uk.htm|http://www.xerocamboscreta.com/Meteo.Xero.F.htm|
+

@@ -18,7 +18,7 @@ Weather station info{wxabout.php}[Info stazione meteo{}|Wetterstation Info{}|Inf
 External links{}[Links esterni{}|Außenstehende Links{}|Liens externes{}|Σύνδεσμοι{}]
 -Meteokrites (el){http://meteokrites.gr/stations.php}[|||]
 -Poseidon (el-en){http://www.poseidon.hcmr.gr/weather_forecast.php?area_id=gr}[|||]
--Windfinder{http://www.xerocamboscreta.com/Meteo.Xero.it.htm}[{http://www.xerocamboscreta.com/Meteo.Xero.uk.htm}|{http://www.xerocamboscreta.com/Meteo.Xero.D.htm}|{http://www.xerocamboscreta.com/Meteo.Xero.F.htm}|{http://www.xerocamboscreta.com/Meteo.Xero.gr.htm}]
+-Windfinder{http://www.xerocamboscreta.com/Meteo.Xero.uk.htm}[{http://www.xerocamboscreta.com/Meteo.Xero.it.htm}|{http://www.xerocamboscreta.com/Meteo.Xero.D.htm}|{http://www.xerocamboscreta.com/Meteo.Xero.F.htm}|{http://www.xerocamboscreta.com/Meteo.Xero.gr.htm}]
 
 European meteo links{}[Links europei meteo{}|Europäische Wetter Links{}|Liens européens météo{}|Σύνδεσμοι καιρούΕυρώπης{}]
 -MeteoNetwork (it){http://www.meteonetwork.it/rete/livemap/}[|||]

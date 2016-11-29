@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="iso-8859-1" ?>
 <menu>
 <item caption="Connections" link="">
 	<item caption="Flights to Crete" link="http://www.xerocamboscreta.com/Vettori.aerei.uk.htm"/>
@@ -15,14 +15,14 @@
 	<item caption="Booking.com" link="http://www.xerocamboscreta.com/Creta.bk.uk.htm"/>
 	<item caption="Crete by Yacht" link="https://www.incrediblue.com/en/yacht-search/Greece/Crete?lkws_10806=582efb24-59fe-35ac-4955-da0f2e15ded8"/>
 </item>
-<item caption="District ChaniÃ " link="">
+<item caption="District Chanià" link="">
 	<item caption="Kastelli/Kissamos" link="http://www.xerocamboscreta.com/Kissamosuk.htm"/>
 	<item caption="Falassarna" link="http://www.xerocamboscreta.com/Falassarna.uk.htm"/>
 	<item caption="Paleochora" link="http://www.xerocamboscreta.com/Paleochora.uk.htm"/>
 	<item caption="Frangokastello" link="http://www.xerocamboscreta.com/Frangokastello.uk.htm"/>
 </item>
 <item caption="District Rethymno" link="">
-	<item caption="PlakiÃ s" link="http://www.xerocamboscreta.com/Plakiasuk.htm"/>
+	<item caption="Plakiàs" link="http://www.xerocamboscreta.com/Plakiasuk.htm"/>
 </item>
 <item caption="District Heraklion" link="">
 	<item caption="Pano Hersonissos" link="http://www.xerocamboscreta.com/Pano.Hersonissos.uk.htm"/>
