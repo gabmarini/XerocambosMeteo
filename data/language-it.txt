@@ -12,7 +12,7 @@
 #
 # English and Western European use ISO-8859-1 character sets
 #
-charset|ISO-8859-1|
+charset|UTF-8|
 #
 # Greek should use ISO-8859-7 character set for compatibility with plaintext-parser-lang-el.txt
 #

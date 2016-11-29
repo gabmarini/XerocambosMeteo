@@ -1,18 +1,18 @@
 HTTP/1.1 200 OK
-Date: Tue, 22 Nov 2016 09:41:39 GMT
+Date: Tue, 29 Nov 2016 17:48:27 GMT
 Server: Apache
 Access-Control-Allow-Origin: *
 Connection: close
 Transfer-Encoding: chunked
 Content-Type: application/json
 
-294
+25f
 {
 "error":false,
 "apiversion":"1.3.0",
 "year":2016,
 "month":11,
-"day":22,
+"day":29,
 "dayofweek":"Tuesday",
 "datechanged":false,
 "lon":26.227628,
@@ -20,20 +20,18 @@ Content-Type: application/json
 "tz":2,
 
 "sundata":[
-            {"phen":"BC", "time":"06:29"},
-            {"phen":"R", "time":"06:57"},
-            {"phen":"U", "time":"12:01"},
-            {"phen":"S", "time":"17:06"},
-            {"phen":"EC", "time":"17:33"}],
+            {"phen":"BC", "time":"06:36"},
+            {"phen":"R", "time":"07:03"},
+            {"phen":"U", "time":"12:04"},
+            {"phen":"S", "time":"17:04"},
+            {"phen":"EC", "time":"17:31"}],
 
 "moondata":[
-            {"phen":"R", "time":"00:19"},
-            {"phen":"U", "time":"06:56"},
-            {"phen":"S", "time":"13:26"}],
+            {"phen":"R", "time":"06:40"},
+            {"phen":"U", "time":"12:03"},
+            {"phen":"S", "time":"17:23"}],
 
-"closestphase":{"phase":"Last Quarter","date":"November 21, 2016","time":"10:33"},
-"fracillum":"39%",
-"curphase":"Waning Crescent"
+"closestphase":{"phase":"New Moon","date":"November 29, 2016","time":"14:18"}
 }
 0
 

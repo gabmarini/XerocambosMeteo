@@ -59,7 +59,7 @@ $SITE['CSSsettings_mode'] = 3;  // set to 1, 2 or 3
 
 $SITE['flyoutmenu'] = true; // set to false to use the menu list inside menubar.php instead
 
-$SITE['charset']		= 'ISO-8859-1'; // default character set for webpages (iso-8859-1=latin)
+$SITE['charset']		= 'UTF-8'; // default character set for webpages (iso-8859-1=latin)
 #
 # Multilanguage support 
 #

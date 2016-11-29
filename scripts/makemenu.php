@@ -11,9 +11,8 @@ $menuLines = array_values($menuLines);
 $menu = menubuilder($menuLines, $menu_filename);
 
 function menubuilder($menuLines, $menu_filename){
-    $xml_menu = create_xml_menu_structure($menuLines); ##rivedere che non funziona
-    print_r($xml_menu);
-    insert_menu_translation($menuLines);    
+    $xml_menu = create_xml_menu_structure($menuLines);
+    insert_menu_translation($menuLines);
     $menu_file = fopen($menu_filename.'.xml', "w");
     fwrite($menu_file, $xml_menu);
     fclose($menu_file);
@@ -27,9 +26,11 @@ function create_xml_menu_structure($menuLines){
         $entry_link = get_string_between($menuLines[$key], "{", "}");
         if(!hasSubMenu($menuLines, $key) && !isPartOfSubmenu($menuLines,$key)){
             $menu .= "<item caption=\"".$menu_entry."\" link=\"".$entry_link."\"/>\n";
+            iconv('utf-8', 'iso-8859-1',$menu);
         }
         if(hasSubMenu($menuLines, $key) && !isPartOfSubmenu($menuLines,$key)){
             $menu .= "<item caption=\"".$menu_entry."\" link=\"".$entry_link."\">\n";
+            iconv('utf-8', 'iso-8859-1',$menu);
             $menu .= generateSubMenu($menuLines, $key);
         }
     }
@@ -39,8 +40,11 @@ function create_xml_menu_structure($menuLines){
 
 function insert_menu_translation($menuLines){
     $translation_structure = array();
+    $link_structure = array();
     build_translation_structure($translation_structure, $menuLines);
+    build_link_structure($link_structure, $menuLines);
     save_translations($translation_structure);
+    save_translations($link_structure);
 }
 
 function build_translation_structure(&$structure, $lines){
@@ -53,6 +57,18 @@ function build_translation_structure(&$structure, $lines){
         $structure[$en_string]['de'] = substr($trans[1], 0, strpos($trans[1], "{"));
         $structure[$en_string]['fr'] = substr($trans[2], 0, strpos($trans[2], "{"));
         $structure[$en_string]['el'] = substr($trans[3], 0, strpos($trans[3], "{"));
+    }
+}
+
+function build_link_structure(&$structure, $lines){
+    foreach ($lines as $key => $value) {
+        $en_string = get_string_between($value,'{','}');
+        $structure[$en_string] = array();
+        $trans = explode('|',get_string_between($value,'[',']'));
+        $structure[$en_string]['it'] = get_string_between($trans[0],'{','}');
+        $structure[$en_string]['de'] = get_string_between($trans[1],'{','}');
+        $structure[$en_string]['fr'] = get_string_between($trans[2],'{','}');
+        $structure[$en_string]['el'] = get_string_between($trans[3],'{','}');
     }
 }
 
@@ -107,6 +123,7 @@ function generateSubMenu($menuLines, $index){
             break;
         }
     }
+    iconv('utf-8', 'iso-8859-1',$sub_menu);
     $sub_menu .= "</item>\n";
     return $sub_menu;
 }
