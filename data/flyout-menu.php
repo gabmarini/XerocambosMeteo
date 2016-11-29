@@ -15,6 +15,7 @@
 // Version 1.07 - 04-Mar-2011 - fixed errata casting Strict: messages
 // Version 1.08 - 05-Feb-2013 - fixed HTML5 validation with literal quote in translation
 //
+include_once("common.php");  // for language translation
 $Version = 'flyout-menu.php (ML) Version 1.08 - 05-Feb-2013';
 //
 // ---------- settings ------------------------------
@@ -205,9 +206,9 @@ for ($i=1;$i<count($MENU);$i++) { // loop over all menu items -1
     if ($Debug) {
       $FlyoutMenuText .= "Start new submenu -->\n";
 	}
-	$FlyoutMenuText .= "$indent$wxonlyPrefix<li class=\"sub\"><a $link$title$target>$leftimg" . $caption . "$rightimg<!--[if gte IE 7]><!--></a>$wxonlySuffix<!--<![endif]-->
+	$FlyoutMenuText .= "$indent$wxonlyPrefix<li class=\"dropdown\"><a class=\"drop-link\" $link$title$target>$leftimg" . $caption . "$rightimg<!--[if gte IE 7]><!--></a>$wxonlySuffix<!--<![endif]-->
 $indent  <!--[if lte IE 6]><table><tr><td><![endif]-->
-$indent  <ul>\n";
+$indent  <ul class=\"dropdown-content\">\n";
 	
   }
   
@@ -246,7 +247,6 @@ if ($doDiv) {
 $FlyoutMenuText .= "<!-- end generated flyout menu -->\n";
 
 if ($doPrintMenu) {
-  echo "ciao";
   print $FlyoutMenuText;
 }
 
@@ -352,7 +352,8 @@ for ($i=1;$i<count($MENU);$i++) { // loop over all menu items -1
   }
   
   if ($link <> '') {
-    $link = 'href="' . $link . '"';
+    //$link = 'href="' . eval('return '.$link) . '"';
+	$link = 'href="' . $link . '"';
   } else {
     $link = 'href="' . "#" . '"';
   }
@@ -385,9 +386,9 @@ for ($i=1;$i<count($MENU);$i++) { // loop over all menu items -1
     if ($Debug) {
       $secondFlyoutMenuText .= "Start new submenu -->\n";
   }
-  $secondFlyoutMenuText .= "$indent$wxonlyPrefix<li class=\"sub\"><a $link$title$target>$leftimg" . $caption . "$rightimg<!--[if gte IE 7]><!--></a>$wxonlySuffix<!--<![endif]-->
+  $secondFlyoutMenuText .= "$indent$wxonlyPrefix<li class=\"dropdown\"><a class=\"drop-link\"$link$title$target>$leftimg" . $caption . "$rightimg<!--[if gte IE 7]><!--></a>$wxonlySuffix<!--<![endif]-->
 $indent  <!--[if lte IE 6]><table><tr><td><![endif]-->
-$indent  <ul>\n";
+$indent  <ul class=\"dropdown-content\">\n";
   
   }
   
@@ -603,16 +604,43 @@ position:relative;
 z-index:500;
 padding:0;
 margin:0;
-padding-left: 4px; /* mchallis added to center links in firefox */
+/*padding-left: 4px;*/ /* mchallis added to center links in firefox */
 list-style-type:none;
 width: 110px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    /*background:transparent url(${imagesDir}flyout-sub1.gif) no-repeat right center;*/
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.drop-link{
+    background:transparent url(${imagesDir}flyout-sub1.gif) no-repeat right center;
+}
+
+.drop-link:hover{
+    background:#AAAAFF url(${imagesDir}flyout-sub1.gif) no-repeat right center;
 }
 
 /* style the list items */
 .flyoutmenu li {
 color: ${LC};
 /*background:${LBG} url(${imagesDir}${SC});*/
-width: 15.2em;
+width: 17.5em;
 /* for IE7 */
 float:left;
 margin:0; /* mchallis added to tighten gaps between links */
@@ -656,12 +684,12 @@ width:auto;
 /* hide the sub levels and give them a positon absolute so that they take up no room */
 .flyoutmenu li ul {
 visibility:hidden;
-position:absolute;
-top:-10px;
+/*position:absolute;*/
+top:0px;
 /* set up the overlap (minus the overrun) */
-left:14.2em;
+left:4px;
 /* set up the overrun area */
-padding:10px;
+/*padding:10px;*/
 /* this is for IE to make it interpret the overrrun padding */
 background:transparent url(${imagesDir}flyout-transparent.gif);
 }

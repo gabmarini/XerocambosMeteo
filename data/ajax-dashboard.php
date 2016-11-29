@@ -330,7 +330,7 @@ $decimalComma = (strpos($temperature,',') !==false)?true:false; // using comma f
 ?>
 <!-- start of ajax-dashboard.php -->
 <div class="ajaxDashboard" style="width: auto;">
-      <table width="620" border="0" cellpadding="2" cellspacing="1" style="border:solid; border-color: #CCCCCC;width:800px;">
+      <table width="620" border="0" cellpadding="2" cellspacing="1" style="border:solid; border-color: #CCCCCC;width:750px;">
         <tr align="center">
           <td class="data1" colspan="4" style="text-align: center">
 		    <span class="ajax" id="ajaxindicator"><?php langtrans('Updated'); ?>:</span>&nbsp;@ 
@@ -358,7 +358,7 @@ document.write('<b> - <?php langtrans('updated'); ?> <span id="ajaxcounter"></sp
 	  <?php } // end displaySnow ?>
          <td class="datahead"><?php langtrans('Outlook'); ?></td>
         </tr>
-        <tr align="left">
+        <tr align="center">
           <td valign="top" rowspan="5">
 		    <table width="180" border="0" cellpadding="2" cellspacing="0">
 			  <tr>
@@ -1068,7 +1068,7 @@ VUOTA COME BASE
 
 
 <head>
-<style fprolloverstyle="">A:hover {color: #AAFFFF; font-family: Comic Sans MS; font-weight: bold}
+<style fprolloverstyle="">A:hover {color: #AAFFFF; font-family: Comic Sans MS;}
 </style>
 
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
