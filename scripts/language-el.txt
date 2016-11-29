@@ -8,3 +8,14 @@ langlookup|Calendar 2016|Ημερολόγιο 2016|
 langlookup|Weather station info|Πληροφορίες σταθμού|
 langlookup|External links|Σύνδεσμοι|
 langlookup|European meteo links|Σύνδεσμοι καιρούΕυρώπης|
+langlookup|Description|Περιγραφή|
+langlookup|Photos|Φωτογραφίες|
+langlookup|Drone|Drone|
+langlookup|Accomodations|Καταλύματα|
+langlookup|Houses &amp; land|Σπίτια &amp; οικόπεδα|
+langlookup|Friends|Φίλοι|
+langlookup|Meteo database (it)|Αρχείο καιρού (it)|
+langlookup|Yesterday (it)|Εχθές (it)|
+langlookup|From 2004 (it)|Από το 2004 (it)|
+langlookup|Winds graphs|Διαγράμματα ανέμου|
+langlookup|Temperatures graphs|Διαγράμματα θερμοκρασίας|

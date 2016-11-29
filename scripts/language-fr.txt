@@ -8,3 +8,15 @@ langlookup|Calendar 2016|Calendrier 2016|
 langlookup|Weather station info|Infos station météo|
 langlookup|External links|Liens externes|
 langlookup|European meteo links|Liens européens météo|
+langlookup|Xerocampos|Xérocambos|
+langlookup|Description|Description|
+langlookup|Photos|Photos|
+langlookup|Drone|Drone|
+langlookup|Accomodations|Hébergements|
+langlookup|Houses &amp; land|Maisons &amp; terrains|
+langlookup|Friends|Amis|
+langlookup|Meteo database (it)|Archives météo (it)|
+langlookup|Yesterday (it)|Hier (it)|
+langlookup|From 2004 (it)|À partir de 2004 (it)|
+langlookup|Winds graphs|Graphiques du vent|
+langlookup|Temperatures graphs|Graphiques température|
