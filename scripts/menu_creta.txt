@@ -1,0 +1,56 @@
+Crete{}[Creta{}|Kreta{}|Crète{}|Κρήτη{}]
+
+Connections{}[Collegamenti{}|Verbindungen{}|Connections{}|Συνδέσεις{}]
+-Flights to Crete{}[Voli Italia-Creta{}|Flüge nach Kreta{}|Vols vers la Crète{}|Πτήσεις για Κρήτη{}]
+-Ferries booking{}[Prenotazioni traghetti{}|Fähren Online{}|Ferries réservation{}|Κρατήσεις πλοίων{}]
+-Once in Crete{}[Una volta a Creta{}|Sobald in Kreta{}|Lorsque en Crète{}|Είστε στην Κρήτη{}]
+-Info{}[{}|||]
+-Temperatures{}[Temperature{}|Temperaturen{}|Températures{}|Θερμοκρασίες{}]
+-Road maps{}[Carte Stradali{}|Straßenkarten{}|Cartes routières{}|Οδικός Χάρτης]
+-Distances{}[Distanze{}|Entfernungen{}|Distances{}|Αποστάσεις{}]
+-Car Rental{}[Autonoleggio{}|Autovermietung{}|Locations de voitures{}|Ενοικίαση αυτοκινήτου{}]
+-Public transport{}[Autobus pubblici (en){}|Linien Bus{}|Bus publics (en){}|Λεωφορεία Κ.Τ.Ε.Λ{}]
+-Hicking{}[Sentieri{}|Wandern{}|Randonnée{}|Πεζοπορία{}]
+-Accomodations{}[Alloggi{}|Unterkünfte{}|Hébergements{}|Καταλύματα{}]
+-Booking.com{}[{}|{}|{}|{}]
+-Crete by Yacht{}[Yacht a Creta{}|Kreta mit Yacht{}|Crète par Yacht{}|Κρήτη με γιοτ{}]
+
+District Chanià{}[Provincia Chanià{}|Provinz Chanià{}|Région Chanià{}|Νομός Χανίων{}]
+-Kastelli/Kissamos{}[Kastelli/Kissamos{}|Kastelli/Kissamos{}|Kastelli/Kissamos{}|Κίσσαμος/Καστέλι{}]
+-Falassarna{}[Falassarna{}|Falassarna{}|Falassarna{}|Φαλάσαρνα{}]
+-Paleochora{}[Paleochora{}|Paleochora{}|Paleochora{}|Παλαιόχωρα{}]
+-Frangokastello{}[Frangokastello{}|Frangokastello{}|Frangokastello{}|Φραγκοκάστελλο{}]
+
+District Rethymno{}[Provincia Rethymno{}|Provinz Rethymno{}|Région Rethymno{}|Νομός Ρεθύμνου{}]
+-Plakiàs{}[Plakiàs{}|Plakiàs{}|Plakiàs{}|Πλακιάς{}]
+
+District Heraklion{}[Provincia Heraklion{}|Provinz Heraklion{}|Région Heraklion{}|Νομός Ηρακλείου{}]
+-Pano Hersonissos{}[Pano Hersonissos{}|Pano Hersonissos{}|Pano Hersonissos{}|Άνω Χερσόνησος{}]
+
+District Lassithi{}[Provincia Lassithi{}|Provinz Lassithi{}|Région Lassithi{}|Νομός Λασιθίου{}]
+-Useful numbers{}[Telefoni utili{}|||]
+-Sissi{}[{}|{}|{}|Σίσι{}]
+-Mochlos{}[{}|{}|{}|Μόχλος{}]
+-Sitia{}[{}|{}|{}|Σητείας{}]
+-Vai{}[{}|{}|{}|Βάϊ{}]
+-Palekastro{}[{}|{}|{}|Παλαίκαστρο{}]
+-Agathiàs{}[{}|{}|{}|Αγκάθιας{}]
+-Zakros{}[{}|{}|{}|Ζάκρος{}]
+-Kato Zakros{}[{}|{}|{}|Κάτω Ζάκρος{}]
+-Agia Irini{}[{}|{}|{}|Αγία Ειρήνη{}]
+-Hametoulo{}[{}|{}|{}|Χαμαίτουλο{}]
+-Ziros{}[{}|{}|{}|Ζήρος{}]
+-Makrigialos{}[{}|{}|{}|Μακρύ Γιαλός{}]
+-Myrtos{}[{}|{}|{}|Μύρτος{}]
+
+Altre info Creta #Other on Crete #Andere über Kreta #D&#39;autres sur Crète #Άλλο στην Κρήτη
+
+ #Eventi Estate &#39;16 #Events Summer &#39;16 #Events Sommer &#39;16 #Événements été &#39;16 #Καλοκαίρι &#39;16
+
+ #Pesca Creta est #Fishing East Crete #Angeln Ostkreta #Pêche Est Crète #Ψάρεμα Ανατ. Κρήτη
+
+ #Non solo Creta #Not only Crete #Nicht nur Kreta #Pas seulement Crète #Όχι μόνο Κρήτη
+
+ #Lingua Greca
+
+ #Cucina Greca #Greek recipes
