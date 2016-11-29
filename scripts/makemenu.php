@@ -1,18 +1,20 @@
 <?php
-$menuLines = file('menu.txt');
+$menu_filename = $_GET['filename'];
+print($_GET['filename']);
+$menuLines = file($menu_filename.'.txt');
 foreach ($menuLines as $key => $value) {
     if(strpos($value, '#') !== false || strcmp ($value, "\n") == 0){
         unset($menuLines[$key]);
     }
 }
 $menuLines = array_values($menuLines);
-$menu = menubuilder($menuLines);
+$menu = menubuilder($menuLines, $menu_filename);
 
-function menubuilder($menuLines){
+function menubuilder($menuLines, $menu_filename){
     $xml_menu = create_xml_menu_structure($menuLines); ##rivedere che non funziona
     print_r($xml_menu);
     insert_menu_translation($menuLines);    
-    $menu_file = fopen("testfile.xml", "w");
+    $menu_file = fopen($menu_filename.'.xml', "w");
     fwrite($menu_file, $xml_menu);
     fclose($menu_file);
 }
@@ -101,7 +103,7 @@ function generateSubMenu($menuLines, $index){
             $entry_link = get_string_between($menuLines[$index], "{", "}");
             $sub_menu .= "\t<item caption=\"".$menu_entry."\" link=\"".$entry_link."\"/>\n";
         }
-        if(strpos($menuLines[$index+1], '-') !== 0){
+        if(array_key_exists($index+1, $menuLines) && strpos($menuLines[$index+1], '-') !== 0){
             break;
         }
     }

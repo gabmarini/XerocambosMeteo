@@ -68,12 +68,13 @@ $html = '
  if (isset($SITE['flyoutmenu']) and $SITE['flyoutmenu']) {
    global $FlyoutMenuText;
    global $secondFlyoutMenuText;
+
    print "<div class=\"flyoutmenu\">\n";
-   print $FlyoutMenuText;
+   print $secondFlyoutMenuText;
    print "</div>\n";
    print "<p class=\"sideBarTitle\">".langtransstr('Site Nav')."</p>\n";
    print "<div class=\"flyoutmenu\">\n";
-   print $secondFlyoutMenuText;
+   print $FlyoutMenuText;
    print "</div>\n";
  } else {
 	gen_navlinks($html); // generate the links set with highlight for the current page
@@ -93,26 +94,19 @@ $html = '
 #   down to and including
 # <!-- end external links -->
 ?>
-
-<!-- external links -->
+<!-- external links 
 <p class="sideBarTitle"><?php langtrans('External Links'); ?></p>
 <ul>
 
 
-<!--
-/* modificato MASSI
-	cambiati collegamenti ai siti
-    di previsione esterni*/
-   <li><a href="http://www.wunderground.com/" title="Weather Underground">Weather Underground</a></li>
-   <li><a href="http://www.wxforum.net/" title="WXForum">WXforum.net</a></li>
--->
 
    <li><a href="http://meteokrites.gr/stations.php" title="Meteokrites" target="_blank">Meteokrites</a></li>
    <li><a href="http://www.poseidon.hcmr.gr/weather_forecast.php?area_id=gr" title="Poseidon" target="_blank">Poseidon</a></li>
    <li><a href="http://www.xerocamboscreta.com/Meteo.Xero.it.htm" title="Wind Finder" target="_blank">Wind Finder</a></li>
 
-</ul>
-<!-- end external links -->
+</ul> 
+
+end external links -->
 <?php if($SITE['allowThemeSwitch']) { // insert code for theme switcher ?>
   <!-- begin Color Theme Switcher Plugin http://www.642weather.com/weather/scripts.php -->
   <div class="thisPage" style="margin-left: 5px; font-weight: normal;">
