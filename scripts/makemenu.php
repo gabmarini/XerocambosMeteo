@@ -1,8 +1,3 @@
-/**
-* aggiungere traduzioni ai vari file del linguaggio a seconda della lingua, sempre a partire dal file iniziale menu.txt
-*/
-
-
 <?php
 $menuLines = file('menu.txt');
 foreach ($menuLines as $key => $value) {
