@@ -48,7 +48,7 @@ include("menubar.php");
 <div id="main-copy">
   
  
-	  <h3><?php langtrans('National Radar'); ?></h3> 
+	  <h3 class="title"><?php langtrans('National Radar'); ?></h3> 
 
 <!--    
 	/* modificato MASSI
