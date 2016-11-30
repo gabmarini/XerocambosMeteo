@@ -33,7 +33,7 @@
 		}
 	}
 
-	$file_de = fopen("language-de.txt", r) or die("Unable to open file file_de!");
+	$file_de = fopen("../data/language-de.txt", r) or die("Unable to open file file_de!");
 	$file_result = fopen("results.txt", w) or die("Unable to open file result!");
 	$temp = array();
 	$in_array = array();
@@ -49,7 +49,7 @@
 	}
 	fclose($file_de);
 
-	$file_it = fopen("language-it.txt", r) or die("Unable to open file file_de!");
+	$file_it = fopen("../data/language-it.txt", r) or die("Unable to open file file_de!");
 	$temp = array();
 	$in_array = array();
 	$temp = split("\n", fread($file_it, filesize("language-it.txt")));
@@ -64,7 +64,7 @@
 	}
 	fclose($file_it);
 
-	$file_el = fopen("language-el.txt", r) or die("Unable to open file file_de!");
+	$file_el = fopen("../data/language-el.txt", r) or die("Unable to open file file_de!");
 	$temp = array();
 	$in_array = array();
 	$temp = split("\n", fread($file_el, filesize("language-el.txt")));
@@ -79,7 +79,7 @@
 	}
 	fclose($file_el);
 
-	$file_fr = fopen("language-fr.txt", r) or die("Unable to open file file_de!");
+	$file_fr = fopen("../data/language-fr.txt", r) or die("Unable to open file file_de!");
 	$temp = array();
 	$in_array = array();
 	$temp = split("\n", fread($file_fr, filesize("language-fr.txt")));
