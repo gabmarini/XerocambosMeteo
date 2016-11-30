@@ -173,7 +173,7 @@ for ($i=1;$i<count($MENU);$i++) { // loop over all menu items -1
   }
   
   if ($link <> '') {
-    $link = 'href="' . $link . '"';
+    $link = 'href="' . langtransstr($link) . '"';
   } else {
     $link = 'href="' . "#" . '"';
   }
@@ -352,8 +352,8 @@ for ($i=1;$i<count($MENU);$i++) { // loop over all menu items -1
   }
   
   if ($link <> '') {
-    //$link = 'href="' . eval('return '.$link) . '"';
-	$link = 'href="' . $link . '"';
+    $link = 'href="' . langtransstr($link) . '"';
+	//$link = 'href="' . $link . '"';
   } else {
     $link = 'href="' . "#" . '"';
   }
@@ -466,6 +466,222 @@ if ($Debug) {
  *
  * 
  */
+
+
+
+
+/**
+ * TEST Terzo MENU
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ * 
+ */
+$MENUdef = './flyout-menu-creta.xml'; // (relative) file location of XML menu definition file
+
+$depth = array();
+$MENU = array();
+$MENUcnt = 0;
+$lastDepth = 0;
+$Status = "<!-- $Version -->\n";
+
+// ------------- main routine --------------------
+$xml_parser = xml_parser_create();
+xml_set_element_handler($xml_parser, "startElementFlyout", "endElementFlyout");
+$doTrans = true;
+if ($lang <> 'en') { // special handling for non-english menu constructions
+  $tfile = preg_replace('|\.xml|',"-$lang.xml",$MENUdef);
+  if (file_exists($tfile)) {
+     $MENUdef = $tfile; // use the XML and no other translation.
+   $doTrans = false;
+   }
+}
+
+if (!($fp = fopen($MENUdef, "r"))) {
+    die("could not open XML input from $MENUdef ");
+}
+
+while ($data = fread($fp, 8192)) {
+    if (!xml_parse($xml_parser, $data, feof($fp))) {
+        die(sprintf("XML error: %s at line %d",
+                    xml_error_string(xml_get_error_code($xml_parser)),
+                    xml_get_current_line_number($xml_parser)));
+    }
+}
+xml_parser_free($xml_parser);
+
+// ----------- generate the menu XHTML ---------------
+$thirdFlyoutMenuText = "<!-- begin generated flyout menu -->\n";
+
+if ($doDiv) {
+  $thirdFlyoutMenuText .= "<div class=\"flyoutmenu\">\n";
+}
+$thirdFlyoutMenuText .= "<!-- $Version -->\n";
+$thirdFlyoutMenuText .= "<!-- by Ken True - webmaster[at]saratoga-weather.org and -->\n";
+$thirdFlyoutMenuText .= "<!-- by Mike Challis - webmaster[at]642weather.com  -->\n";
+$thirdFlyoutMenuText .= "<!-- Adapted from Stu Nicholl's CSS/XHTML at http://www.cssplay.co.uk/menus/flyout_4level.html -->\n";
+$thirdFlyoutMenuText .= "<!-- script available at http://saratoga-weather.org/scripts-CSSmenu.php#flyout -->\n";
+
+
+$thirdFlyoutMenuText .= "<!-- using \n" . print_r($FlyoutMenuColors,true) . " -->\n";
+$thirdFlyoutMenuText .= "<!-- using $MENUdef for XML, doTrans=$doTrans -->\n";
+
+for ($i=1;$i<count($MENU);$i++) { // loop over all menu items -1
+  $depth = $MENU[$i]['depth'];
+  $nextdepth = $MENU[$i+1]['depth'];
+  $indent = str_repeat("  ",$depth);
+  $link = $MENU[$i]['link'];
+  $title = $MENU[$i]['title'];
+  $target = $MENU[$i]['target'];
+  $img = $MENU[$i]['img'];
+  $align = $MENU[$i]['align'];
+  $wxonly = $MENU[$i]['wxonly'];
+  $wxonlydisplay = '';
+  $wxonlyPrefix = '';
+  $wxonlySuffix = '';
+  if($wxonly <> '' and ! preg_match("|$WXsoftware|i",$wxonly) ) { // see if this menu is allowed
+    $wxonlydisplay = 'wxonly=\''.$wxonly.'\' ';
+    $wxonlyPrefix = "<!-- not used with $WXsoftware ";
+    $wxonlySuffix = " -->";
+  }
+  if ($doTrans and $title <> '') { $title = preg_replace('|"|','&quot;',langtransstr($title)); }
+  $caption = $doTrans?preg_replace('|"|','&quot;',langtransstr($MENU[$i]['caption'])):$MENU[$i]['caption'];
+//  $caption = htmlspecialchars($caption);
+
+  if ($target <> '') {
+    $target = ' target="' . $target . '"';
+  } else {
+    $target = '';
+  }
+  
+  if ($link <> '') {
+    $link = 'href="' . langtransstr($link) . '"';
+  //$link = 'href="' . $link . '"';
+  } else {
+    $link = 'href="' . "#" . '"';
+  }
+  
+  if ($title <> '') {
+    $title = ' title="' . $title . '"';
+  } else {
+    $title = '';
+  }
+  
+  $leftimg = '';
+  $rightimg = '';
+  
+  if ($img <> '') {
+    $img = '<img src="' . $img . '" style="border:none" alt=" "/>';
+  if (preg_match('|left|i',$align)) {
+     $leftimg = $img;
+  } else {
+    $rightimg = $img;
+  }
+  }
+
+  if ($i==1) { // start of entire image
+    $thirdFlyoutMenuText .= "<ul>\n";
+  }
+  if ($Debug) {
+    $thirdFlyoutMenuText .= "$indent<!-- $i: depth=$depth next=$nextdepth $wxonlydisplay caption='" . $MENU[$i]['caption'] . "' link='" . $MENU[$i]['link'] ."' title='" . $MENU[$i]['title'] . "' -  ";
+  }
+  if ($depth < $nextdepth) { // -------------------  start of new submenu 
+    if ($Debug) {
+      $thirdFlyoutMenuText .= "Start new submenu -->\n";
+  }
+  $thirdFlyoutMenuText .= "$indent$wxonlyPrefix<li class=\"dropdown\"><a class=\"drop-link\"$link$title$target>$leftimg" . $caption . "$rightimg<!--[if gte IE 7]><!--></a>$wxonlySuffix<!--<![endif]-->
+$indent  <!--[if lte IE 6]><table><tr><td><![endif]-->
+$indent  <ul class=\"dropdown-content\">\n";
+  
+  }
+  
+  if ($depth > $nextdepth) { // --------------------  end of new submenu
+    if ($Debug) {
+      $thirdFlyoutMenuText .= "End new submenu -->\n";
+  }
+  $thirdFlyoutMenuText .= "$indent$wxonlyPrefix<li><a $link$title$target>$leftimg" . $caption . "$rightimg</a></li>$wxonlySuffix\n";
+  
+  for ($j=$depth; $j > $nextdepth ;$j--) { // close off intervening submenu(s)
+  
+    $newindent = str_repeat("  ",$j-1);
+  $thirdFlyoutMenuText .= "$newindent  </ul>
+$newindent  <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+$newindent</li>\n";
+    }
+   
+
+  }
+  
+  if ($depth == $nextdepth) { // ---------------------- menu item at current depth
+    if ($Debug) {
+      $thirdFlyoutMenuText .= "Normal menu item -->\n";
+  }
+  $thirdFlyoutMenuText .= "$indent$wxonlyPrefix<li><a $link$title$target>$leftimg" . $caption . "$rightimg</a></li>$wxonlySuffix\n";
+  
+  }
+  
+  if ($i==count($MENU)-1) {
+    $thirdFlyoutMenuText .= "</ul>\n";
+  }
+} // end of loop over menu items
+if ($doDiv) {
+  $thirdFlyoutMenuText .= "</div>\n";
+}
+$thirdFlyoutMenuText .= "<!-- end generated flyout menu -->\n";
+if ($doPrintMenu) {
+  print $thirdFlyoutMenuText;
+}
+
+if ($Debug) {
+  print $Status;
+}
+
+
+
+
+/**
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ * 
+ */
+
 
 
 
@@ -622,6 +838,40 @@ width: 110px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -moz-animation: fadein 1s; /* Firefox */
+    -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera */
+    animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 .dropdown:hover .dropdown-content {

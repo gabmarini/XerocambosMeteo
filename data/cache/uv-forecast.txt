@@ -1,8 +1,8 @@
 HTTP/1.1 200 OK
-Date: Tue, 22 Nov 2016 09:41:39 GMT
+Date: Tue, 29 Nov 2016 20:51:06 GMT
 Server: Apache/2.4.6 (Red Hat) PHP/5.4.16
 X-Powered-By: PHP/5.4.16
-Content-Length: 5322
+Content-Length: 5318
 Connection: close
 Content-Type: text/html; charset=UTF-8
 
@@ -167,29 +167,29 @@ Content-Type: text/html; charset=UTF-8
 <tr><td align=left ><i>&nbsp;<br>&nbsp; Date</i> </td>
     <td align=right><i>UV <br>&nbsp; index</i> </td>
     <td align=right><i>ozone <br>column</i> </td></tr>
-<tr><td align=right nowrap>&nbsp; 22 Nov 2016 </td>
+<tr><td align=right nowrap>&nbsp; 29 Nov 2016 </td>
     <td align=right nowrap> 2.6 </td>
-    <td align=right nowrap>&nbsp;  306.6 DU </td>
+    <td align=right nowrap>&nbsp;  286.4 DU </td>
 </tr>
-<tr><td align=right nowrap>&nbsp; 23 Nov 2016 </td>
-    <td align=right nowrap> 2.8 </td>
-    <td align=right nowrap>&nbsp;  287.8 DU </td>
+<tr><td align=right nowrap>&nbsp; 30 Nov 2016 </td>
+    <td align=right nowrap> 2.3 </td>
+    <td align=right nowrap>&nbsp;  310.4 DU </td>
 </tr>
-<tr><td align=right nowrap>&nbsp; 24 Nov 2016 </td>
-    <td align=right nowrap> 2.8 </td>
-    <td align=right nowrap>&nbsp;  283.0 DU </td>
+<tr><td align=right nowrap>&nbsp; 1 Dec 2016 </td>
+    <td align=right nowrap> 2.3 </td>
+    <td align=right nowrap>&nbsp;  312.8 DU </td>
 </tr>
-<tr><td align=right nowrap>&nbsp; 25 Nov 2016 </td>
-    <td align=right nowrap> 2.6 </td>
-    <td align=right nowrap>&nbsp;  293.1 DU </td>
+<tr><td align=right nowrap>&nbsp; 2 Dec 2016 </td>
+    <td align=right nowrap> 2.3 </td>
+    <td align=right nowrap>&nbsp;  310.9 DU </td>
 </tr>
-<tr><td align=right nowrap>&nbsp; 26 Nov 2016 </td>
-    <td align=right nowrap> 2.8 </td>
-    <td align=right nowrap>&nbsp;  279.7 DU </td>
+<tr><td align=right nowrap>&nbsp; 3 Dec 2016 </td>
+    <td align=right nowrap> 2.4 </td>
+    <td align=right nowrap>&nbsp;  299.1 DU </td>
 </tr>
-<tr><td align=right nowrap>&nbsp; 27 Nov 2016 </td>
-    <td align=right nowrap> 2.8 </td>
-    <td align=right nowrap>&nbsp;  278.3 DU </td>
+<tr><td align=right nowrap>&nbsp; 4 Dec 2016 </td>
+    <td align=right nowrap> 2.3 </td>
+    <td align=right nowrap>&nbsp;  300.0 DU </td>
 </tr>
 </table>
 </dl>

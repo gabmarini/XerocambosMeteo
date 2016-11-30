@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<menu>
+<item caption="Connections" link="">
+	<item caption="Flights to Crete" link="http://www.xerocamboscreta.com/Vettori.aerei.uk.htm"/>
+	<item caption="Ferries booking" link="http://www.xerocamboscreta.com/Prenotazioni.navi.uk.htm"/>
+	<item caption="Once in Crete" link=""/>
+	<item caption="Info" link="http://www.xerocamboscreta.com/InfoCreteuk.htm"/>
+	<item caption="Temperatures" link="http://www.xerocamboscreta.com/Average%20temperatures.htm"/>
+	<item caption="Road maps" link="http://www.xerocamboscreta.com/Index%20Road%20Maps.htm"/>
+	<item caption="Distances" link="http://www.xerocamboscreta.com/Distanze.Creta.uk.htm"/>
+	<item caption="Car Rental" link="http://www.xerocamboscreta.com/Car%20Rental%20uk.htm"/>
+	<item caption="Public transport" link="https://rethymnon.com/TheBus-Bus-Service-Crete/default.html"/>
+	<item caption="Hicking" link="http://www.xerocamboscreta.com/Sentieri.uk.htm"/>
+	<item caption="Accomodations" link="http://www.xerocamboscreta.com/Vacanze.Creta.uk.htm"/>
+	<item caption="Booking.com" link="http://www.xerocamboscreta.com/Creta.bk.uk.htm"/>
+	<item caption="Crete by Yacht" link="https://www.incrediblue.com/en/yacht-search/Greece/Crete?lkws_10806=582efb24-59fe-35ac-4955-da0f2e15ded8"/>
+</item>
+<item caption="District Chanià" link="">
+	<item caption="Kastelli/Kissamos" link="http://www.xerocamboscreta.com/Kissamosuk.htm"/>
+	<item caption="Falassarna" link="http://www.xerocamboscreta.com/Falassarna.uk.htm"/>
+	<item caption="Paleochora" link="http://www.xerocamboscreta.com/Paleochora.uk.htm"/>
+	<item caption="Frangokastello" link="http://www.xerocamboscreta.com/Frangokastello.uk.htm"/>
+</item>
+<item caption="District Rethymno" link="">
+	<item caption="Plakiàs" link="http://www.xerocamboscreta.com/Plakiasuk.htm"/>
+</item>
+<item caption="District Heraklion" link="">
+	<item caption="Pano Hersonissos" link="http://www.xerocamboscreta.com/Pano.Hersonissos.uk.htm"/>
+</item>
+<item caption="District Lassithi" link="">
+	<item caption="Useful numbers" link="http://www.xerocamboscreta.com/TelefoniUtiliuk.htm"/>
+	<item caption="Sissi" link="http://www.xerocamboscreta.com/Sissi.uk.htm"/>
+	<item caption="Mochlos" link="http://www.xerocamboscreta.com/Mochlosuk.htm"/>
+	<item caption="Sitia" link="http://www.xerocamboscreta.com/Sitiauk.htm"/>
+	<item caption="Vai" link="http://www.xerocamboscreta.com/Vaiuk.htm"/>
+	<item caption="Palekastro" link="http://www.xerocamboscreta.com/Palekastrouk.htm"/>
+	<item caption="AgathiÃ s" link="http://www.xerocamboscreta.com/Agathiasuk.htm"/>
+	<item caption="Zakros" link="http://www.xerocamboscreta.com/Zakrosuk.htm"/>
+	<item caption="Kato Zakros" link="http://www.xerocamboscreta.com/KatoZakrosuk.htm"/>
+	<item caption="Agia Irini" link="http://www.xerocamboscreta.com/Agia%20Irini%20uk.htm"/>
+	<item caption="Hametoulo" link="http://www.xerocamboscreta.com/Hametoulouk.htm"/>
+	<item caption="Ziros" link="http://www.xerocamboscreta.com/Zirosuk.htm"/>
+	<item caption="Makrigialos" link="http://www.xerocamboscreta.com/Makrigialos%20uk.htm"/>
+	<item caption="Myrtos" link="http://www.xerocamboscreta.com/Myrtosuk.htm"/>
+	<item caption="Fishing East Crete" link="http://www.xerocamboscreta.com/PTuk.htm"/>
+</item>
+<item caption="Not only Crete" link="">
+	<item caption="Greek Language (it)" link="http://www.xerocamboscreta.com/Lingua%20Greca.htm"/>
+	<item caption="Greek recipes" link="http://www.xerocamboscreta.com/CucinaGrecauk.htm"/>
+</item>
+</menu>

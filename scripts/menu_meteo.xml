@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <menu>
 <item caption="Real-time data" link="wxindex.php"/>
 <item caption="Satellite Greece" link="wxradar.php"/>
@@ -11,7 +11,7 @@
 <item caption="External links" link="">
 	<item caption="Meteokrites (el)" link="http://meteokrites.gr/stations.php"/>
 	<item caption="Poseidon (el-en)" link="http://www.poseidon.hcmr.gr/weather_forecast.php?area_id=gr"/>
-	<item caption="Windfinder" link="http://www.xerocamboscreta.com/Meteo.Xero.it.htm"/>
+	<item caption="Windfinder" link="http://www.xerocamboscreta.com/Meteo.Xero.uk.htm"/>
 </item>
 <item caption="European meteo links" link="">
 	<item caption="MeteoNetwork (it)" link="http://www.meteonetwork.it/rete/livemap/"/>

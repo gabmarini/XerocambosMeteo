@@ -36,7 +36,7 @@ require_once("common.php");
 <!-- menubar -->
 <div class="doNotPrint">
       <div class="leftSideBar">
-        <p class="sideBarTitle"><?php langtrans('Navigation'); ?></p>
+        <p class="sideBarTitle"><?php langtrans('Weather Menu'); ?></p>
 <?php 
 // NOTE: when adding new links to the site, put them in as <li></li> entries in
 //   the <ul></ul> shown below.  The order of the links is the order they appear
@@ -68,13 +68,18 @@ $html = '
  if (isset($SITE['flyoutmenu']) and $SITE['flyoutmenu']) {
    global $FlyoutMenuText;
    global $secondFlyoutMenuText;
+   global $thirdFlyoutMenuText;
 
    print "<div class=\"flyoutmenu\">\n";
    print $secondFlyoutMenuText;
    print "</div>\n";
-   print "<p class=\"sideBarTitle\">".langtransstr('Site Nav')."</p>\n";
+   print "<p class=\"sideBarTitle\">".langtransstr('Sitemap')."</p>\n";
    print "<div class=\"flyoutmenu\">\n";
    print $FlyoutMenuText;
+   print "</div>\n";
+   print "<p class=\"sideBarTitle\">".langtransstr('Crete')."</p>\n";
+   print "<div class=\"flyoutmenu\">\n";
+   print $thirdFlyoutMenuText;
    print "</div>\n";
  } else {
 	gen_navlinks($html); // generate the links set with highlight for the current page
