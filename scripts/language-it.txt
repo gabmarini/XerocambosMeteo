@@ -90,3 +90,186 @@ langlookup|External links|Links esterni|
 langlookup|European meteo links|Links europei meteo|
 langlookup|https://en.wikipedia.org/wiki/Beaufort_scale|http://www.xerocamboscreta.com/Scale%20vento%20e%20mare.htm|
 langlookup|http://www.xerocamboscreta.com/Meteo.Xero.uk.htm|http://www.xerocamboscreta.com/Meteo.Xero.it.htm|
+langlookup|Connections|Collegamenti|
+langlookup|Flights to Crete|Voli Italia-Creta|
+langlookup|Ferries booking|Prenotazioni traghetti|
+langlookup|Once in Crete|Una volta a Creta|
+langlookup|Temperatures|Temperature|
+langlookup|Road maps|Carte Stradali|
+langlookup|Distances|Distanze|
+langlookup|Car Rental|Autonoleggio|
+langlookup|Public transport|Autobus pubblici (en)|
+langlookup|Hicking|Sentieri|
+langlookup|Accomodations|Alloggi|
+langlookup|Crete by Yacht|Yacht a Creta|
+langlookup|District Chanià|Provincia Chanià|
+langlookup|Kastelli/Kissamos|Kastelli/Kissamos|
+langlookup|Falassarna|Falassarna|
+langlookup|Paleochora|Paleochora|
+langlookup|Frangokastello|Frangokastello|
+langlookup|District Rethymno|Provincia Rethymno|
+langlookup|Plakiàs|Plakiàs|
+langlookup|District Heraklion|Provincia Heraklion|
+langlookup|Pano Hersonissos|Pano Hersonissos|
+langlookup|District Lassithi|Provincia Lassithi|
+langlookup|Useful numbers|Telefoni utili|
+langlookup|Fishing East Crete|Pesca Creta est|
+langlookup|Not only Crete|Non solo Creta|
+langlookup|Greek Language (it)|Lingua Greca|
+langlookup|Greek recipes|Cucina Greca|
+langlookup|http://www.xerocamboscreta.com/Vettori.aerei.uk.htm|http://www.xerocamboscreta.com/Vettori%20aerei%20it.htm|
+langlookup|http://www.xerocamboscreta.com/Prenotazioni.navi.uk.htm|http://www.xerocamboscreta.com/Prenotazioni.navi.it.htm|
+langlookup|http://www.xerocamboscreta.com/InfoCreteuk.htm|http://www.xerocamboscreta.com/InfoCreta.htm|
+langlookup|http://www.xerocamboscreta.com/Average%20temperatures.htm|http://www.xerocamboscreta.com/Temperature%20medie.htm|
+langlookup|http://www.xerocamboscreta.com/Index%20Road%20Maps.htm|http://www.xerocamboscreta.com/Raccordo%20Carte%20Stradali.htm|
+langlookup|http://www.xerocamboscreta.com/Distanze.Creta.uk.htm|http://www.xerocamboscreta.com/Distanze.Creta.it.htm|
+langlookup|http://www.xerocamboscreta.com/Car%20Rental%20uk.htm|http://www.xerocamboscreta.com/Autonoleggio%20it.htm|
+langlookup|https://rethymnon.com/TheBus-Bus-Service-Crete/default.html|https://rethymnon.com/TheBus-Bus-Service-Crete/default.html|
+langlookup|http://www.xerocamboscreta.com/Sentieri.uk.htm|http://www.xerocamboscreta.com/Sentieri.it.htm|
+langlookup|http://www.xerocamboscreta.com/Vacanze.Creta.uk.htm|http://www.xerocamboscreta.com/Vacanze.Creta.uk.htm|
+langlookup|http://www.xerocamboscreta.com/Creta.bk.uk.htm|http://www.xerocamboscreta.com/Creta.bk.it.htm|
+langlookup|http://www.xerocamboscreta.com/Kissamosuk.htm|http://www.xerocamboscreta.com/Kissamosit.htm|
+langlookup|http://www.xerocamboscreta.com/Falassarna.uk.htm|http://www.xerocamboscreta.com/Falassarna.it.htm|
+langlookup|http://www.xerocamboscreta.com/Paleochora.uk.htm|http://www.xerocamboscreta.com/Paleochora.it.htm|
+langlookup|http://www.xerocamboscreta.com/Frangokastello.uk.htm|http://www.xerocamboscreta.com/Frangokastello.it.htm|
+langlookup|http://www.xerocamboscreta.com/Plakiasuk.htm|http://www.xerocamboscreta.com/Plakiasit.htm|
+langlookup|http://www.xerocamboscreta.com/Pano.Hersonissos.uk.htm|http://www.xerocamboscreta.com/Pano.Hersonissos.it.htm|
+langlookup|http://www.xerocamboscreta.com/TelefoniUtiliuk.htm|http://www.xerocamboscreta.com/TelefoniUtili.htm|
+langlookup|http://www.xerocamboscreta.com/Sissi.uk.htm|http://www.xerocamboscreta.com/Sissi.it.htm|
+langlookup|http://www.xerocamboscreta.com/Mochlosuk.htm|http://www.xerocamboscreta.com/Mochlosit.htm|
+langlookup|http://www.xerocamboscreta.com/Sitiauk.htm|http://www.xerocamboscreta.com/Sitiait.htm|
+langlookup|http://www.xerocamboscreta.com/Vaiuk.htm|http://www.xerocamboscreta.com/Vaiit.htm|
+langlookup|http://www.xerocamboscreta.com/Palekastrouk.htm|http://www.xerocamboscreta.com/Palekastroit.htm|
+langlookup|http://www.xerocamboscreta.com/Agathiasuk.htm|http://www.xerocamboscreta.com/Agathiasit.htm|
+langlookup|http://www.xerocamboscreta.com/Zakrosuk.htm|http://www.xerocamboscreta.com/Zakrosit.htm|
+langlookup|http://www.xerocamboscreta.com/KatoZakrosuk.htm|http://www.xerocamboscreta.com/KatoZakrosit.htm|
+langlookup|http://www.xerocamboscreta.com/Agia%20Irini%20uk.htm|http://www.xerocamboscreta.com/Agia%20Irini%20it.htm|
+langlookup|http://www.xerocamboscreta.com/Hametoulouk.htm|http://www.xerocamboscreta.com/Hametouloit.htm|
+langlookup|http://www.xerocamboscreta.com/Zirosuk.htm|http://www.xerocamboscreta.com/Zirosit.htm|
+langlookup|http://www.xerocamboscreta.com/Makrigialos%20uk.htm|http://www.xerocamboscreta.com/Makrigialos%20it.htm|
+langlookup|http://www.xerocamboscreta.com/Myrtosuk.htm|http://www.xerocamboscreta.com/Myrtosit.htm|
+langlookup|http://www.xerocamboscreta.com/PTuk.htm|http://www.xerocamboscreta.com/PTit.htm|
+langlookup|http://www.xerocamboscreta.com/CucinaGrecauk.htm|http://www.xerocamboscreta.com/CucinaGrecait.htm|
+langlookup|Connections|Collegamenti|
+langlookup|Flights to Crete|Voli Italia-Creta|
+langlookup|Ferries booking|Prenotazioni traghetti|
+langlookup|Once in Crete|Una volta a Creta|
+langlookup|Temperatures|Temperature|
+langlookup|Road maps|Carte Stradali|
+langlookup|Distances|Distanze|
+langlookup|Car Rental|Autonoleggio|
+langlookup|Public transport|Autobus pubblici (en)|
+langlookup|Hicking|Sentieri|
+langlookup|Accomodations|Alloggi|
+langlookup|Crete by Yacht|Yacht a Creta|
+langlookup|District Chanià|Provincia Chanià|
+langlookup|Kastelli/Kissamos|Kastelli/Kissamos|
+langlookup|Falassarna|Falassarna|
+langlookup|Paleochora|Paleochora|
+langlookup|Frangokastello|Frangokastello|
+langlookup|District Rethymno|Provincia Rethymno|
+langlookup|Plakiàs|Plakiàs|
+langlookup|District Heraklion|Provincia Heraklion|
+langlookup|Pano Hersonissos|Pano Hersonissos|
+langlookup|District Lassithi|Provincia Lassithi|
+langlookup|Useful numbers|Telefoni utili|
+langlookup|Fishing East Crete|Pesca Creta est|
+langlookup|Not only Crete|Non solo Creta|
+langlookup|Greek Language (it)|Lingua Greca|
+langlookup|Greek recipes|Cucina Greca|
+langlookup|http://www.xerocamboscreta.com/Vettori.aerei.uk.htm|http://www.xerocamboscreta.com/Vettori%20aerei%20it.htm|
+langlookup|http://www.xerocamboscreta.com/Prenotazioni.navi.uk.htm|http://www.xerocamboscreta.com/Prenotazioni.navi.it.htm|
+langlookup|http://www.xerocamboscreta.com/InfoCreteuk.htm|http://www.xerocamboscreta.com/InfoCreta.htm|
+langlookup|http://www.xerocamboscreta.com/Average%20temperatures.htm|http://www.xerocamboscreta.com/Temperature%20medie.htm|
+langlookup|http://www.xerocamboscreta.com/Index%20Road%20Maps.htm|http://www.xerocamboscreta.com/Raccordo%20Carte%20Stradali.htm|
+langlookup|http://www.xerocamboscreta.com/Distanze.Creta.uk.htm|http://www.xerocamboscreta.com/Distanze.Creta.it.htm|
+langlookup|http://www.xerocamboscreta.com/Car%20Rental%20uk.htm|http://www.xerocamboscreta.com/Autonoleggio%20it.htm|
+langlookup|https://rethymnon.com/TheBus-Bus-Service-Crete/default.html|https://rethymnon.com/TheBus-Bus-Service-Crete/default.html|
+langlookup|http://www.xerocamboscreta.com/Sentieri.uk.htm|http://www.xerocamboscreta.com/Sentieri.it.htm|
+langlookup|http://www.xerocamboscreta.com/Vacanze.Creta.uk.htm|http://www.xerocamboscreta.com/Vacanze.Creta.uk.htm|
+langlookup|http://www.xerocamboscreta.com/Creta.bk.uk.htm|http://www.xerocamboscreta.com/Creta.bk.it.htm|
+langlookup|http://www.xerocamboscreta.com/Kissamosuk.htm|http://www.xerocamboscreta.com/Kissamosit.htm|
+langlookup|http://www.xerocamboscreta.com/Falassarna.uk.htm|http://www.xerocamboscreta.com/Falassarna.it.htm|
+langlookup|http://www.xerocamboscreta.com/Paleochora.uk.htm|http://www.xerocamboscreta.com/Paleochora.it.htm|
+langlookup|http://www.xerocamboscreta.com/Frangokastello.uk.htm|http://www.xerocamboscreta.com/Frangokastello.it.htm|
+langlookup|http://www.xerocamboscreta.com/Plakiasuk.htm|http://www.xerocamboscreta.com/Plakiasit.htm|
+langlookup|http://www.xerocamboscreta.com/Pano.Hersonissos.uk.htm|http://www.xerocamboscreta.com/Pano.Hersonissos.it.htm|
+langlookup|http://www.xerocamboscreta.com/TelefoniUtiliuk.htm|http://www.xerocamboscreta.com/TelefoniUtili.htm|
+langlookup|http://www.xerocamboscreta.com/Sissi.uk.htm|http://www.xerocamboscreta.com/Sissi.it.htm|
+langlookup|http://www.xerocamboscreta.com/Mochlosuk.htm|http://www.xerocamboscreta.com/Mochlosit.htm|
+langlookup|http://www.xerocamboscreta.com/Sitiauk.htm|http://www.xerocamboscreta.com/Sitiait.htm|
+langlookup|http://www.xerocamboscreta.com/Vaiuk.htm|http://www.xerocamboscreta.com/Vaiit.htm|
+langlookup|http://www.xerocamboscreta.com/Palekastrouk.htm|http://www.xerocamboscreta.com/Palekastroit.htm|
+langlookup|http://www.xerocamboscreta.com/Agathiasuk.htm|http://www.xerocamboscreta.com/Agathiasit.htm|
+langlookup|http://www.xerocamboscreta.com/Zakrosuk.htm|http://www.xerocamboscreta.com/Zakrosit.htm|
+langlookup|http://www.xerocamboscreta.com/KatoZakrosuk.htm|http://www.xerocamboscreta.com/KatoZakrosit.htm|
+langlookup|http://www.xerocamboscreta.com/Agia%20Irini%20uk.htm|http://www.xerocamboscreta.com/Agia%20Irini%20it.htm|
+langlookup|http://www.xerocamboscreta.com/Hametoulouk.htm|http://www.xerocamboscreta.com/Hametouloit.htm|
+langlookup|http://www.xerocamboscreta.com/Zirosuk.htm|http://www.xerocamboscreta.com/Zirosit.htm|
+langlookup|http://www.xerocamboscreta.com/Makrigialos%20uk.htm|http://www.xerocamboscreta.com/Makrigialos%20it.htm|
+langlookup|http://www.xerocamboscreta.com/Myrtosuk.htm|http://www.xerocamboscreta.com/Myrtosit.htm|
+langlookup|http://www.xerocamboscreta.com/PTuk.htm|http://www.xerocamboscreta.com/PTit.htm|
+langlookup|http://www.xerocamboscreta.com/CucinaGrecauk.htm|http://www.xerocamboscreta.com/CucinaGrecait.htm|
+langlookup|Connections|Collegamenti|
+langlookup|Flights to Crete|Voli Italia-Creta|
+langlookup|Ferries booking|Prenotazioni traghetti|
+langlookup|Once in Crete|Una volta a Creta|
+langlookup|Temperatures|Temperature|
+langlookup|Road maps|Carte Stradali|
+langlookup|Distances|Distanze|
+langlookup|Car Rental|Autonoleggio|
+langlookup|Public transport|Autobus pubblici (en)|
+langlookup|Hicking|Sentieri|
+langlookup|Accomodations|Alloggi|
+langlookup|Crete by Yacht|Yacht a Creta|
+langlookup|District Chanià|Provincia Chanià|
+langlookup|Kastelli/Kissamos|Kastelli/Kissamos|
+langlookup|Falassarna|Falassarna|
+langlookup|Paleochora|Paleochora|
+langlookup|Frangokastello|Frangokastello|
+langlookup|District Rethymno|Provincia Rethymno|
+langlookup|Plakiàs|Plakiàs|
+langlookup|District Heraklion|Provincia Heraklion|
+langlookup|Pano Hersonissos|Pano Hersonissos|
+langlookup|District Lassithi|Provincia Lassithi|
+langlookup|Useful numbers|Telefoni utili|
+langlookup|Other on Crete|Altre info Creta|
+langlookup|Events Summer '16|Eventi Estate '16|
+langlookup|Fishing East Crete|Pesca Creta est|
+langlookup|Not only Crete|Non solo Creta|
+langlookup|Greek Language (it)|Lingua Greca|
+langlookup|Greek recipes|Cucina Greca|
+langlookup|http://www.xerocamboscreta.com/Vettori.aerei.uk.htm|http://www.xerocamboscreta.com/Vettori%20aerei%20it.htm|
+langlookup|http://www.xerocamboscreta.com/Prenotazioni.navi.uk.htm|http://www.xerocamboscreta.com/Prenotazioni.navi.it.htm|
+langlookup|http://www.xerocamboscreta.com/InfoCreteuk.htm|http://www.xerocamboscreta.com/InfoCreta.htm|
+langlookup|http://www.xerocamboscreta.com/Average%20temperatures.htm|http://www.xerocamboscreta.com/Temperature%20medie.htm|
+langlookup|http://www.xerocamboscreta.com/Index%20Road%20Maps.htm|http://www.xerocamboscreta.com/Raccordo%20Carte%20Stradali.htm|
+langlookup|http://www.xerocamboscreta.com/Distanze.Creta.uk.htm|http://www.xerocamboscreta.com/Distanze.Creta.it.htm|
+langlookup|http://www.xerocamboscreta.com/Car%20Rental%20uk.htm|http://www.xerocamboscreta.com/Autonoleggio%20it.htm|
+langlookup|https://rethymnon.com/TheBus-Bus-Service-Crete/default.html|https://rethymnon.com/TheBus-Bus-Service-Crete/default.html|
+langlookup|http://www.xerocamboscreta.com/Sentieri.uk.htm|http://www.xerocamboscreta.com/Sentieri.it.htm|
+langlookup|http://www.xerocamboscreta.com/Vacanze.Creta.uk.htm|http://www.xerocamboscreta.com/Vacanze.Creta.uk.htm|
+langlookup|http://www.xerocamboscreta.com/Creta.bk.uk.htm|http://www.xerocamboscreta.com/Creta.bk.it.htm|
+langlookup|http://www.xerocamboscreta.com/Kissamosuk.htm|http://www.xerocamboscreta.com/Kissamosit.htm|
+langlookup|http://www.xerocamboscreta.com/Falassarna.uk.htm|http://www.xerocamboscreta.com/Falassarna.it.htm|
+langlookup|http://www.xerocamboscreta.com/Paleochora.uk.htm|http://www.xerocamboscreta.com/Paleochora.it.htm|
+langlookup|http://www.xerocamboscreta.com/Frangokastello.uk.htm|http://www.xerocamboscreta.com/Frangokastello.it.htm|
+langlookup|http://www.xerocamboscreta.com/Plakiasuk.htm|http://www.xerocamboscreta.com/Plakiasit.htm|
+langlookup|http://www.xerocamboscreta.com/Pano.Hersonissos.uk.htm|http://www.xerocamboscreta.com/Pano.Hersonissos.it.htm|
+langlookup|http://www.xerocamboscreta.com/TelefoniUtiliuk.htm|http://www.xerocamboscreta.com/TelefoniUtili.htm|
+langlookup|http://www.xerocamboscreta.com/Sissi.uk.htm|http://www.xerocamboscreta.com/Sissi.it.htm|
+langlookup|http://www.xerocamboscreta.com/Mochlosuk.htm|http://www.xerocamboscreta.com/Mochlosit.htm|
+langlookup|http://www.xerocamboscreta.com/Sitiauk.htm|http://www.xerocamboscreta.com/Sitiait.htm|
+langlookup|http://www.xerocamboscreta.com/Vaiuk.htm|http://www.xerocamboscreta.com/Vaiit.htm|
+langlookup|http://www.xerocamboscreta.com/Palekastrouk.htm|http://www.xerocamboscreta.com/Palekastroit.htm|
+langlookup|http://www.xerocamboscreta.com/Agathiasuk.htm|http://www.xerocamboscreta.com/Agathiasit.htm|
+langlookup|http://www.xerocamboscreta.com/Zakrosuk.htm|http://www.xerocamboscreta.com/Zakrosit.htm|
+langlookup|http://www.xerocamboscreta.com/KatoZakrosuk.htm|http://www.xerocamboscreta.com/KatoZakrosit.htm|
+langlookup|http://www.xerocamboscreta.com/Agia%20Irini%20uk.htm|http://www.xerocamboscreta.com/Agia%20Irini%20it.htm|
+langlookup|http://www.xerocamboscreta.com/Hametoulouk.htm|http://www.xerocamboscreta.com/Hametouloit.htm|
+langlookup|http://www.xerocamboscreta.com/Zirosuk.htm|http://www.xerocamboscreta.com/Zirosit.htm|
+langlookup|http://www.xerocamboscreta.com/Makrigialos%20uk.htm|http://www.xerocamboscreta.com/Makrigialos%20it.htm|
+langlookup|http://www.xerocamboscreta.com/Myrtosuk.htm|http://www.xerocamboscreta.com/Myrtosit.htm|
+langlookup|http://www.xerocamboscreta.com/Creta.estate.16.gen.uk.htm|http://www.xerocamboscreta.com/Creta.estate.16.gen.it.htm|
+langlookup|http://www.xerocamboscreta.com/PTuk.htm|http://www.xerocamboscreta.com/PTit.htm|
+langlookup|http://www.xerocamboscreta.com/CucinaGrecauk.htm|http://www.xerocamboscreta.com/CucinaGrecait.htm|

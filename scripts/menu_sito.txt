@@ -1,12 +1,12 @@
-Home Page{http://www.xerocamboscreta.com/index%20uk.htm}[Pagina index{http://www.xerocamboscreta.com/index.htm}|Indexseite{}|Page d&#39;index{}|Αρχική Σελίδα{}]
+Home Page{http://www.xerocamboscreta.com/index%20uk.htm}[Pagina index{http://www.xerocamboscreta.com/index.htm}|Indexseite{}|Page d'index{}|Αρχική Σελίδα{}]
 
 Xerocampos{}[Xerocambos{}|Xerokampos{}|Xérocambos{}|Ξερόκαμπος]
 -Description{http://www.xerocamboscreta.com/Description%20uk.htm}[Descrizione{http://www.xerocamboscreta.com/Descrizione%20X.htm}|Beschreibung{http://www.xerocamboscreta.com/Descrizione%20XD.htm}|Description{http://www.xerocamboscreta.com/Description%20F.htm}|Περιγραφή{http://www.xerocamboscreta.com/Descrizione%20Xgr.htm}]
 -Photos{http://www.xerocamboscreta.com/Photographic%20Album.htm}[Fotografie{http://www.xerocamboscreta.com/Album%20Foto%20it.htm}|Fotos{http://www.xerocamboscreta.com/Photographic%20Album%20D.htm}|Photos{http://www.xerocamboscreta.com/Photographic%20Album%20F.htm}|Φωτογραφίες{http://www.xerocamboscreta.com/Album%20Foto%20gr.htm}]
 -Drone{http://www.xerocamboscreta.com/Volare.uk.htm}[Drone{http://www.xerocamboscreta.com/Volare.it.htm}|Drohne{http://www.xerocamboscreta.com/Volare.D.htm}|Drone{http://www.xerocamboscreta.com/Volare.F.htm}|Drone{http://www.xerocamboscreta.com/Volare.gr.htm}]
--How to reach{http://www.xerocamboscreta.com/Comearuk.htm}[Come arrivarci{http://www.xerocamboscreta.com/Comearit.htm}|Wie man erreicht{http://www.xerocamboscreta.com/ComearD.htm}|Comment s&#39;y rendre{http://www.xerocamboscreta.com/ComearF.htm}|Πως θα το Βρείτε{http://www.xerocamboscreta.com/Comeargr.htm}]
+-How to reach{http://www.xerocamboscreta.com/Comearuk.htm}[Come arrivarci{http://www.xerocamboscreta.com/Comearit.htm}|Wie man erreicht{http://www.xerocamboscreta.com/ComearD.htm}|Comment s'y rendre{http://www.xerocamboscreta.com/ComearF.htm}|Πως θα το Βρείτε{http://www.xerocamboscreta.com/Comeargr.htm}]
 -Accomodations{http://www.xerocamboscreta.com/Appuk.htm}[Alloggi{http://www.xerocamboscreta.com/Appit.htm}|Unterkünfte{http://www.xerocamboscreta.com/AppD.htm}|Hébergements{http://www.xerocamboscreta.com/AppF.htm}|Καταλύματα{http://www.xerocamboscreta.com/Appgr.htm}]
--Houses &amp; land{http://www.xerocamboscreta.com/V.uk.htm}[Terreni &amp; case{http://www.xerocamboscreta.com/V.it.htm}|Häuser &amp; Land{http://www.xerocamboscreta.com/V.D.htm}|Maisons &amp; terrains{http://www.xerocamboscreta.com/V.F.htm}|Σπίτια &amp; οικόπεδα{http://www.xerocamboscreta.com/V.gr.htm}]
+-Houses & land{http://www.xerocamboscreta.com/V.uk.htm}[Terreni &amp; case{http://www.xerocamboscreta.com/V.it.htm}|Häuser &amp; Land{http://www.xerocamboscreta.com/V.D.htm}|Maisons &amp; terrains{http://www.xerocamboscreta.com/V.F.htm}|Σπίτια &amp; οικόπεδα{http://www.xerocamboscreta.com/V.gr.htm}]
 -Friends{http://www.xerocamboscreta.com/Amici%20uk.htm}[Amici{http://www.xerocamboscreta.com/Amici%20it.htm}|Freunde{http://www.xerocamboscreta.com/Amici%20D.htm}|Amis{http://www.xerocamboscreta.com/Amici%20F.htm}|Φίλοι{http://www.xerocamboscreta.com/Amici%20gr.htm}]
 -Guestbook (it){http://www.xerocamboscreta.com/Guestbook.htm}[|||]
 

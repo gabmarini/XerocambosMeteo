@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="iso-8859-1" ?>
 <menu>
 <item caption="Connections" link="">
 	<item caption="Flights to Crete" link="http://www.xerocamboscreta.com/Vettori.aerei.uk.htm"/>
@@ -42,6 +42,9 @@
 	<item caption="Ziros" link="http://www.xerocamboscreta.com/Zirosuk.htm"/>
 	<item caption="Makrigialos" link="http://www.xerocamboscreta.com/Makrigialos%20uk.htm"/>
 	<item caption="Myrtos" link="http://www.xerocamboscreta.com/Myrtosuk.htm"/>
+</item>
+<item caption="Other on Crete" link="">
+	<item caption="Events Summer '16" link="http://www.xerocamboscreta.com/Creta.estate.16.gen.uk.htm"/>
 	<item caption="Fishing East Crete" link="http://www.xerocamboscreta.com/PTuk.htm"/>
 </item>
 <item caption="Not only Crete" link="">

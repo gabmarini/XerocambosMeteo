@@ -41,8 +41,8 @@ District Lassithi{}[Provincia Lassithi{}|Provinz Lassithi{}|Région Lassithi{}|�
 -Makrigialos{http://www.xerocamboscreta.com/Makrigialos%20uk.htm}[{http://www.xerocamboscreta.com/Makrigialos%20it.htm}|{http://www.xerocamboscreta.com/Makrigialos%20D.htm}|{http://www.xerocamboscreta.com/Makrigialos%20F.htm}|Μακρύ Γιαλός{http://www.xerocamboscreta.com/Makrigialos%20gr.htm}]
 -Myrtos{http://www.xerocamboscreta.com/Myrtosuk.htm}[{http://www.xerocamboscreta.com/Myrtosit.htm}|{http://www.xerocamboscreta.com/MyrtosD.htm}|{http://www.xerocamboscreta.com/MyrtosF.htm}|Μύρτος{http://www.xerocamboscreta.com/Myrtosgr.htm}]
 
-Other on Crete{}[Altre info Creta{}|Andere über Kreta{}|D&#39;autres sur Crète{}|Άλλο στην Κρήτη{}]
--Events Summer &#39;16{http://www.xerocamboscreta.com/Creta.estate.16.gen.uk.htm}[Eventi Estate &#39;16{http://www.xerocamboscreta.com/Creta.estate.16.gen.it.htm}|Events Sommer &#39;16{http://www.xerocamboscreta.com/Creta.estate.16.gen.D.htm}|Événements été &#39;16{http://www.xerocamboscreta.com/Creta.estate.16.gen.F.htm}|Καλοκαίρι &#39;16{http://www.xerocamboscreta.com/Creta.estate.16.gen.gr.htm}]
+Other on Crete{}[Altre info Creta{}|Andere über Kreta{}|D'autres sur Crète{}|Άλλο στην Κρήτη{}]
+-Events Summer '16{http://www.xerocamboscreta.com/Creta.estate.16.gen.uk.htm}[Eventi Estate '16{http://www.xerocamboscreta.com/Creta.estate.16.gen.it.htm}|Events Sommer '16{http://www.xerocamboscreta.com/Creta.estate.16.gen.D.htm}|Événements été '16{http://www.xerocamboscreta.com/Creta.estate.16.gen.F.htm}|Καλοκαίρι '16{http://www.xerocamboscreta.com/Creta.estate.16.gen.gr.htm}]
 -Fishing East Crete{http://www.xerocamboscreta.com/PTuk.htm}[Pesca Creta est{http://www.xerocamboscreta.com/PTit.htm}|Angeln Ostkreta{http://www.xerocamboscreta.com/PTD.htm}|Pêche Est Crète{http://www.xerocamboscreta.com/PTF.htm}|Ψάρεμα Ανατ. Κρήτη{http://www.xerocamboscreta.com/PTgr.htm}]
 
 Not only Crete{}[Non solo Creta{}|Nicht nur Kreta{}|Pas seulement Crète{}|Όχι μόνο Κρήτη{}]
