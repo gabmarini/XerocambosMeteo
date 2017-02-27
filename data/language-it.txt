@@ -774,17 +774,19 @@ langlookup|Public transport|Autobus pubblici (en)|
 langlookup|Hicking|Sentieri|
 langlookup|Accomodations|Alloggi|
 langlookup|Crete by Yacht|Yacht a Creta|
-langlookup|District Chani√†|Provincia Chani&agrave;|
+langlookup|District Chania|Provincia Chania|
 langlookup|Kastelli/Kissamos|Kastelli/Kissamos|
 langlookup|Falassarna|Falassarna|
 langlookup|Paleochora|Paleochora|
 langlookup|Frangokastello|Frangokastello|
 langlookup|District Rethymno|Provincia Rethymno|
-langlookup|Plaki‡|Plaki‡|
+langlookup|Plakias|Plakias|
 langlookup|District Heraklion|Provincia Heraklion|
 langlookup|Pano Hersonissos|Pano Hersonissos|
 langlookup|District Lassithi|Provincia Lassithi|
 langlookup|Useful numbers|Telefoni utili|
+langlookup|Other on Crete|Altre info Creta|
+langlookup|Events Summer '16|Eventi Estate '16|
 langlookup|Fishing East Crete|Pesca Creta est|
 langlookup|Not only Crete|Non solo Creta|
 langlookup|Greek Language (it)|Lingua Greca|
@@ -820,28 +822,9 @@ langlookup|http://www.xerocamboscreta.com/Hametoulouk.htm|http://www.xerocambosc
 langlookup|http://www.xerocamboscreta.com/Zirosuk.htm|http://www.xerocamboscreta.com/Zirosit.htm|
 langlookup|http://www.xerocamboscreta.com/Makrigialos%20uk.htm|http://www.xerocamboscreta.com/Makrigialos%20it.htm|
 langlookup|http://www.xerocamboscreta.com/Myrtosuk.htm|http://www.xerocamboscreta.com/Myrtosit.htm|
+langlookup|http://www.xerocamboscreta.com/Creta.estate.16.gen.uk.htm|http://www.xerocamboscreta.com/Creta.estate.16.gen.it.htm|
 langlookup|http://www.xerocamboscreta.com/PTuk.htm|http://www.xerocamboscreta.com/PTit.htm|
 langlookup|http://www.xerocamboscreta.com/CucinaGrecauk.htm|http://www.xerocamboscreta.com/CucinaGrecait.htm|
-langlookup|Xerocampos|Xerocambos|
-langlookup|Description|Descrizione|
-langlookup|Photos|Fotografie|
-langlookup|Drone|Drone|
-langlookup|Accomodations|Alloggi|
-langlookup|Houses &amp; land|Terreni &amp; case|
-langlookup|Friends|Amici|
-langlookup|Meteo database (it)|Archivio Meteo|
-langlookup|Yesterday (it)|Ieri|
-langlookup|From 2004 (it)|Dal 2004|
-langlookup|Winds graphs|Grafici vento|
-langlookup|Temperatures graphs|Grafici temperature|
-langlookup|http://www.xerocamboscreta.com/Description%20uk.htm|http://www.xerocamboscreta.com/Descrizione%20X.htm|
-langlookup|http://www.xerocamboscreta.com/Photographic%20Album.htm|http://www.xerocamboscreta.com/Album%20Foto%20it.htm|
-langlookup|http://www.xerocamboscreta.com/Volare.uk.htm|http://www.xerocamboscreta.com/Volare.it.htm|
-langlookup|http://www.xerocamboscreta.com/Appuk.htm|http://www.xerocamboscreta.com/Appit.htm|
-langlookup|http://www.xerocamboscreta.com/V.uk.htm|http://www.xerocamboscreta.com/V.it.htm|
-langlookup|http://www.xerocamboscreta.com/Amici%20uk.htm|http://www.xerocamboscreta.com/Amici%20it.htm|
-langlookup|http://www.xerocamboscreta.com/Vento%20uk.htm|http://www.xerocamboscreta.com/Vento.htm|
-langlookup|http://www.xerocamboscreta.com/Temperature%20uk.htm|http://www.xerocamboscreta.com/Temperature.htm|
 langlookup|Real-time data|Dati in tempo reale|
 langlookup|Satellite Greece|Satellite grecia|
 langlookup|UV Index|Indice UV|
@@ -854,3 +837,28 @@ langlookup|External links|Links esterni|
 langlookup|European meteo links|Links europei meteo|
 langlookup|https://en.wikipedia.org/wiki/Beaufort_scale|http://www.xerocamboscreta.com/Scale%20vento%20e%20mare.htm|
 langlookup|http://www.xerocamboscreta.com/Meteo.Xero.uk.htm|http://www.xerocamboscreta.com/Meteo.Xero.it.htm|
+langlookup|Home Page|Pagina index|
+langlookup|Xerocampos|Xerocambos|
+langlookup|Description|Descrizione|
+langlookup|Photos|Fotografie|
+langlookup|Drone|Drone|
+langlookup|How to reach|Come arrivarci|
+langlookup|Accomodations|Alloggi|
+langlookup|Houses & land|Terreni &amp; case|
+langlookup|Friends|Amici|
+langlookup|Meteo database (it)|Archivio Meteo|
+langlookup|Yesterday (it)|Ieri|
+langlookup|From 2004 (it)|Dal 2004|
+langlookup|Winds graphs|Grafici vento|
+langlookup|Temperatures graphs|Grafici temperature|
+langlookup|http://www.xerocamboscreta.com/index%20uk.htm|http://www.xerocamboscreta.com/index.htm|
+langlookup|http://www.xerocamboscreta.com/Description%20uk.htm|http://www.xerocamboscreta.com/Descrizione%20X.htm|
+langlookup|http://www.xerocamboscreta.com/Photographic%20Album.htm|http://www.xerocamboscreta.com/Album%20Foto%20it.htm|
+langlookup|http://www.xerocamboscreta.com/Volare.uk.htm|http://www.xerocamboscreta.com/Volare.it.htm|
+langlookup|http://www.xerocamboscreta.com/Comearuk.htm|http://www.xerocamboscreta.com/Comearit.htm|
+langlookup|http://www.xerocamboscreta.com/Appuk.htm|http://www.xerocamboscreta.com/Appit.htm|
+langlookup|http://www.xerocamboscreta.com/V.uk.htm|http://www.xerocamboscreta.com/V.it.htm|
+langlookup|http://www.xerocamboscreta.com/Amici%20uk.htm|http://www.xerocamboscreta.com/Amici%20it.htm|
+langlookup|http://www.xerocamboscreta.com/Vento%20uk.htm|http://www.xerocamboscreta.com/Vento.htm|
+langlookup|http://www.xerocamboscreta.com/Temperature%20uk.htm|http://www.xerocamboscreta.com/Temperature.htm|
+

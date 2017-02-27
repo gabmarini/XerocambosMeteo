@@ -3,7 +3,8 @@
 <item caption="Connections" link="">
 	<item caption="Flights to Crete" link="http://www.xerocamboscreta.com/Vettori.aerei.uk.htm"/>
 	<item caption="Ferries booking" link="http://www.xerocamboscreta.com/Prenotazioni.navi.uk.htm"/>
-	<item caption="Once in Crete" link=""/>
+</item>
+<item caption="Once in Crete" link="">
 	<item caption="Info" link="http://www.xerocamboscreta.com/InfoCreteuk.htm"/>
 	<item caption="Temperatures" link="http://www.xerocamboscreta.com/Average%20temperatures.htm"/>
 	<item caption="Road maps" link="http://www.xerocamboscreta.com/Index%20Road%20Maps.htm"/>
@@ -15,14 +16,14 @@
 	<item caption="Booking.com" link="http://www.xerocamboscreta.com/Creta.bk.uk.htm"/>
 	<item caption="Crete by Yacht" link="https://www.incrediblue.com/en/yacht-search/Greece/Crete?lkws_10806=582efb24-59fe-35ac-4955-da0f2e15ded8"/>
 </item>
-<item caption="District Chanià" link="">
+<item caption="District Chania" link="">
 	<item caption="Kastelli/Kissamos" link="http://www.xerocamboscreta.com/Kissamosuk.htm"/>
 	<item caption="Falassarna" link="http://www.xerocamboscreta.com/Falassarna.uk.htm"/>
 	<item caption="Paleochora" link="http://www.xerocamboscreta.com/Paleochora.uk.htm"/>
 	<item caption="Frangokastello" link="http://www.xerocamboscreta.com/Frangokastello.uk.htm"/>
 </item>
 <item caption="District Rethymno" link="">
-	<item caption="Plakiàs" link="http://www.xerocamboscreta.com/Plakiasuk.htm"/>
+	<item caption="Plakias" link="http://www.xerocamboscreta.com/Plakiasuk.htm"/>
 </item>
 <item caption="District Heraklion" link="">
 	<item caption="Pano Hersonissos" link="http://www.xerocamboscreta.com/Pano.Hersonissos.uk.htm"/>
@@ -34,7 +35,7 @@
 	<item caption="Sitia" link="http://www.xerocamboscreta.com/Sitiauk.htm"/>
 	<item caption="Vai" link="http://www.xerocamboscreta.com/Vaiuk.htm"/>
 	<item caption="Palekastro" link="http://www.xerocamboscreta.com/Palekastrouk.htm"/>
-	<item caption="AgathiÃ s" link="http://www.xerocamboscreta.com/Agathiasuk.htm"/>
+	<item caption="Agathias" link="http://www.xerocamboscreta.com/Agathiasuk.htm"/>
 	<item caption="Zakros" link="http://www.xerocamboscreta.com/Zakrosuk.htm"/>
 	<item caption="Kato Zakros" link="http://www.xerocamboscreta.com/KatoZakrosuk.htm"/>
 	<item caption="Agia Irini" link="http://www.xerocamboscreta.com/Agia%20Irini%20uk.htm"/>
@@ -42,6 +43,9 @@
 	<item caption="Ziros" link="http://www.xerocamboscreta.com/Zirosuk.htm"/>
 	<item caption="Makrigialos" link="http://www.xerocamboscreta.com/Makrigialos%20uk.htm"/>
 	<item caption="Myrtos" link="http://www.xerocamboscreta.com/Myrtosuk.htm"/>
+</item>
+<item caption="Other on Crete" link="">
+	<item caption="Events Summer '16" link="http://www.xerocamboscreta.com/Creta.estate.16.gen.uk.htm"/>
 	<item caption="Fishing East Crete" link="http://www.xerocamboscreta.com/PTuk.htm"/>
 </item>
 <item caption="Not only Crete" link="">

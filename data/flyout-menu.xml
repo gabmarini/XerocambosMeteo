@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
 <menu>
+<item caption="Home Page" link="http://www.xerocamboscreta.com/index%20uk.htm"/>
 <item caption="Xerocampos" link="">
 	<item caption="Description" link="http://www.xerocamboscreta.com/Description%20uk.htm"/>
 	<item caption="Photos" link="http://www.xerocamboscreta.com/Photographic%20Album.htm"/>
 	<item caption="Drone" link="http://www.xerocamboscreta.com/Volare.uk.htm"/>
+	<item caption="How to reach" link="http://www.xerocamboscreta.com/Comearuk.htm"/>
 	<item caption="Accomodations" link="http://www.xerocamboscreta.com/Appuk.htm"/>
 	<item caption="Houses &amp; land" link="http://www.xerocamboscreta.com/V.uk.htm"/>
 	<item caption="Friends" link="http://www.xerocamboscreta.com/Amici%20uk.htm"/>
