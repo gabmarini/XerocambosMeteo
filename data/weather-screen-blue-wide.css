@@ -260,6 +260,25 @@ color: white;
   font-weight: bold;
 }
 
+.stats-top {
+  color: #000066;
+  background-color: #AAFFFF;
+  line-height: 3em;
+}
+
+.stats-light {
+  color: #AAFFFF;
+  background-color: #0033CC;
+  line-height: 2em;
+}
+
+.stats-dark {
+  color: #0000FF;
+  background-color: #0099FF;
+  line-height: 2em;
+}
+
+
 .column-dark {
   /*color: black;*/
   /*background-color: #F1F8FE;*/
