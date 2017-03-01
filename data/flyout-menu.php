@@ -173,7 +173,7 @@ for ($i=1;$i<count($MENU);$i++) { // loop over all menu items -1
   }
   
   if ($link <> '') {
-    if (strpos(langtransstr($link), "www.xerocamboscreta.com") !== false || strpos($link, "http") === false) {
+    if (!preg_match('/https|http|www/', langtransstr($link))) {
       $link = 'href="' . langtransstr($link) . '"';
     } else {
       $link = 'href="' . langtransstr($link) . '" target="_blank"';
@@ -357,7 +357,7 @@ for ($i=1;$i<count($MENU);$i++) { // loop over all menu items -1
   }
   
   if ($link <> '') {
-    if (strpos(langtransstr($link), "www.xerocamboscreta.com") !== false || strpos($link, "http") === false) {
+    if (!preg_match('/https|http|www/', langtransstr($link))) {
       $link = 'href="' . langtransstr($link) . '"';
     } else {
       $link = 'href="' . langtransstr($link) . '" target="_blank"';
@@ -575,7 +575,7 @@ for ($i=1;$i<count($MENU);$i++) { // loop over all menu items -1
   }
   
   if ($link <> '') {
-    if (strpos(langtransstr($link), "www.xerocamboscreta.com") !== false || strpos($link, "http") === false) {
+    if (!preg_match('/https|http|www/', langtransstr($link))) {
       $link = 'href="' . langtransstr($link) . '"';
     } else {
       $link = 'href="' . langtransstr($link) . '" target="_blank"';
