@@ -99,9 +99,9 @@ if (isset($_REQUEST['solar'])) {$haveSolar = $_REQUEST['solar'] <> '0';}
 <span class="ajax" id="ajaxtime"><?php echo adjustWDtime($time); ?></span> </h2>
 <p>&nbsp;</p>
 
-<table width="99%" cellpadding="0" cellspacing="0" border="0">
+<table width="99%" cellpadding="3px" cellspacing="1px" border="0">
 
-<tr class="table-top" style="text-align: center">
+<tr class="table-top stats-top" style="text-align: center">
 <td><?php echo langtrans('TIME'); ?></td>
 <td><?php echo langtrans('TEMP'); ?><br/> <?php echo $uomTemp; ?></td>
 <td><?php echo langtrans('WIND SPEED'); ?><br/> <?php echo $uomWind; ?></td>
@@ -111,7 +111,7 @@ if (isset($_REQUEST['solar'])) {$haveSolar = $_REQUEST['solar'] <> '0';}
 <td><?php echo langtrans('RAIN'); ?><br/> <?php echo $uomRain; ?></td>
 </tr>
 
-<tr class="column-light" style="text-align: center">
+<tr class="stats-light" style="text-align: center">
 <td><?php echo langtrans('Current'); ?></td>
 <td><span class="ajax" id="ajaxtempNoU"><?php echo $temp0minuteago; ?></span></td>
 <td><span class="ajax" id="ajaxwindNoU"><?php echo $wind0minuteago; ?></span></td>
@@ -121,7 +121,7 @@ if (isset($_REQUEST['solar'])) {$haveSolar = $_REQUEST['solar'] <> '0';}
 <td><span class="ajax" id="ajaxrainNoU"><?php echo $rain0minuteago; ?></span></td>
 </tr>
 <?php if(isset($temp5minuteago)) { ?>
-<tr class="column-dark" style="text-align: center">
+<tr class="stats-dark" style="text-align: center">
 <td><?php echo langtrans('5 minutes ago'); ?></td>
 <td><?php echo $temp5minuteago; ?></td>
 <td><?php echo $wind5minuteago; ?></td>
@@ -133,7 +133,7 @@ if (isset($_REQUEST['solar'])) {$haveSolar = $_REQUEST['solar'] <> '0';}
 <?php } ?>
 
 <?php if(isset($temp10minuteago)) { ?>
-<tr class="column-light" style="text-align: center">
+<tr class="stats-light" style="text-align: center">
 <td><?php echo langtrans('10 minutes ago'); ?></td>
 <td><?php echo $temp10minuteago; ?></td>
 <td><?php echo $wind10minuteago; ?></td>
@@ -145,7 +145,7 @@ if (isset($_REQUEST['solar'])) {$haveSolar = $_REQUEST['solar'] <> '0';}
 <?php } ?>
 
 <?php if(isset($temp15minuteago)) { ?>
-<tr class="column-dark" style="text-align: center">
+<tr class="stats-dark" style="text-align: center">
 <td><?php echo langtrans('15 minutes ago'); ?></td>
 <td><?php echo $temp15minuteago; ?></td>
 <td><?php echo $wind15minuteago; ?></td>
@@ -157,7 +157,7 @@ if (isset($_REQUEST['solar'])) {$haveSolar = $_REQUEST['solar'] <> '0';}
 <?php } ?>
 
 <?php if(isset($temp30minuteago)) { ?>
-<tr class="column-light" style="text-align: center">
+<tr class="stats-light" style="text-align: center">
 <td><?php echo langtrans('30 minutes ago'); ?></td>
 <td><?php echo $temp30minuteago; ?></td>
 <td><?php echo $wind30minuteago; ?></td>
@@ -169,7 +169,7 @@ if (isset($_REQUEST['solar'])) {$haveSolar = $_REQUEST['solar'] <> '0';}
 <?php } ?>
 
 <?php if(isset($temp60minuteago)) { ?>
-<tr class="column-dark" style="text-align: center">
+<tr class="stats-dark" style="text-align: center">
 <td><?php echo langtrans('60 minutes ago'); ?></td>
 <td><?php echo $temp60minuteago; ?></td>
 <td><?php echo $wind60minuteago; ?></td>
@@ -184,9 +184,9 @@ if (isset($_REQUEST['solar'])) {$haveSolar = $_REQUEST['solar'] <> '0';}
 
 	  <h1 style="margin: 10px 0;"><?php langtrans('Records and Stats'); ?></h1> 
 
-<table width="99%" cellpadding="0" cellspacing="0" border="0">
+<table width="99%" cellpadding="3px" cellspacing="1px" border="0">
 
-<tr class="table-top">
+<tr class="table-top stats-top">
 <td colspan="2"><?php echo langtrans('RAIN'); ?></td>
 <?php if((isset($dayswithnorain) and isset($dateoflastrainalways)) or
       isset($raincurrentweek) or isset($dayswithrain) or isset($dayswithrainyear)) { ?>
@@ -196,7 +196,7 @@ if (isset($_REQUEST['solar'])) {$haveSolar = $_REQUEST['solar'] <> '0';}
 <?php } ?>
 </tr>
 
-<tr class="column-light">
+<tr class="stats-light">
 <td><?php echo langtrans('Today'); ?></td>
 <td><?php echo unUnit($dayrn) . $uomRain; ?> 
 (<?php echo unUnit($hourrn) . $uomRain; ?> <?php langtrans('last hour'); ?>) </td>
@@ -211,7 +211,7 @@ $dayswithnorain!=1?langtrans('days since last rain on'):langtrans('day since las
 <?php } // end dayswithnorain, dateoflastrainalways ?>
 </tr>
 
-<tr class="column-dark">
+<tr class="stats-dark">
 <td><?php echo langtrans('Yest.'); ?></td>
 <td><?php echo unUnit($yesterdayrain) . $uomRain; ?></td>
 <?php if(isset($raincurrentweek)) { ?>
@@ -223,7 +223,7 @@ $dayswithnorain!=1?langtrans('days since last rain on'):langtrans('day since las
 <?php } ?>
 </tr>
 
-<tr class="column-light">
+<tr class="stats-light">
 <td><?php echo langtrans('Month'); ?>&nbsp;</td>
 <td><?php echo unUnit($monthrn) . $uomRain; ?> 
 <?php if(isset($dayswithrain)) { ?> 
@@ -239,7 +239,7 @@ $dayswithnorain!=1?langtrans('days since last rain on'):langtrans('day since las
 <?php } // end if isset($raintodatemonthago) ?>
 </tr>
 
-<tr class="column-dark">
+<tr class="stats-dark">
 <td><?php echo langtrans('Year'); ?></td>
 <td><?php echo unUnit($yearrn) . $uomRain; ?>
 <?php if (isset($dayswithrainyear)) { ?>
@@ -256,12 +256,12 @@ $dayswithnorain!=1?langtrans('days since last rain on'):langtrans('day since las
 <?php } // end if isset($raintodateyearago) ?>
 </tr>
 
-<tr class="table-top">
+<tr class="table-top stats-top">
 <td colspan="2"><?php echo langtrans('TEMPERATURE HIGHS'); ?></td>
 <td colspan="2"><?php echo langtrans('TEMPERATURE LOWS'); ?></td>
 </tr>
 
-<tr class="column-light">
+<tr class="stats-light">
 <td><?php echo langtrans('Today'); ?></td>
 <td><?php echo unUnit($maxtemp).' '.$uomTemp; ?> <?php langtrans('at'); ?> <?php echo adjustWDtime($maxtempt); ?></td>
 <td><?php echo langtrans('Today'); ?></td>
@@ -269,14 +269,14 @@ $dayswithnorain!=1?langtrans('days since last rain on'):langtrans('day since las
 </tr>
 
 <?php if(isset($maxtempyest) and isset($mintempyest)) { ?>
-<tr class="column-dark">
+<tr class="stats-dark">
 <td><?php echo langtrans('Yest.'); ?></td>
 <td><?php echo unUnit($maxtempyest).' '.$uomTemp; ?> <?php langtrans('at'); ?> <?php echo adjustWDtime($maxtempyestt); ?></td>
 <td><?php echo langtrans('Yest.'); ?></td>
 <td><?php echo unUnit($mintempyest). " $uomTemp"; ?> <?php langtrans('at'); ?> <?php echo adjustWDtime($mintempyestt); ?></td>
 </tr>
 <?php } // end for yesterday min/max temp row ?>
-<tr class="column-light">
+<tr class="stats-light">
 <td><?php echo langtrans('Month'); ?>&nbsp;</td>
 <td><?php echo unUnit($mrecordhightemp).' '.$uomTemp; ?> <?php langtrans('on'); ?> 
 <?php echo formatDateYMD($mrecordhightempyear,$mrecordhightempmonth,$mrecordhightempday); ?></td>
@@ -285,7 +285,7 @@ $dayswithnorain!=1?langtrans('days since last rain on'):langtrans('day since las
 <?php echo formatDateYMD($mrecordlowtempyear,$mrecordlowtempmonth,$mrecordlowtempday); ?></td>
 </tr>
 
-<tr class="column-dark">
+<tr class="stats-dark">
 <td><?php echo langtrans('Year'); ?></td>
 <td><?php echo unUnit($yrecordhightemp).' '.$uomTemp; ?> <?php langtrans('on'); ?> 
 <?php echo formatDateYMD($yrecordhightempyear,$yrecordhightempmonth,$yrecordhightempday); ?>
@@ -297,12 +297,12 @@ $dayswithnorain!=1?langtrans('days since last rain on'):langtrans('day since las
 </td>
 </tr>
 
-<tr class="table-top">
+<tr class="table-top stats-top">
 <td colspan="2"><?php echo langtrans('BAROMETER LOWS'); ?></td>
 <td colspan="2"><?php echo langtrans('WIND CHILL LOWS'); ?></td>
 </tr>
 
-<tr class="column-light">
+<tr class="stats-light">
 
 <td><?php echo langtrans('Today'); ?></td>
 <td><?php echo unUnit($lowbaro). $uomBaro; ?> <?php langtrans('at'); ?> <?php echo adjustWDtime($lowbarot); ?></td>
@@ -310,7 +310,7 @@ $dayswithnorain!=1?langtrans('days since last rain on'):langtrans('day since las
 <td><?php echo unUnit($minwindch). " $uomTemp"; ?> <?php langtrans('at'); ?> <?php echo adjustWDtime($minwindcht); ?></td>
 </tr>
 <?php if(isset($minbaroyest) and isset($minchillyest)) { ?>
-<tr class="column-dark">
+<tr class="stats-dark">
 <td><?php echo langtrans('Yest.'); ?></td>
 <td><?php echo unUnit($minbaroyest). $uomBaro; ?> <?php langtrans('at'); ?> <?php echo adjustWDtime($minbaroyestt); ?></td>
 <td><?php echo langtrans('Yest.'); ?></td>
@@ -318,7 +318,7 @@ $dayswithnorain!=1?langtrans('days since last rain on'):langtrans('day since las
 </tr>
 <?php } // end both minbaro and minwindchill for yesterday exist ?>
 
-<tr class="column-light">
+<tr class="stats-dark">
 <td><?php echo langtrans('Month'); ?>&nbsp;</td>
 <td><?php echo unUnit($mrecordlowbaro). $uomBaro; ?> <?php langtrans('on'); ?> 
 <?php echo formatDateYMD($mrecordlowbaroyear,$mrecordlowbaromonth,$mrecordlowbaroday); ?></td>
@@ -327,7 +327,7 @@ $dayswithnorain!=1?langtrans('days since last rain on'):langtrans('day since las
 <?php echo formatDateYMD($mrecordlowchillyear,$mrecordlowchillmonth,$mrecordlowchillday); ?></td>
 </tr>
 
-<tr class="column-dark">
+<tr class="stats-light">
 
 <td><?php echo langtrans('Year'); ?></td>
 <td><?php echo unUnit($yrecordlowbaro). $uomBaro; ?> <?php langtrans('on'); ?> 
@@ -342,26 +342,26 @@ $dayswithnorain!=1?langtrans('days since last rain on'):langtrans('day since las
 ####################################
 # Following section only valid if station has Solar sensor
 ?>
-<tr class="table-top">
+<tr class="table-top stats-top">
 <td colspan="2"><?php echo langtrans('EVAPOTRANSPIRATION'); ?></td>
 <td colspan="2"><?php echo langtrans('RAIN'); ?></td>
 </tr>
 
-<tr class="column-light">
+<tr class="stats-light">
 <td><?php echo langtrans('Today'); ?></td>
 <td><?php echo unUnit($VPet) . $uomRain; ?></td>
 <td><?php echo langtrans('Today'); ?></td>
 <td><?php echo unUnit($dayrn) . $uomRain; ?></td>
 </tr>
 
-<tr class="column-dark">
+<tr class="stats-dark">
 <td><?php echo langtrans('Yest.'); ?></td>
 <td><?php echo unUnit($yesterdaydaviset) . $uomRain; ?></td>
 <td><?php echo langtrans('Yest.'); ?></td>
 <td><?php echo unUnit($yesterdayrain) . $uomRain; ?></td>
 </tr>
 
-<tr class="column-light">
+<tr class="stats-light">
 <td><?php echo langtrans('Month'); ?>&nbsp;</td>
 <td><?php echo unUnit($VPetmonth) . $uomRain; ?></td>
 <td><?php echo langtrans('Month'); ?>&nbsp;</td>
@@ -374,7 +374,7 @@ $dayswithnorain!=1?langtrans('days since last rain on'):langtrans('day since las
 ####################### solar and UV depending on $haveSolar and $haveUV settings
 if ($haveSolar or $haveUV) {
 ?>
-<tr class="table-top">
+<tr class="table-top stats-top">
 <?php if ($haveSolar) { ?>
 <td colspan="2"><?php echo langtrans('SOLAR HIGHS'); ?></td>
 <?php }
@@ -383,7 +383,7 @@ if ($haveSolar or $haveUV) {
 <?php } ?>
 </tr>
 
-<tr class="column-light">
+<tr class="stats-light">
 <?php if ($haveSolar) { ?>
 <td><?php echo langtrans('Today'); ?></td>
 <td><?php echo $highsolar; ?> W/m<sup>2</sup> <?php langtrans('at'); ?> <?php echo adjustWDtime($highsolartime); ?></td>
@@ -394,7 +394,7 @@ if ($haveSolar or $haveUV) {
 <?php } ?>
 </tr>
 
-<tr class="column-dark">
+<tr class="stats-dark">
 <?php if ($haveSolar and isset($highsolaryest)) { ?>
 <td><?php echo langtrans('Yest.'); ?></td>
 <td><?php echo $highsolaryest; ?> W/m<sup>2</sup> <?php langtrans('at'); ?> <?php echo adjustWDtime($highsolaryesttime); ?></td>
@@ -413,11 +413,11 @@ if ($haveSolar or $haveUV) {
 	  <h1 style="margin: 10px 0;"><?php langtrans('Wind Data'); ?></h1> 
 
 
-<table width="99%" cellpadding="0" cellspacing="0" border="0">
+<table width="99%" cellpadding="3px" cellspacing="1px" border="0">
 
-<tr class="table-top">
+<tr class="table-top stats-top">
 <td colspan="2"><?php echo langtrans('CURRENT'); ?></td>
-<td rowspan="10" align="center">
+<!--<td rowspan="10" align="center">
   <?php if(file_exists($graphImageDir."windrose.png")) { ?>
   <img src="<?php echo $graphImageDir; ?>windrose.png" width="300" height="300" alt="Wind direction plot"/>
   <?php } else {
@@ -425,41 +425,41 @@ if ($haveSolar or $haveUV) {
 	print "&nbsp;";
   } // end no windrose.png file 
   ?>
-</td>
+</td> -->
 </tr>
 
-<tr class="column-light">
+<tr class="stats-light">
 <td><?php echo langtrans('Now'); ?></td>
 <td><?php echo unUnit($avgspd).$uomWind; ?> <?php langtrans($dirlabel); ?></td>
 </tr>
 
-<tr class="column-dark">
+<tr class="stats-dark">
 <td><?php echo langtrans('Gust'); ?></td>
 
 <td><?php echo unUnit($gstspd).$uomWind; ?> <?php langtrans($dirlabel); ?></td>
 </tr>
 
-<tr class="column-light">
+<tr class="stats-light">
 <td><?php echo langtrans('Gust/hr'); ?></td>
 <td><?php echo unUnit($maxgsthr).$uomWind; ?></td>
 </tr>
 
-<tr class="table-top">
+<tr class="table-top stats-top">
 <td colspan="2"><?php echo langtrans('WIND GUST HIGHS'); ?></td>
 </tr>
 
-<tr class="column-light">
+<tr class="stats-light">
 
 <td><?php echo langtrans('Today'); ?></td>
 <td><?php echo unUnit($maxgst) . $uomWind; ?> <?php langtrans($maxgstdirectionletter); ?> <?php langtrans('at'); ?> <?php echo adjustWDtime($maxgstt); ?></td>
 </tr>
 <?php if (isset($maxgustyest)) { ?>
-<tr class="column-dark">
+<tr class="stats-dark">
 <td><?php echo langtrans('Yest.'); ?></td>
 <td><?php echo unUnit($maxgustyest) . $uomWind; ?> <?php langtrans('at'); ?> <?php echo adjustWDtime($maxgustyestt); ?></td>
 </tr>
 <?php } // end $maxgustyest ?>
-<tr class="column-light">
+<tr class="stats-dark">
 <td><?php echo langtrans('Month'); ?>&nbsp;</td>
 <td><?php echo unUnit($mrecordwindgust) . $uomWind; ?> <?php langtrans('on'); ?> 
 <?php echo formatDateYMD($mrecordhighgustyear,$mrecordhighgustmonth,$mrecordhighgustday); ?>
@@ -467,7 +467,7 @@ if ($haveSolar or $haveUV) {
 
 </tr>
 
-<tr class="column-dark">
+<tr class="stats-light">
 <td><?php echo langtrans('Year'); ?></td>
 <td><?php echo unUnit($yrecordwindgust) . $uomWind; ?> <?php langtrans('on'); ?> 
 <?php echo formatDateYMD($yrecordhighgustyear,$yrecordhighgustmonth,$yrecordhighgustday); ?>
