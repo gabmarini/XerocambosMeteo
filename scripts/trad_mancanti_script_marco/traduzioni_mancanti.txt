@@ -1,0 +1,415 @@
+Animated icons courtesy of|de| Animierte Ikonen mit freundlicher Genehmigung von
+Animated icons courtesy of|el| Κινούμενες εικόνες ευγενική προσφορά του
+Animated icons courtesy of|en| Animated icons courtesy of
+Animated icons courtesy of|fr| Icônes animées courtoisie de
+Animated icons courtesy of|it| Icone animate per gentile concessione di
+BAROMETER LOWS|de| Barometrischen Minimum
+BAROMETER LOWS|el| Ελάχιστη βαρομετρική πίεση
+BAROMETER LOWS|en| Barometric minimums
+BAROMETER LOWS|fr| Minimum barométrique
+BAROMETER LOWS|it| Minime barometriche
+Calm|de|Ruhig
+Calm|el| Ήρεμο
+Calm|en|Calm
+Calm|fr|Calme
+Calm|it|Calmo
+Cluster - click to expand details|de| Cluster - Klicken Sie hier, um die Details anzuzeigen
+Cluster - click to expand details|el| Cluster - Κάντε κλικ εδώ για να δείτε τις λεπτομέρειες
+Cluster - click to expand details|en| Cluster - Click to expand details
+Cluster - click to expand details|fr| Cluster - Cliquez ici pour voir les détails
+Cluster - click to expand details|it| Sezioni – Clicca qui per vedere i dettagli
+Component|de| Komponente
+Component|el| Συστατικά
+Component|en|Component
+Component|fr| Composant
+Component|it|Componente
+Crete|de|Kreta
+Crete|el| Κρήτη
+Crete|en| Crete
+Crete|fr| Crète
+Crete|it| Creta
+Current Weather Gauges|de| Aktuelle Wetter-Indikator
+Current Weather Gauges|el| Τρέχουσες καιρικές συνθήκες
+Current Weather Gauges|en| Current Weather Gauges
+Current Weather Gauges|fr| Indicateurs météorologiques actuel
+Current Weather Gauges|it| Indicazioni meteorologiche attuali
+Daily Statistics|de| Tagesstatistik
+Daily Statistics|el| Ημερήσια στατιστικά
+Daily Statistics|en| Daily Statistics
+Daily Statistics|fr| Statistiques quotidiennes
+Daily Statistics|it| Statistiche giornaliere
+Depth|de| Tiefe
+Depth|el| Βάθος
+Depth|en| Depth
+Depth|fr| Profondeur
+Depth|it| Profondità
+Distance from station|de| Entfernung der Meteostation
+Distance from station|el| Απόσταση από το μετεωρολογικό σταθμό
+Distance from station|en| Distance from meteo station
+Distance from station|fr| Distance de la meteostation
+Distance from station|it| Distanza dalla stazione meteo
+Distance to epicenter|de| Entfernung zum Epizentrum
+Distance to Epicenter|el| Απόσταση από το επίκεντρο
+Distance to epicenter|en| Distance to epicenter
+Distance to epicenter|fr| Distance à l'épicentre
+Distance to Epicenter|it| Distanza dall'epicentro
+Earthquakes|de| Erdbeben
+Earthquakes|el| Σεισμοί
+Earthquakes|en| Earthquakes
+Earthquakes|fr| Séismes
+Earthquakes|it|Terremoti
+Erdbeben detektiert. Klicken Sie auf den Lage-oder Kartenlink für weitere Details aus dem <a href=\$mapMainURL\> USGS </a> |de|
+Earthquakes found. Click on location or map links for more details <a href=\$mapMainURL\>USGS</a>|en|
+Εντοπίστηκαν σεισμούς. Κάντε κλικ στην τοποθεσία στο χάρτη ή στις συνδέσεις για περισσότερες λεπτομέρειες <a href=\$mapMainURL\> USGS </a> |el|
+Tremblements de terre constaté. Cliquez sur l'emplacement ou de la carte des liens pour plus de détails <a href=\$mapMainURL\> USGS </a> |fr|
+Rilevati terremoti. Cliccate sulla posizione o sulla mappa dei link per maggiori dettagli  <a href=\$mapMainURL\> USGS </a> |it|
+Earthquakes in the past 7 days of magnitude|de| Erdbeben in den letzten 7 Tagen, Größenordnung
+Earthquakes in the past 7 days of magnitude|el| Σεισμοί τις τελευταίες 7 ημέρες, μεγέθους
+Earthquakes in the past 7 days of magnitude|en| Earthquakes in the past 7 days, magnitude
+Earthquakes in the past 7 days of magnitude|fr| Séismes au cours des 7 derniers jours, magnitude
+Earthquakes in the past 7 days of magnitude|it| Terremoti negli ultimi 7 giorni, magnitudo
+Earthquakes of magnitude|de| Erdbeben der Größenordnung
+Earthquakes of magnitude|el| Σεισμοί μεγέθους
+Earthquakes of magnitude|en| Earthquakes of magnitude
+Earthquakes of magnitude|fr| Séismes de magnitude
+Earthquakes of magnitude|it| Magnitudo terremoti
+Enable JavaScript to view the Google Map.|de| Aktivieren Sie JavaScript, um die Google Map anzuzeigen
+Enable JavaScript to view the Google Map.|el| Ενεργοποιήστε τη Javascript για να δείτε το χάρτη Google
+Enable JavaScript to view the Google Map.|en| Enable JavaScript to view the Google Map
+Enable JavaScript to view the Google Map.|fr| Activer JavaScript pour afficher la carte Google
+Enable JavaScript to view the Google Map.|it| Abilita Javascript per vedere la Google Map
+Epicenter Near|de| Epicenter in der Nähe von
+Epicenter Near|el| Επίκεντρο κοντά στο
+Epicenter Near|en| Epicenter Near
+Epicenter Near|fr| Epicentre Près de
+Epicenter Near|it| Epicentro vicino a
+for weather conditions reporting|de| Für Wetterberichte
+for weather conditions reporting|el| Για αναφορές σχετικά καιρικών συνθηκών
+for weather conditions reporting|en| For weather conditions reporting
+for weather conditions reporting|fr| Pour le compte rendu des conditions météorologiques
+for weather conditions reporting|it| Per segnalazioni delle condizioni meteorologiche
+Get Forecast|de| Prognose Erhalten
+Get Forecast|el| Δείτε πρόγνωση καιρού
+Get Forecast|en| Get Forecast
+Get Forecast|fr| Obtenir des prévisions
+Get Forecast|it| Accedi alle Previsioni
+Graphs generated by|de| Graphische Darstellung von
+Graphs generated by|el| Γραφήματα που δημιουργούνται από
+Graphs generated by|en| Graphs generated by
+Graphs generated by|fr| Graphiques générés par
+Graphs generated by|it| Grafici generati da
+greater than|de| Größer als
+greater than|el| Μεγαλύτερος από
+greater than|en| Greater than
+greater than|fr| Supérieur à
+greater than|it| Maggiore di
+GRLevel3 Radar FTP|de| GRLevel3 Radar FTP
+GRLevel3 Radar FTP|el| GRLevel3 Radar FTP
+GRLevel3 Radar FTP|en| GRLevel3 Radar FTP
+GRLevel3 Radar FTP|fr| GRLevel3 Radar FTP
+GRLevel3 Radar FTP|it| GRLevel3 Radar FTP
+Heat Index|de| Hitzeindex
+Heat Index|el| Δείκτης θερμότητας
+Heat Index|en| Heat Index
+Heat Index|fr| Indice de chaleur
+Heat Index|it| Indice di calore
+ + Hit CTRL-D to bookmark this page+ |de|+ Drücken Sie STRG-D diese Seite zum Bookmarken+
+ + Hit CTRL-D to bookmark this page+ |el| + Πατήστε Ctrl-D να σελιδοδείκτη αυτή τη σελίδα+
+ + Hit CTRL-D to bookmark this page+ |en| + Hit CTRL-D to bookmark this page+
+ + Hit CTRL-D to bookmark this page+ |fr|+ Appuyez sur CTRL-D pour ajouter cette page à vos favoris+
+ + Hit CTRL-D to bookmark this page+ |it|+ Premere Ctrl-D per aggiungere ai preferiti questa pagina+
+It was last started|de| Neuere Start
+It was last started|el| Τελευταία εκκίνησης
+It was last started|en| It was last started
+It was last started|fr| Récent démarrage
+It was last started|it| Avvio più recente
+Last 24 Hours|de| Letzte 24 Stunden
+Last 24 Hours|el| Τελευταίες 24 ώρες
+Last 24 Hours|en| Last 24 Hours
+Last 24 Hours|fr| Dernières 24 heures
+Last 24 Hours|it|Ultime 24 ore
+Last 72 Hours|de| Letzte 72 Stunden
+Last 72 Hours|el| Τελευταίες 72 ώρες
+Last 72 Hours|en| Last 72 Hours
+Last 72 Hours|fr| Dernières 72 heures
+Last 72 Hours|it|Ultime 72 ore
+Latest update time as of|de| Neueste Aktualisierungszeit ab
+Latest update time as of|el| Τελευταία ενημέρωση καιρού από
+Latest update time as of|en| Latest update time as of
+Latest update time as of|fr| Dernière mise à jour à partir de
+Latest update time as of|it| Ultimo aggiornamento del tempo a partire dal
+Link|de|Link
+Link|el| Σύνδεσμος
+Link|en| Link
+Link|fr| Lien
+Link|it| Link
+Local Time|de| Lokalzeit
+Local Time|el| Τοπική ώρα
+Local Time|en| Local Time
+Local Time|fr| Heure locale
+Local Time|it|Ora Locale
+Magnitude|de| Größenordnung
+Magnitude|el| Μεγέθους
+Magnitude|en| Magnitude
+Magnitude|fr| Magnitude
+Magnitude|it| Magnitudo
+Map and data courtesy of|de| Karte und Daten mit freundlicher Genehmigung von
+Map and data courtesy of|el| Χάρτη και στοιχεία με ευγενική προσφορά του
+Map and data courtesy of|en| Map and data courtesy of
+Map and data courtesy of|fr| Carte et données de courtoisie
+Map and data courtesy of|it| Mappa e dati per gentile concessione di
+Month report|de| Monatsbericht
+Month report|el| Συνοπτική μηνιαία
+Month report|en| Month report
+Month report|fr| Rapport du mois
+Month report|it| Rapporto mensile
+Month to Date|de| Monat bis heute
+Month to Date|el| Τρέχοντα μήνα
+Month to Date|en| Month to Date
+Month to Date|fr| Le mois courant
+Month to Date|it| Corrente mese
+Moon|de| Mond
+Moon|el| Φεγγάρι
+Moon|en|Moon
+Moon|fr| Lune
+Moon|it| Luna
+National Radar|de| Nationale Radar
+National Radar|el| Εθνικό ραντάρ
+National Radar|en| National Radar
+National Radar|fr| Radar national
+National Radar|it| Radar nazionale
+Nearby METAR Reports|de| In der Nähe METAR Reports
+Nearby METAR Reports|el| Κοντινές αναφορές METAR
+Nearby METAR Reports|en| Nearby METAR Reports
+Nearby METAR Reports|fr| Rapports METAR à proximité
+Nearby METAR Reports|it| Rapporti METAR nelle vicinanze
+Nexstorm Data file|de| Nexstorm Datendateien
+Nexstorm Data file|el| Αρχείο δεδομένων Nexstorm
+Nexstorm Data file|en| Nexstorm Data file
+Nexstorm Data file|fr| Fichier de données Nexstorm
+Nexstorm Data file|it| File dati Nexstorm
+Nexstorm Lightning map|de| Nexstorm-Blitzkarte
+Nexstorm Lightning map|el| Αστραπές χάρτης Nexstorm
+Nexstorm Lightning map|en| Nexstorm Lightning map
+Nexstorm Lightning map|fr| Carte de foudre Nexstorm
+Nexstorm Lightning map|it| Mappa dei fulmini Nexstorm
+Nexstorm TRACreport|de| Nexstorm TRAC Bericht
+Nexstorm TRACreport|el| Αναφορά Nexstorm TRAC
+Nexstorm TRACreport|en| Nexstorm TRAC report
+Nexstorm TRACreport|fr| Rapport Nexstorm TRAC
+Nexstorm TRACreport|it| Rapporto Nexstorm TRAC
+NOAA report|de| NOAA Bericht
+NOAA report|el| Αναφορά NOAA
+NOAA report|en| NOAA report
+NOAA report|fr| Rapport NOAA
+NOAA report|it| Rapporto NOAA
+No earthquakes of magnitude|de| Keine Erdbeben der Größenordnung
+No earthquakes of magnitude|el| Καμία σεισμό με μέγεθος
+No earthquakes of magnitude|en| No earthquakes of magnitude
+No earthquakes of magnitude|fr| Aucun tremblement de terre de magnitude
+No earthquakes of magnitude|it| Nessun terremoto di magnitudo
+NOT Current|de| NICHT Aktuelle
+NOT Current|el| ΔΕΝ τρέχον
+NOT Current|en| NOT Current
+NOT Current|fr| PAS actuel
+NOT Current|it| NON attuali
+Note: Click on column heading marked with|de| Hinweis: Klicken Sie auf die Spaltenüberschrift markiert mit
+Note: Click on column heading marked with|el| Σημείωση: Κάντε κλικ στην επικεφαλίδα της στήλης που σημειώνονται με
+Note: Click on column heading marked with|en| Note: Click on column heading marked with
+Note: Click on column heading marked with|fr| Remarque: Cliquez sur l'en-tête de la colonne marquée avec
+Note: Click on column heading marked with|it| Nota: Fare clic sulla intestazione della colonna contrassegnata con
+Or greater within|de| Oder größer innerhalb
+Or greater within|el| Ή υψηλότερη εντός
+Or greater within|en| Or greater within
+Or greater within|fr| Ou plus dedans
+Or greater within|it| O superiore entro
+Real time data|de| Echtzeitdaten
+Real time data|el| Δεδομένα σε πραγματικό χρόνο
+Real time data|en| Real time data
+Real time data|fr| Données en temps réel
+Real time data|it| Dati in tempo reale
+realtime|de| Echtzeit
+realtime|el| Πραγματικό χρόνο
+realtime|en| Realtime
+realtime|fr| Temps réel
+realtime|it| Tempo reale
+reported in last 7 days|de| Berichtet in den letzten 7 Tagen
+reported in last 7 days|el| Αναφέρθηκαν στις τελευταίες 7 ημέρες
+reported in last 7 days|en| Reported in last 7 days
+reported in last 7 days|fr| Signalé dans les 7 derniers jours
+reported in last 7 days|it| Segnalati negli ultimi 7 giorni
+Sample Blank Page|de| Beispiel Leere Seite
+Sample Blank Page|el| Κενή σελίδα δειγμάτων
+Sample Blank Page|en| Sample Blank Page
+Sample Blank Page|fr| Exemple de page blanche
+Sample Blank Page|it| Pagina vuota campione
+Select Forecast|de| Wählen Sie Prognose
+Select Forecast|el| Επιλέξτε πρόγνωση
+Select Forecast|en| Select Forecast
+Select Forecast|fr| Choisir une prévision
+Select Forecast|it| Selezionare previsione
+Sitemap|de| Site Map
+Sitemap|el| Χάρτης Ιστοσελίδας
+Sitemap|en| Sitemap
+Sitemap|fr| Plan du site
+Sitemap|it| Mappa del sito
+Situazione meteo Real Time|de| Wetterlage  in Echtzeit
+Situazione meteo Real Time|el| Καιρικές συνθήκες σε πραγματικό χρόνο
+Situazione meteo Real Time|en| Situazione meteo Real Time
+Situazione meteo Real Time|fr| Situation météorologique en temps réel
+Situazione meteo Real Time|it| Situazione meteo in Tempo Reale
+Solar|de| Solar
+Solar|el| Ηλιακός
+Solar|en| Solar
+Solar|fr| Solaire
+Solar|it| Solare
+Some File|de| Εinige Dateien
+Some File|el| Ορισμένα αρχεία
+Some File|en| Some File
+Some File|fr| Quelques fichiers
+Some File|it| Alcuni file
+Station Status|de| Stationsstatus
+Station Status|el| Κατάσταση σταθμού
+Station Status|en| Station Status
+Station Status|fr| État de la station
+Station Status|it| Stato della stazione
+Station system free memory|de| Stationsystem freier Speicher
+Station system free memory|el| Διαθέσιμη μνήμη του συστήματος του σταθμού
+Station system free memory|en| Station system free memory
+Station system free memory|fr| Système de station mémoire disponible
+Station system free memory|it| Memoria disponibile del sistema della stazione
+Station system up for|de| Stationssystem ist aktiv für
+Station system up for|el| Σύστημα σταθμού ενεργό για
+Station system up for|en| Station system up for
+Station system up for|fr| Système de station active pour
+Station system up for|it| Sistema della stazione attivo per
+Status|de|Status
+Status|el| Κατάσταση
+Status|en| Status
+Status|fr| Situation
+Status|it| Stato
+Summary|de| Zusammenfassung
+Summary|el| Περίληψη
+Summary|en| Summary
+Summary|fr| Résumé
+Summary|it| Sommario
+Sunshine Hours|de| Sonnenstunden
+Sunshine Hours|el| Ώρες ηλιοφάνειας
+Sunshine Hours|en| Sunshine Hours
+Sunshine Hours|fr| Heures d'ensoleillement
+Sunshine Hours|it| Ore di insolazione
+The USGS feed for earthquakes was not available at this time.|de|Die USGS-Anwendung für Erdbeben war zu dieser Zeit nicht verfügbar
+The USGS feed for earthquakes was not available at this time.|el|Η εφαρμογή USGS για τους σεισμούς δεν ήταν διαθέσιμη αυτή τη στιγμή
+The USGS feed for earthquakes was not available at this time.|en| The USGS feed for earthquakes was not available at this time
+The USGS feed for earthquakes was not available at this time.|fr|L'application USGS pour les tremblements de terre n'était pas disponible à ce moment
+The USGS feed for earthquakes was not available at this time.|it|L'applicazione USGS per i terremoti non era disponibile in questo momento
+The UV Index Forecast is not currently available|de| Die UV-Index-Vorhersage ist derzeit nicht verfügbar
+The UV Index Forecast is not currently available|el| Η Πρόγνωση Δείκτη UV δεν είναι προς το παρόν διαθέσιμη
+The UV Index Forecast is not currently available|en| The UV Index Forecast is not currently available
+The UV Index Forecast is not currently available|fr| L'indice UV n'est pas disponible actuellement
+The UV Index Forecast is not currently available|it| L'indice di previsione UV non è attualmente disponibile
+This page shows the current status of the weather software used in the operation of this website.|de|Diese Seite zeigt den aktuellen Stand der Wetter-Software, die für den Betrieb dieser Website verwendet wird
+This page shows the current status of the weather software used in the operation of this website.|el|Αυτή η σελίδα εμφανίζει την τρέχουσα κατάσταση του λογισμικού καιρού που χρησιμοποιείται στη λειτουργία αυτού του δικτυακού τόπου
+This page shows the current status of the weather software used in the operation of this website.|en|This page shows the current status of the weather software used in the operation of this website
+This page shows the current status of the weather software used in the operation of this website.|fr|Cette page montre l'état actuel du logiciel météo utilisé dans le fonctionnement de ce site
+This page shows the current status of the weather software used in the operation of this website.|it|Questa pagina mostra lo stato corrente del software meteo utilizzato nel funzionamento di questo sito
+This website uses|de| Diese Website verwendet
+This website uses|el| Αυτός ο ιστοχώρος χρησιμοποιεί
+This website uses|en| This website uses
+This website uses|fr| Ce site utilise
+This website uses|it| Questo sito web utilizza
+to sort column contents.|de| Um die Spalteninhalte zu sortieren
+to sort column contents.|el| Για να ταξινομήσετε τα περιεχόμενα της στήλης
+to sort column contents.|en| To sort column contents
+to sort column contents.|fr| Pour trier le contenu de la colonne
+to sort column contents.|it| Per ordinare il contenuto della Colonna
+Trend Graphs|de| Trendschaubilder
+Trend Graphs|el| Διαγράμματα τάσεων
+Trend Graphs|en| Trend Graphs
+Trend Graphs|fr| Graphiques des tendances
+Trend Graphs|it| Grafici di andamento
+United States Geological Survey|de| USgeologischen übersicht
+United States Geological Survey |el| Γεωλογικής επισκόπησης των ΗΠΑ
+United States Geological Survey|en| United States Geological Survey
+United States Geological Survey|fr| Enquête géologique américaine
+United States Geological Survey |it| Indagine geologica degli Stati Uniti
+Update time|de| Updatezeit
+Update time |el| Ανανέωση χρόνου
+Update time|en| Update time
+Update time|fr| Temps de mise à jour
+Update time|it| Tempo di aggiornamento
+Useful Links|de| Nützliche Links
+Useful Links|el| Χρήσιμοι Σύνδεσμοι
+Useful Links|en| Useful Links
+Useful Links|fr| Liens utiles
+Useful Links|it| Link Utili
+varies|de| Variiert
+varies|el| Διάφορα
+varies|en| Varies
+varies|fr| Divers
+varies|it| Varie
+Watches/Warnings/Advisories|de| überwachung /Warnungen /Benachrichtigungen
+Watches/Warnings/Advisories|el| Προειδοποιήσεις /Ειδοποιήσεις/Κοινοποιήσεις
+Watches/Warnings/Advisories|en| Watches/Warnings/Advisories
+Watches/Warnings/Advisories|fr| Veilles /Alertes /Avertissements 
+Watches/Warnings/Advisories|it| Avvertimenti/Avvisi/Notifiche
+weather data|de| Wetterdaten
+weather data|el| Καιρικά δεδομένα
+weather data|en| Weather data
+weather data|fr| Données météorologiques
+weather data|it| Dati Meteo
+Weather Education|de| Wetterbildung
+Weather Education|el| Καιρός Εκπαίδευση
+Weather Education|en| Weather Education
+Weather Education|fr| Météo Education
+Weather Education|it| Meteo Formazione
+Weather Menu|de| Wetter-Menü
+Weather Menu|el| Μενού του Καιρού
+Weather Menu|en| Weather Menu
+Weather Menu|fr| Menu de Météo
+Weather Menu|it| Menu Meteo
+Weather Station Info|de| Informationen über Wetterstation
+Weather Station Info|el| Πληροφορίες σχετικά τo Μετεωρολογικός Σταθμός
+Weather Station Info|en| Weather Station Info
+Weather Station Info|fr| Informations sur la station Météo
+Weather Station Info|it| Informazioni sulla Stazione Meteo
+Weather Station Status|de| Wetterstation Status
+Weather Station Status|el| Κατάσταση Μετεωρολογικού Σταθμού
+Weather Station Status|en| Weather Station Status
+Weather Station Status|fr| État de la station météorologique
+Weather Station Status|it| Stato della stazione Meteo
+Weather Trend Graphs|de| Wettertrend Grafik
+Weather Trend Graphs|el| Διαγράμματα εξέλιξη καιρού
+Weather Trend Graphs|en| Weather Trend Graphs
+Weather Trend Graphs|fr| Graphiques des tendances météo
+Weather Trend Graphs|it| Grafici andamento meteo 
+Weather Website PHP Scripts|de| Wetter-Website PHP-Skripte
+Weather Website PHP Scripts|el| Script PHP ιστοχώρου καιρού
+Weather Website PHP Scripts|en| Weather Website PHP Scripts
+Weather Website PHP Scripts|fr| Météo Site Web Scripts PHP
+Weather Website PHP Scripts|it| Script PHP del Sito Meteo
+Wind Chill|de| Wind-Kälte-Faktor
+Wind Chill|el| Ψύξη του ανέμου
+Wind Chill|en| Wind Chill
+Wind Chill|fr| Refroidissement éolien
+Wind from|it| Raffreddamento eolico
+Winter Total|de| Winter-Gesamt
+Winter Total|el| Σύνολο χειμώνας
+Winter Total|en| Winter Total
+Winter Total|fr| Hiver total
+Winter Total|it| Totale inverno
+within|de| Innerhalb
+within|el| Εντός
+within|en| Within
+within|fr| Dans
+within|it| Entro
+WXSIM forecast|de| Prognose
+WXSIM forecast|el| Πρόβλεψη
+WXSIM forecast|en| Forecast
+WXSIM forecast|fr| Prévision
+WXSIM forecast|it| Previsione
+WXSIM Forecast is not available|de| WXSIM Prognose ist nicht verfügbar
+WXSIM Forecast is not available|el| Πρόβλεψη WXSIM δεν είναι διαθέσιμη
+WXSIM Forecast is not available|en| WXSIM Forecast is not available
+WXSIM Forecast is not available|fr| Prévision WXSIM n'est pas disponible
+WXSIM Forecast is not available|it| Previsione WXSIM non disponibile
