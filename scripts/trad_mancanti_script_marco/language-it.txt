@@ -1,12 +1,12 @@
 langlookup|Animated icons courtesy of|Icone animate per gentile concessione di|
 langlookup|BAROMETER LOWS|Minime barometriche|
 langlookup|Calm|Calmo|
-langlookup|Cluster - click to expand details|Sezioni â€“ Clicca qui per vedere i dettagli|
+langlookup|Cluster - click to expand details|Sezioni - Clicca qui per vedere i dettagli|
 langlookup|Component|Componente|
 langlookup|Crete|Creta|
 langlookup|Current Weather Gauges|Indicazioni meteorologiche attuali|
 langlookup|Daily Statistics|Statistiche giornaliere|
-langlookup|Depth|ProfonditÃ |
+langlookup|Depth|Profondità|
 langlookup|Distance from station|Distanza dalla stazione meteo|
 langlookup|Distance to Epicenter|Distanza dall'epicentro|
 langlookup|Earthquakes|Terremoti|
@@ -22,7 +22,7 @@ langlookup|greater than|Maggiore di|
 langlookup|GRLevel3 Radar FTP|GRLevel3 Radar FTP|
 langlookup|Heat Index|Indice di calore|
 langlookup|+ Hit CTRL-D to bookmark this page+|+ Premere Ctrl-D per aggiungere ai preferiti questa pagina+|
-langlookup|It was last started|Avvio piÃ¹ recente|
+langlookup|It was last started|Avvio più recente|
 langlookup|Last 24 Hours|Ultime 24 ore|
 langlookup|Last 72 Hours|Ultime 72 ore|
 langlookup|Latest update time as of|Ultimo aggiornamento del tempo a partire dal|
@@ -59,7 +59,7 @@ langlookup|Status|Stato|
 langlookup|Summary|Sommario|
 langlookup|Sunshine Hours|Ore di insolazione|
 langlookup|The USGS feed for earthquakes was not available at this time.|L'applicazione USGS per i terremoti non era disponibile in questo momento|
-langlookup|The UV Index Forecast is not currently available|L'indice di previsione UV non Ã¨ attualmente disponibile|
+langlookup|The UV Index Forecast is not currently available|L'indice di previsione UV non è attualmente disponibile|
 langlookup|This page shows the current status of the weather software used in the operation of this website.|Questa pagina mostra lo stato corrente del software meteo utilizzato nel funzionamento di questo sito|
 langlookup|This website uses|Questo sito web utilizza|
 langlookup|to sort column contents.|Per ordinare il contenuto della Colonna|

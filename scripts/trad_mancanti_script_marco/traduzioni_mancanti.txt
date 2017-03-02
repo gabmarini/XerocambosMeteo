@@ -17,7 +17,7 @@ Cluster - click to expand details|de| Cluster - Klicken Sie hier, um die Details
 Cluster - click to expand details|el| Cluster - Κάντε κλικ εδώ για να δείτε τις λεπτομέρειες
 Cluster - click to expand details|en| Cluster - Click to expand details
 Cluster - click to expand details|fr| Cluster - Cliquez ici pour voir les détails
-Cluster - click to expand details|it| Sezioni – Clicca qui per vedere i dettagli
+Cluster - click to expand details|it| Sezioni - Clicca qui per vedere i dettagli
 Component|de| Komponente
 Component|el| Συστατικά
 Component|en|Component
@@ -263,7 +263,7 @@ Solar|el| Ηλιακός
 Solar|en| Solar
 Solar|fr| Solaire
 Solar|it| Solare
-Some File|de| Εinige Dateien
+Some File|de| Einige Dateien
 Some File|el| Ορισμένα αρχεία
 Some File|en| Some File
 Some File|fr| Quelques fichiers
@@ -351,7 +351,7 @@ varies|it| Varie
 Watches/Warnings/Advisories|de| überwachung /Warnungen /Benachrichtigungen
 Watches/Warnings/Advisories|el| Προειδοποιήσεις /Ειδοποιήσεις/Κοινοποιήσεις
 Watches/Warnings/Advisories|en| Watches/Warnings/Advisories
-Watches/Warnings/Advisories|fr| Veilles /Alertes /Avertissements 
+Watches/Warnings/Advisories|fr| Veilles /Alertes /Avertissements
 Watches/Warnings/Advisories|it| Avvertimenti/Avvisi/Notifiche
 weather data|de| Wetterdaten
 weather data|el| Καιρικά δεδομένα
@@ -382,7 +382,7 @@ Weather Trend Graphs|de| Wettertrend Grafik
 Weather Trend Graphs|el| Διαγράμματα εξέλιξη καιρού
 Weather Trend Graphs|en| Weather Trend Graphs
 Weather Trend Graphs|fr| Graphiques des tendances météo
-Weather Trend Graphs|it| Grafici andamento meteo 
+Weather Trend Graphs|it| Grafici andamento meteo
 Weather Website PHP Scripts|de| Wetter-Website PHP-Skripte
 Weather Website PHP Scripts|el| Script PHP ιστοχώρου καιρού
 Weather Website PHP Scripts|en| Weather Website PHP Scripts
