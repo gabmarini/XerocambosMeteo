@@ -81,7 +81,7 @@ This Weather Display weather station data is updated every 5 minutes.
 
 <p>
 Find out more about Weather Display Live (WDL) ...
-<a href="http://www.weather-display.com/wdlive.php" title="Add WDL to your website," target="_blank">Add WDL to your website</a>
+<a href="http://www.weather-display.com/wdlive.php" title="Add WDL to your website," target="_blank"><?php langtransstr("Add WDL to your website")?></a>
 </p>
 
 <!--

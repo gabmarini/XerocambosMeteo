@@ -8,4 +8,4 @@ with open("traduzioni_mancanti.txt", "rb") as inputFile:
 	language = sys.argv[1]
 	for row in reader: 
 		if(row[1] == language):
-			print 'langlookup|' + row[0].strip(' ').decode('utf-8').encode('ISO-8859-7') + '|' + row[2].strip(' ').decode('utf-8').encode('ISO-8859-7') + '|'
+			print 'langlookup|' + row[0].strip(' ').decode('utf-8').encode('latin-1') + '|' + row[2].strip(' ').decode('utf-8').encode('latin-1') + '|'
