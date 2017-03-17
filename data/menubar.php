@@ -58,7 +58,7 @@ $html = '
           <li><a href="wxsimforecast.php" title="WXSIM Forecast">WXSIM Forecast</a></li>
           <li><a href="wxradar.php" title="Radar">Radar</a></li>
           <li><a href="wxadvisory.php" title="Watches, Warnings, Advisories">Advisories</a></li>
-          <li><a href="wxtrends.php" title="Daily weather statistics">Daily Stats</a></li>
+          <li><a href="wxtrends.php" title="Daily weather statistics">langtransstr("Daily Stats");</a></li>
           <li><a href="wxgraphs.php" title="24, 72, &amp; Monthly Graphs">Graphs</a></li>
           <li><a href="wxastronomy.php" title="Sun and Moon Data">Astronomy</a></li>
           <li><a href="wxlinks.php" title="Useful Links">Links</a></li>

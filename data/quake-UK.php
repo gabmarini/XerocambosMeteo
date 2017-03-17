@@ -308,7 +308,7 @@ Cmnt    [8] =>  20KM SW OF HOLYHEAD
 <table>
 <tr><th colspan=\"5\" align=\"center\">UK Earthquakes in the last 50 days</th></tr>
 <tr><th colspan=\"5\" align=\"center\">Updated: $updated</th></tr>
-<tr><th>Epicenter Near</th><th>Magnitude</th><th>Distance to <br />Epicenter</th><th>Local Time</th><th>Link to<br />Map</th></tr>
+<tr><th>langtransstr('Epicenter Near')</th><th>langtransstr('Magnitude')</th><th>langtransstr('Distance to') <br />Epicenter</th><th>langtransstr('Local Time')</th><th>langtransstr('Link to')<br />langtransstr('Map')</th></tr>
 ";
 	    $doneHeader = 1;
 	  } // end doneHeader
@@ -328,11 +328,11 @@ Cmnt    [8] =>  20KM SW OF HOLYHEAD
  
 	  if ($doneHeader) {
 // --------------- customize HTML if you like -----------------------
-	     print "</table><p>$quakesFound UK Earthquakes in the last 50 days.</p><p>Reproduced with the permission of the <a href=\"http://www.quakes.bgs.ac.uk/earthquakes/recent_uk_events.html\">British Geological Survey</a> &copy; NERC. All rights Reserved.</p>\n";
+	     print "</table><p>$quakesFound UK Earthquakes in the last 50 days.</p><p>Reproduced with the permission of the <a href=\"http://www.quakes.bgs.ac.uk/earthquakes/recent_uk_events.html\">langtransstr('British Geological Survey')</a> &copy; NERC. All rights Reserved.</p>\n";
 	  
 	  } else {
 // --------------- customize HTML if you like -----------------------
-	    print "<p>No UK Earthquakes recorded for the last 50 days.</p><p>Reproduced with the permission of the <a href=\"http://www.quakes.bgs.ac.uk/earthquakes/recent_uk_events.html\">British Geological Survey</a> &copy; NERC. All rights Reserved.</p>\n";
+	    print "<p>No UK Earthquakes recorded for the last 50 days.</p><p>Reproduced with the permission of the <a href=\"http://www.quakes.bgs.ac.uk/earthquakes/recent_uk_events.html\">langtransstr('British Geological Survey');</a> &copy; NERC. All rights Reserved.</p>\n";
 	  
 	  }	 
 

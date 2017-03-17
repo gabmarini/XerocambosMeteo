@@ -1031,9 +1031,9 @@ if ($printText) {
 	  }
 	?>
 </table>
-<p><small><a href="http://www.wxsim.com/">WXSIM</a> forecast formatting script by <a href="http://saratoga-weather.org/scripts.php">Saratoga-Weather.org</a>.
+<p><small><a href="http://www.wxsim.com/">WXSIM</a> langtransstr("forecast formatting script by") <a href="http://saratoga-weather.org/scripts.php">Saratoga-Weather.org</a>.
 <?php if($iconType <> '.jpg') {
-	print "<br/>Animated forecast icons courtesy of <a href=\"http://www.meteotreviglio.com/\">www.meteotreviglio.com</a>.";
+	print "<br/>langtransstr('Animated forecast icons courtesy of'); <a href=\"http://www.meteotreviglio.com/\">www.meteotreviglio.com</a>.";
 } 
 ?>
  

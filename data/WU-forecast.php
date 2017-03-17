@@ -689,7 +689,7 @@ EONAG
 
 if (strlen($WUforecasttext[0])<2 and $PrintMode and ! $UnSupported ) {
 
-  echo '<br/><br/>Forecast blank? <a href="' . $PHP_SELF . '?force=1">Force Update</a><br/><br/>';
+  echo '<br/><br/>Forecast blank? <a href="' . $PHP_SELF . '?force=1">langtransstr("Force Update").</a><br/><br/>';
 
 } 
 if ($PrintMode and ($printHeading or $printIcons)) {  ?>
@@ -849,10 +849,10 @@ if ($PrintMode and $printText) { ?>
 <?php } // end print text ?>
 <?php if ($PrintMode) { ?>
 <p>&nbsp;</p>
-<p>Forecast from <a href="<?php echo htmlspecialchars($fileName); ?>">WeatherUnderground</a> 
+<p>langtransstr('Forecast from')<a href="<?php echo htmlspecialchars($fileName); ?>">WeatherUnderground</a> 
 for <?php echo $WUforecastcity; ?>.
 <?php if($iconType <> '.jpg') {
-	print "<br/>Animated forecast icons courtesy of <a href=\"http://www.meteotreviglio.com/\">www.meteotreviglio.com</a>.";
+	print "<br/>langtransstr('Animated forecast icons courtesy of'); <a href=\"http://www.meteotreviglio.com/\">www.meteotreviglio.com</a>.";
 } 
 ?>
 </p>
