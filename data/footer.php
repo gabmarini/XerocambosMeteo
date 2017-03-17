@@ -90,6 +90,8 @@ document.write(msg);
 <!--			<a href="http://www.histats.com/it/" target="_blank"> -->
 			<img src="http://s103.histats.com/stats/0.gif?293098&1" alt="contatore free" border="0"></a></noscript>
 			<!-- Histats.com END counter ANDREA-->
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 
 
@@ -104,6 +106,17 @@ eliminato collegamento informativa -->
     </div><!-- end id="footer" -->
   </div><!-- end id="page" wrapper -->
 
+<script type="text/javascript">  
+$(document).ready(function () {
+    $(".dropdown").click(function () {
+        $('.dropdown > ul').not($(this).children("ul").toggle()).hide();        
+    });
+
+    $(".drop-link").click(function(e) {
+    e.preventDefault(); // one way 
+  });
+});
+</script>
   </body>
 </html>
 <?php 
