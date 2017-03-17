@@ -48,7 +48,7 @@ include("menubar.php");
 <div id="main-copy">
   
  
-	  <h3 class="title"><?php langtrans('National Radar'); ?></h3> 
+	  <h1 class="title"><?php langtrans('National Radar'); ?></h1> 
 
 <!--    
 	/* modificato MASSI
@@ -58,7 +58,7 @@ include("menubar.php");
 
 <!--<p align=center><IMG SRC="http://en.sat24.com/image?type=forecastTemp&region=europa"></p>-->
 	<p align=center><IMG SRC="http://api.sat24.com/animated/TU/visual/3/GTB%20Standard%20Time/8334810"></p>
-
+	<h1 class="title"></h1>
 </div><!-- end main-copy -->
 
 <?php

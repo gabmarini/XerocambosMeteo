@@ -225,17 +225,17 @@ langlookup|Month to Date|Ce mois|
 # V1.01 - trends-inc.php native PHP conversion translation items
 #
 langlookup|Trends as of|Tendances dès|
-langlookup|TIME|HEURE|
-langlookup|TEMP|TEMPERATURE|
-langlookup|WIND SPEED|VITESSE DU VENT|
-langlookup|WIND GUST|RAFALE|
-langlookup|WIND DIR|DIRECTION DU VENT|
-langlookup|HUMIDITY|HUMIDITE|
-langlookup|PRESSURE|PRESSION BARO|
-langlookup|RAIN|PLUIE|
+langlookup|TIME|Heure|
+langlookup|TEMP|Temperature|
+langlookup|WIND SPEED|Vitesse du vent|
+langlookup|WIND GUST|Rafale|
+langlookup|WIND DIR|Direction du vent|
+langlookup|HUMIDITY|Humidite|
+langlookup|PRESSURE|Pression baro|
+langlookup|RAIN|Pluie|
 #
 langlookup|Current|actuel|
-langlookup|CURRENT|ACTUEL|
+langlookup|CURRENT|Actuel|
 langlookup|Now|En ce moment|
 langlookup|Records and Stats|Rapports et statistiques|
 langlookup|5 minutes ago|il y a 5 minutes|
@@ -274,25 +274,25 @@ langlookup|rain day this year|jour de pluie cette année|
 langlookup|rain days this year|jours de pluie cette année|
 langlookup|total last year at this time|total à cette date l'année passée|
 
-langlookup|TEMPERATURE HIGHS|POINTES DE TEMPERATURE|
+langlookup|TEMPERATURE HIGHS|Pointes de temperature|
 langlookup|HOT DAYS THIS MONTH|JOURNEES CHAUDES CE MOIS|
 langlookup|days|jours|
 langlookup|day|jour|
 langlookup|Warmest day|Journée la plus chaude|
 langlookup|Warmest night|Nuit la plus chaude|
 
-langlookup|TEMPERATURE LOWS|BASSES TEMPERATURES|
+langlookup|TEMPERATURE LOWS|Basses temperatures|
 langlookup|COLD DAYS THIS MONTH|JOURNEES FROIDES|
 langlookup|Coldest day|Jour le plus froid|
 langlookup|Coldest night|Nuit la plus froide|
 
 langlookup|BAROMETER HIGHS|POINTES BAROMETRIQUES|
-langlookup|WIND CHILL LOWS|TEMPERATURES RESSENTIES MINIMALES|
+langlookup|WIND CHILL LOWS|Temperatures ressenties minimales|
 langlookup|EVAPOTRANSPIRATION|EVAPOTRANSPIRATION|
 langlookup|SOLAR HIGHS|ENERGIE SOLAIRE MAXIMALE|
 langlookup|UV HIGHS|POINTES UV|
 langlookup|Wind Data|Données du vent|
-langlookup|WIND GUST HIGHS|RAFALES MAXIMALES|
+langlookup|WIND GUST HIGHS|Rafales maximales|
 langlookup|WIND GUST AVERAGE HIGHS|MOYENNE DES RAFALES MAXIMALES|
 langlookup|WIND RUN|MOUVEMENT DU VENT|
 # --- end of new trends-inc.php translations

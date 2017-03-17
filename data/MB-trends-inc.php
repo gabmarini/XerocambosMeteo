@@ -97,18 +97,18 @@ if (isset($_REQUEST['solar'])) {$haveSolar = $_REQUEST['solar'] <> '0';}
 <h2><?php echo langtrans('Trends as of'); ?> <span class="ajax" id="ajaxdate"><?php echo adjustWDdate($date); ?></span> 
 <span class="ajax" id="ajaxindicator"><?php langtrans('at'); ?></span> 
 <span class="ajax" id="ajaxtime"><?php echo adjustWDtime($time); ?></span> </h2>
-<p>&nbsp;</p>
+
 
 <table width="99%" cellpadding="3px" cellspacing="1px" border="0">
 
 <tr class="table-top stats-top" style="text-align: center">
 <td><?php echo langtrans('TIME'); ?></td>
-<td><?php echo langtrans('TEMP'); ?><br/> <?php echo $uomTemp; ?></td>
-<td><?php echo langtrans('WIND SPEED'); ?><br/> <?php echo $uomWind; ?></td>
-<td><?php echo langtrans('WIND DIR'); ?><br/> &nbsp;</td>
-<td><?php echo langtrans('HUMIDITY'); ?><br/> %</td>
-<td><?php echo langtrans('PRESSURE'); ?><br/> <?php echo $uomBaro; ?></td>
-<td><?php echo langtrans('RAIN'); ?><br/> <?php echo $uomRain; ?></td>
+<td><?php echo langtrans('TEMP'); ?> <?php echo $uomTemp; ?></td>
+<td><?php echo langtrans('WIND SPEED'); ?><?php echo $uomWind; ?></td>
+<td><?php echo langtrans('WIND DIR'); ?> &nbsp;</td>
+<td><?php echo langtrans('HUMIDITY'); ?> %</td>
+<td><?php echo langtrans('PRESSURE'); ?> <?php echo $uomBaro; ?></td>
+<td><?php echo langtrans('RAIN'); ?> <?php echo $uomRain; ?></td>
 </tr>
 
 <tr class="stats-light" style="text-align: center">

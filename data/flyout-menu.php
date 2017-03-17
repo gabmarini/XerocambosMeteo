@@ -166,6 +166,12 @@ for ($i=1;$i<count($MENU);$i++) { // loop over all menu items -1
   $caption = $doTrans?preg_replace('|"|','&quot;',langtransstr($MENU[$i]['caption'])):$MENU[$i]['caption'];
 //  $caption = htmlspecialchars($caption);
 
+  if(basename($_SERVER['PHP_SELF']) == $link){
+    $currentPage = "style=\"background-color: black\"";
+  } else {
+    $currentPage = "";
+  }
+
   if ($target <> '') {
     $target = ' target="' . $target . '"';
   } else {
@@ -238,7 +244,7 @@ $newindent</li>\n";
     if ($Debug) {
       $FlyoutMenuText .= "Normal menu item -->\n";
 	}
-	$FlyoutMenuText .= "$indent$wxonlyPrefix<li><a $link$title$target>$leftimg" . $caption . "$rightimg</a></li>$wxonlySuffix\n";
+	$FlyoutMenuText .= "$indent$wxonlyPrefix<li $currentPage><a $link$title$target>$leftimg" . $caption . "$rightimg</a></li>$wxonlySuffix\n";
   
   }
   
@@ -350,6 +356,12 @@ for ($i=1;$i<count($MENU);$i++) { // loop over all menu items -1
   $caption = $doTrans?preg_replace('|"|','&quot;',langtransstr($MENU[$i]['caption'])):$MENU[$i]['caption'];
 //  $caption = htmlspecialchars($caption);
 
+  if(basename($_SERVER['PHP_SELF']) == $link){
+    $currentPage = "style=\"background-color: black\"";
+  } else {
+    $currentPage = "";
+  }
+
   if ($target <> '') {
     $target = ' target="' . $target . '"';
   } else {
@@ -421,7 +433,7 @@ $newindent</li>\n";
     if ($Debug) {
       $secondFlyoutMenuText .= "Normal menu item -->\n";
   }
-  $secondFlyoutMenuText .= "$indent$wxonlyPrefix<li><a $link$title$target>$leftimg" . $caption . "$rightimg</a></li>$wxonlySuffix\n";
+  $secondFlyoutMenuText .= "$indent$wxonlyPrefix<li $currentPage><a $link$title$target>$leftimg" . $caption . "$rightimg</a></li>$wxonlySuffix\n";
   
   }
   
@@ -568,6 +580,12 @@ for ($i=1;$i<count($MENU);$i++) { // loop over all menu items -1
   $caption = $doTrans?preg_replace('|"|','&quot;',langtransstr($MENU[$i]['caption'])):$MENU[$i]['caption'];
 //  $caption = htmlspecialchars($caption);
 
+  if(basename($_SERVER['PHP_SELF']) == $link){
+    $currentPage = "style=\"background-color: black\"";
+  } else {
+    $currentPage = "";
+  }
+
   if ($target <> '') {
     $target = ' target="' . $target . '"';
   } else {
@@ -639,7 +657,7 @@ $newindent</li>\n";
     if ($Debug) {
       $thirdFlyoutMenuText .= "Normal menu item -->\n";
   }
-  $thirdFlyoutMenuText .= "$indent$wxonlyPrefix<li><a $link$title$target>$leftimg" . $caption . "$rightimg</a></li>$wxonlySuffix\n";
+  $thirdFlyoutMenuText .= "$indent$wxonlyPrefix<li $currentPage><a $link$title$target>$leftimg" . $caption . "$rightimg</a></li>$wxonlySuffix\n";
   
   }
   
@@ -885,9 +903,9 @@ width: 110px;
     to   { opacity: 1; }
 }
 
-.dropdown:hover .dropdown-content {
+/*.dropdown:hover .dropdown-content {
     display: block;
-}
+}*/
 
 .drop-link{
     background:transparent url(${imagesDir}flyout-sub1.gif) no-repeat right center;
@@ -944,7 +962,7 @@ width:auto;
 
 /* hide the sub levels and give them a positon absolute so that they take up no room */
 .flyoutmenu li ul {
-visibility:hidden;
+/*visibility:hidden;*/
 /*position:absolute;*/
 top:0px;
 /* set up the overlap (minus the overrun) */
