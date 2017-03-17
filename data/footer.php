@@ -59,7 +59,7 @@ document.write(msg);
 
 <div>
 	<?php print $SITE['copyr'] ?><span class="doNotPrint"> |  
-	<a href="<?php echo $SITE['WXsoftwareURL']; ?>" title="Powered by <?php echo $SITE['WXsoftwareLongName']; ?>"><?php echo $SITE['WXsoftwareLongName'];?>
+	<a href="<?php echo $SITE['WXsoftwareURL']; ?>" target="_blank" title="Powered by <?php echo $SITE['WXsoftwareLongName']; ?>"><?php echo $SITE['WXsoftwareLongName'];?>
 	<?php if(isset($wdversion)) {echo " (".$wdversion.")";} ?> </a>
 	<!-- <a href="http://validator.w3.org/check?uri=referer"><?php langtrans('Valid'); ?> 
 	<?php  print (isset($useHTML5) and $useHTML5)?'HTML5':'XHTML 1.0'; ?></a> |
