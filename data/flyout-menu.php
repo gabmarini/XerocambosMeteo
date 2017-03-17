@@ -167,7 +167,7 @@ for ($i=1;$i<count($MENU);$i++) { // loop over all menu items -1
 //  $caption = htmlspecialchars($caption);
 
   if(basename($_SERVER['PHP_SELF']) == $link){
-    $currentPage = "style=\"background-color: black\"";
+    $currentPage = "style=\"background-color: #0033CC\"";
   } else {
     $currentPage = "";
   }
@@ -357,7 +357,7 @@ for ($i=1;$i<count($MENU);$i++) { // loop over all menu items -1
 //  $caption = htmlspecialchars($caption);
 
   if(basename($_SERVER['PHP_SELF']) == $link){
-    $currentPage = "style=\"background-color: black\"";
+    $currentPage = "style=\"background-color: #0033CC\"";
   } else {
     $currentPage = "";
   }
@@ -581,7 +581,7 @@ for ($i=1;$i<count($MENU);$i++) { // loop over all menu items -1
 //  $caption = htmlspecialchars($caption);
 
   if(basename($_SERVER['PHP_SELF']) == $link){
-    $currentPage = "style=\"background-color: black\"";
+    $currentPage = "style=\"background-color: #0033CC\"";
   } else {
     $currentPage = "";
   }

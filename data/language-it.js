@@ -4,7 +4,7 @@ var langPauseMsg = 'Aggiornamenti sospesi - Aggiornare la pagine per riprendere'
                              // maxupdates has been reached and updating paused.
 
 var langMonths = new Array ( "Gennaio","Febbraio","Marzo","Aprile","Maggio",
-			"Giugnio","Luglio","Agosto","Settembre","Ottobre","Novembre","Dicembre");
+			"Giugno","Luglio","Agosto","Settembre","Ottobre","Novembre","Dicembre");
 var langDays = new Array ( "Dom","Lun","Mar","Mer","Gio","Ven","Sab","Dom");	
 
 var langBaroTrend = new Array (

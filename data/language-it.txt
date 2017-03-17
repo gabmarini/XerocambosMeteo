@@ -285,7 +285,7 @@ langlookup|Top|Inizio|
 langlookup|Contact Us|Contatti|
 langlookup|Bookmark Page|Aggiungi ai Preferiti|
 langlookup|Valid|Verifica|
-langlookup|Never base important decisions on this or any weather information obtained from the Internet|Non prendere mai decisioni importanti sulla base di questo o altri servizi meteo da internet|
+langlookup|Never base important decisions on this or any weather information obtained from the Internet|Non prendere mai decisioni importanti sulla base di questo o altri servizi meteo forniti da internet|
 #
 # cloudbase.php
 #

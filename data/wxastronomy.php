@@ -65,9 +65,10 @@ $DebugMode = false;
 if (isset($_REQUEST['debug'])) {$DebugMode = strtolower($_REQUEST['debug']) == 'y'; }
 
 ?>
+
 <div id="main-copy-dark">
+<h1 align="center" class="title"><?php langtrans('Astronomy'); ?></h1> 
   
-<h3><?php langtrans('Astronomy'); ?></h3> 
 
 <br />
 <?php if(isset($SITE['WXtags']) and $SITE['WXtags'] <> '') { // do astronomy only if station is configured

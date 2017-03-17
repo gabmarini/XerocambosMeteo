@@ -38,7 +38,7 @@ require_once("common.php");
 
 		<div id="footer">
 			<div class="doNotPrint">
-				<a href="#header"><?php langtrans('Top'); ?></a> |
+				<!-- <a href="#header"><?php langtrans('Top'); ?></a> | -->
 
 				<a href="<?php print $SITE['email']; ?>" title="E-mail us"><?php langtrans('Contact Us'); ?></a>
 				<script type="text/javascript">
@@ -60,10 +60,10 @@ document.write(msg);
 <div>
 	<?php print $SITE['copyr'] ?><span class="doNotPrint"> |  
 	<a href="<?php echo $SITE['WXsoftwareURL']; ?>" title="Powered by <?php echo $SITE['WXsoftwareLongName']; ?>"><?php echo $SITE['WXsoftwareLongName'];?>
-	<?php if(isset($wdversion)) {echo " (".$wdversion.")";} ?> </a> |
-	<a href="http://validator.w3.org/check?uri=referer"><?php langtrans('Valid'); ?> 
+	<?php if(isset($wdversion)) {echo " (".$wdversion.")";} ?> </a>
+	<!-- <a href="http://validator.w3.org/check?uri=referer"><?php langtrans('Valid'); ?> 
 	<?php  print (isset($useHTML5) and $useHTML5)?'HTML5':'XHTML 1.0'; ?></a> |
-	<a href="http://jigsaw.w3.org/css-validator/check/referer"><?php langtrans('Valid'); ?> CSS</a> 
+	<a href="http://jigsaw.w3.org/css-validator/check/referer"><?php langtrans('Valid'); ?> CSS</a> -->
 	</span><br class="doNotPrint" />
 	
 		<!--<br/><?php langtrans('Never base important decisions on this or any weather information obtained from the Internet'); ?>.<br class="doNotPrint" />-->
