@@ -76,7 +76,7 @@ if (isset($SITE['UVscript'])) 	{$UVscript = $SITE['UVscript'];}
 
 <div id="main-copy">
   <!-- wxuvforecast.php (ML) V1.01 - 06-Oct-2009 -->
-  <h1><?php langtrans('UV Index Forecast'); ?></h1>
+  <h1 align="center"><?php langtrans('UV Index Forecast'); ?></h1>
   <p>&nbsp;</p>
   <div align="center">
   <?php if($UVfcstUVI[0] == "n/a") {
@@ -119,7 +119,7 @@ if (isset($SITE['UVscript'])) 	{$UVscript = $SITE['UVscript'];}
     <img src="<?php print $SITE['imagesDir']; ?>UVI_maplegend_H.gif" alt="UV Index Scale" style="border: none" />
     <?php } ?>
   </div> 
-
+  <h1 class="title"></h1>
 </div><!-- end main-copy -->
 <?php 
 function gen_uv_icon($inUV) {

@@ -34,7 +34,7 @@ if(isset($_REQUEST['show']) and preg_match('|settings|i',$_REQUEST['show'])) {
 	  if(!$doneHeaders) { 
 	    printHeaders(); 
 		$doneHeaders = true; 
-	    print "<h2>Contents of Settings files</h2>\n";
+	    print "<h2>langtransstr('Contents of Settings files');</h2>\n";
 	  }
 	  if(file_exists($showFilename)) {
 		  print "<h3>$showFilename</h3>\n";
@@ -72,7 +72,7 @@ if(isset($_REQUEST['show']) and preg_match('|structure|i',$_REQUEST['show'])) {
 	  if(!$doneHeaders) { 
 	    printHeaders(); 
 		$doneHeaders = true; 
-	    print "<h2>Contents of Website Structure files</h2>\n";
+	    print "<h2>langtransstr('Contents of Website Structure files');</h2>\n";
 	  }
 	  if(file_exists($showFilename)) {
 		  print "<h3>$showFilename</h3>\n";
@@ -194,7 +194,7 @@ if(isset($_REQUEST['show']) and strtolower($_REQUEST['show']) == 'info') {
   }
   print "<h2>Directories/files status for Base-$Base, $wxsftw-Plugin</h2>\n";
   print "<p>Status of needed subdirectories<br/>\n";
-  print "Settings.php <b>Cache file directory</b> in \$SITE['cacheFileDir']='<b>".$SITE['cacheFileDir']. "</b>' ";
+  print "Settings.php <b>langtransstr('Cache file directory');</b> in \$SITE['cacheFileDir']='<b>".$SITE['cacheFileDir']. "</b>' ";
   if(is_dir($SITE['cacheFileDir'])) {
 	  $perms = fileperms($SITE['cacheFileDir']);
       $permsdecoded = decode_permissions($perms);
@@ -208,19 +208,19 @@ if(isset($_REQUEST['show']) and strtolower($_REQUEST['show']) == 'info') {
 		fclose($fp);
 		print "..Wrote ".strlen($tstring). " bytes to $tfile successfully, ";
 		$deleted = unlink($tfile);
-		print $deleted?"then deleted test file. <b>Cache directory is fully functional</b>.<br/>\n":" but unable to delete $tfile so <b>Cache directory is NOT fully functional</b>.<br/>\n";
+		print $deleted?"then deleted test file. <b>langtransstr('Cache directory is fully functional');</b>.<br/>\n":" but unable to delete $tfile so <b>langtransstr('Cache directory is NOT fully functional');</b>.<br/>\n";
 	  } else {
-		print "<br/><b>Error: Unable to open/write to $tfile file</b> so so <b>Cache directory is NOT fully functional</b>.<br/>\n";
+		print "<br/><b>Error: Unable to open/write to $tfile file</b> so so <b>langtransstr('Cache directory is NOT fully functional');</b>.<br/>\n";
 	  }
   } else {
-	  print "<b>does not exist</b> so some scripts will be <b>not functional</b>.<br/>\n";
+	  print "<b>langtransstr('does not exist');</b> so some scripts will be <b>not functional</b>.<br/>\n";
   }
 
   print "Settings.php <b>ajax-images file directory</b> in \$SITE['imagesDir']='<b>".$SITE['imagesDir']. "</b>' ";
   if(is_dir($SITE['imagesDir'])) {
 	  print " exists; ";
 	  print file_exists($SITE['imagesDir'].'skc.jpg')?
-	    " and appears to have contents.<br/>\n":" but <b>does not have contents</b>.  Be sure to upload contents for proper template operation.<br/>\n";
+	    " and appears to have contents.<br/>\n":" but <b>langtransstr('does not have contents');</b>.  Be sure to upload contents for proper template operation.<br/>\n";
   } else {
 	  print " <b>is not on website.</b>  Be sure to upload contents for proper template operation.<br/>\n";
   }
@@ -232,7 +232,7 @@ if(isset($_REQUEST['show']) and strtolower($_REQUEST['show']) == 'info') {
 	if(is_dir($tFolder)) {
 		print " exists; ";
 		print file_exists($tFolder.'A-none.png')?
-		  " and appears to have contents.<br/>\n":" but <b>does not have contents</b>.  Be sure to upload contents for proper template operation.<br/>\n";
+		  " and appears to have contents.<br/>\n":" but <b>langtransstr('does not have contents');</b>.  Be sure to upload contents for proper template operation.<br/>\n";
 	} else {
 		print " <b>is not on website.</b>  Be sure to upload contents for proper template operation.<br/>\n";
 	}
@@ -244,13 +244,13 @@ if(isset($_REQUEST['show']) and strtolower($_REQUEST['show']) == 'info') {
 	if(is_dir($tFolder)) {
 		print " exists; ";
 		print file_exists($tFolder.'01.gif')?
-		  " and appears to have contents.<br/>\n":" but <b>does not have contents</b>.  Be sure to upload contents for proper template operation.<br/>\n";
+		  " and appears to have contents.<br/>\n":" but <b>langtransstr('does not have contents');</b>.  Be sure to upload contents for proper template operation.<br/>\n";
 	} else {
 		print " <b>is not on website.</b>  Be sure to upload contents for proper template operation.<br/>\n";
 	}
   }
   
-  print "Settings.php <b>forecast images file directory</b> in \$SITE['fcsticonsdir']='<b>".$SITE['fcsticonsdir']. "</b>' ";
+  print "Settings.php <b>langtransstr('forecast images file directory')</b> in \$SITE['fcsticonsdir']='<b>".$SITE['fcsticonsdir']. "</b>' ";
   if(is_dir($SITE['fcsticonsdir'])) {
 	  print " exists; ";
 	  $fType = (isset($SITE['fcsticonstype']) and $SITE['fcsticonstype'] == '.gif')?'.gif':'.jpg';
@@ -883,7 +883,7 @@ function chk_file_version($inFile) {
    global $selectedVersions,$earliestDate;
    if(!file_exists($inFile)) {
 	  return(
-	  array('n/a','','',"<strong>$inFile file not found.</strong>",'','<strong>File not installed</strong>')); 
+	  array('n/a','','',"<strong>$inFile file not found.</strong>",'','<strong>langtransstr("File not installed").</strong>')); 
    }
    $mDate = date('Y-m-d H:i T',filemtime($inFile));
    $tContents = file_get_contents($inFile);
@@ -916,7 +916,7 @@ function chk_file_version($inFile) {
 	 }
 	 if ($fStatus == 'unknown' and $vNumber <> 'n/a' and $mstFversion <> 'n/a' and 
 	    strcmp($vNumber,$mstFversion) > 0) {
-		  $fStatus = "<strong>Installed version is more recent</strong>"; 
+		  $fStatus = "<strong>langtransstr('Installed version is more recent')</strong>"; 
 
 	 }
 	 if ($fStatus == 'unknown' and $mstFversion <> 'n/a' and $mstFvDate <> 'n/a') {

@@ -229,17 +229,17 @@ langlookup|Month to Date|Month to Date|
 # V1.01 - trends-inc.php native PHP conversion translation items
 #
 langlookup|Trends as of|Trends as of|
-langlookup|TIME|TIME|
-langlookup|TEMP|TEMP|
-langlookup|WIND SPEED|WIND SPEED|
-langlookup|WIND GUST|WIND GUST|
-langlookup|WIND DIR|WIND DIR|
-langlookup|HUMIDITY|HUMIDITY|
-langlookup|PRESSURE|PRESSURE|
-langlookup|RAIN|RAIN|
+langlookup|TIME|Time|
+langlookup|TEMP|Temp|
+langlookup|WIND SPEED|Wind speed|
+langlookup|WIND GUST|Wind gust|
+langlookup|WIND DIR|Wind dir|
+langlookup|HUMIDITY|Humidity|
+langlookup|PRESSURE|Pressure|
+langlookup|RAIN|Rain|
 #
 langlookup|Current|Current|
-langlookup|CURRENT|CURRENT|
+langlookup|CURRENT|Current|
 langlookup|Now|Now|
 langlookup|Records and Stats|Records and Stats|
 langlookup|5 minutes ago|5 minutes ago|
@@ -278,25 +278,25 @@ langlookup|rain day this year|rain day this year|
 langlookup|rain days this year|rain days this year|
 langlookup|total last year at this time|total last year at this time|
 
-langlookup|TEMPERATURE HIGHS|TEMPERATURE HIGHS|
+langlookup|TEMPERATURE HIGHS|Temperature highs|
 langlookup|HOT DAYS THIS MONTH|HOT DAYS THIS MONTH|
 langlookup|days|days|
 langlookup|day|day|
 langlookup|Warmest day|Warmest day|
 langlookup|Warmest night|Warmest night|
 
-langlookup|TEMPERATURE LOWS|TEMPERATURE LOWS|
+langlookup|TEMPERATURE LOWS|Temperature lows|
 langlookup|COLD DAYS THIS MONTH|COLD DAYS THIS MONTH|
 langlookup|Coldest day|Coldest day|
 langlookup|Coldest night|Coldest night|
 
 langlookup|BAROMETER HIGHS|BAROMETER HIGHS|
-langlookup|WIND CHILL LOWS|WIND CHILL LOWS|
+langlookup|WIND CHILL LOWS|Wind chill lows|
 langlookup|EVAPOTRANSPIRATION|EVAPOTRANSPIRATION|
 langlookup|SOLAR HIGHS|SOLAR HIGHS|
 langlookup|UV HIGHS|UV HIGHS|
 langlookup|Wind Data|Wind Data|
-langlookup|WIND GUST HIGHS|WIND GUST HIGHS|
+langlookup|WIND GUST HIGHS|Wind gust highs|
 langlookup|WIND GUST AVERAGE HIGHS|WIND GUST AVERAGE HIGHS|
 langlookup|WIND RUN|WIND RUN|
 # --- end of new trends-inc.php translations
@@ -455,3 +455,5 @@ langlookup|Winter Total|Winter Total|
 langlookup|within|Within|
 langlookup|WXSIM forecast|Forecast|
 langlookup|WXSIM Forecast is not available|WXSIM Forecast is not available|
+
+langlookup|Xerokampos Lassithi Creta Est Grecia|Xerokampos &#124; Lassithi &#124; East Crete &#124; Greece|

@@ -7,79 +7,79 @@
 ##Adobe
 #Advisories
 ##and 
-Animated forecast icons courtesy of 
-Apparent
-Astronomy
-British Geological Survey
-Cache directory is fully functional
-Cache directory is NOT fully functional
-Cache file directory
-column
-Comment  
-Contattateci
-Contents of Settings files
-Contents of Website Structure files
-convertito in PHP da 
-CSS
-Daily Stats
-Date 
-Depth 
-Dew Point
-Distance to 
-Distanze a Creta
-does not exist
-does not have contents
+##Animated forecast icons courtesy of 
+##Apparent
+#Astronomy
+##British Geological Survey
+##Cache directory is fully functional
+##Cache directory is NOT fully functional
+##Cache file directory
+#column
+#Comment  
+##Contattateci	(non l'ho inserita che non ho la versione inglese)
+##Contents of Settings files
+##Contents of Website Structure files
+##convertito in PHP da	(non l'ho inserita che non ho la versione inglese)
+#CSS
+#Daily Stats
+#Date 
+#Depth 
+#Dew Point
+##Distance to 
+##Distanze a Creta	(non l'ho inserita che non ho la versione inglese)
+##does not exist
+##does not have contents
 e 
-Epicenter
-Epicenter Near
-File not installed
-Force Update
-forecast
-Forecast
-forecast formatting script by 
-Forecast from 
-forecast images file directory
-Graphs
-Heat Index
-Home
-hPa
-Humidex
-Il sito e la raccolta dati sono gestiti dal programma 
-Imagick
-Inch
-index 
-Info Creta
-Informativa cookie 
-Informazioni sulla stazione Meteo
-inHg
-Inside
-Installed Script
-Installed Script Internal
-Installed version is more recent
-Int   
-JavaScript library
-Key PHP information
-key template files
-knots
-kPa
-Lat 
-Links
-Link to
-Local Time
-Lon 
-Long Beach Weather Scripts
-M
-Mag   
-Magnitude
-Map
-mb
-Meteokrites
-mm
-mph
-Name
+#Epicenter
+#Epicenter Near
+##File not installed
+##Force Update
+#forecast
+#Forecast
+##forecast formatting script by 
+##Forecast from 
+##forecast images file directory
+#Graphs
+#Heat Index
+#Home
+#hPa
+#Humidex
+##Il sito e la raccolta dati sono gestiti dal programma 
+#Imagick
+#Inch
+#index 
+#Info Creta
+#Informativa cookie 
+#Informazioni sulla stazione Meteo
+#inHg
+##Inside
+#Installed Script
+#Installed Script Internal
+##Installed version is more recent
+#Int   
+#JavaScript library
+#Key PHP information
+#key template files
+#knots
+#kPa
+#Lat 
+#Links
+##Link to
+#Local Time
+#Lon 
+#Long Beach Weather Scripts
+#M
+#Mag   
+#Magnitude
+##Map
+#mb
+#Meteokrites
+#mm
+#mph
+#Name
 Need update to
-no
-NO
+#no
+#NO
 NOT available
 Note
 Note sul Sito
@@ -87,7 +87,7 @@ not functional
 Origin
 Outside
 ozone 
-Poseidon
+#Poseidon
 Pressure
 Questo sito utilizza il template design di 
 Radar
@@ -108,10 +108,10 @@ This is a sample page
 Time 
 UK Earthquakes in the last 50 days
 Until
-USGS
-UV 
+#USGS
+#UV 
 UV forecast courtesy of and 
-v
+#v
 valid from
 Version
 Version Description
@@ -124,7 +124,7 @@ WeatherUnderground
 Weather Underground
 WeatherUnderground 
 Wind Chill
-Wind Finder
+#Wind Finder
 Wind Rose drawn using 
 Wind Speed
 with a query set for 

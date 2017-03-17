@@ -453,17 +453,17 @@ langlookup|Statistics For The Last 12 Months|Statistiche Ultimi 12 Mesi|
 # V1.01 - trends-inc.php native PHP conversion translation items
 #
 langlookup|Trends as of|Trends dal|
-langlookup|TIME|ORA|
-langlookup|TEMP|TEMP|
-langlookup|WIND SPEED|VENTO VEL.|
-langlookup|WIND GUST|VENTO RAFFICA|
-langlookup|WIND DIR|VENTO DIR.|
-langlookup|HUMIDITY|UMIDITA'|
-langlookup|PRESSURE|PRESSIONE|
-langlookup|RAIN|PIOGGIA|
+langlookup|TIME|Ora|
+langlookup|TEMP|Temp|
+langlookup|WIND SPEED|Vento vel.|
+langlookup|WIND GUST|Vento raffica|
+langlookup|WIND DIR|Vento dir.|
+langlookup|HUMIDITY|Umidità|
+langlookup|PRESSURE|Pressione|
+langlookup|RAIN|Pioggia|
 #
 langlookup|Current|Attuale|
-langlookup|CURRENT|ATTUALE|
+langlookup|CURRENT|Attuale|
 langlookup|Now|Attualmente|
 langlookup|Records and Stats|Statistiche e record|
 langlookup|5 minutes ago|5 minuti fa|
@@ -502,25 +502,25 @@ langlookup|rain day this year|giorno piovoso quest'anno|
 langlookup|rain days this year|giorni piovosi quest'anno|
 langlookup|total last year at this time|totale un anno fa a quest'ora|
 
-langlookup|TEMPERATURE HIGHS|TEMPERATURE MAX|
+langlookup|TEMPERATURE HIGHS|Temperature max|
 langlookup|HOT DAYS THIS MONTH|GIORNO PIU' CALDO DEL MESE|
 langlookup|days|giorni|
 langlookup|day|giorno|
 langlookup|Warmest day|Giorno più caldo|
 langlookup|Warmest night|Notte più calda|
 
-langlookup|TEMPERATURE LOWS|TEMPERATURE MIN|
+langlookup|TEMPERATURE LOWS|Temperature min|
 langlookup|COLD DAYS THIS MONTH|GIORNO PIU' FRESCO DEL MESE|
 langlookup|Coldest day|Giorno più fresco|
 langlookup|Coldest night|Notte più fresca|
 
 langlookup|BAROMETER HIGHS|ESTREMI BAROMETRICI|
-langlookup|WIND CHILL LOWS|WIND CHILL MIN|
+langlookup|WIND CHILL LOWS|Wind chill min|
 langlookup|EVAPOTRANSPIRATION|EVAPOTRSPIRAZIONE|
 langlookup|SOLAR HIGHS|RAD. SOLARE MAX|
 langlookup|UV HIGHS|INDICE UV MAX|
 langlookup|Wind Data|Dati Vento|
-langlookup|WIND GUST HIGHS|RAFFICA VENTO MAX|
+langlookup|WIND GUST HIGHS|Raffica vento max|
 langlookup|WIND GUST AVERAGE HIGHS|RAFFICA VENTO MAX (MEDIA)|
 langlookup|WIND RUN|WIND RUN|
 # --- end of new trends-inc.php translations
@@ -831,7 +831,7 @@ langlookup|UV Index|Indice UV|
 langlookup|Statistics|Statistiche|
 langlookup|Wind/Sea scale|Scale Vento/Mare|
 langlookup|Sun/Moon Almanac|Almanacco Sole/Luna|
-langlookup|Calendar 2016|Calendario 2016|
+langlookup|Calendar 2017|Calendario 2017|
 langlookup|Weather station info|Info stazione meteo|
 langlookup|External links|Links esterni|
 langlookup|European meteo links|Links europei meteo|

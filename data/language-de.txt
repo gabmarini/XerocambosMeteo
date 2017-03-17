@@ -222,17 +222,17 @@ langlookup|Month to Date|Monat bis heute|
 # V1.01 - trends-inc.php native PHP conversion translation items
 #
 langlookup|Trends as of|Trends nach|
-langlookup|TIME|ZEIT|
-langlookup|TEMP|TEMP|
-langlookup|WIND SPEED|WIND-<br/>GESCHWINDIGKEIT|
-langlookup|WIND GUST|WIND-<br/>BÖEN|
-langlookup|WIND DIR|WIND-<br/>RICHTUNG|
-langlookup|HUMIDITY|LUFT-<br/>FEUCHTE|
-langlookup|PRESSURE|LUFT-<br/>DRUCK|
-langlookup|RAIN|NIEDER-<br/>SCHLAG|
+langlookup|TIME|Zeit|
+langlookup|TEMP|Temp|
+langlookup|WIND SPEED|Windgeschwindigkeit|
+langlookup|WIND GUST|Windböen|
+langlookup|WIND DIR|Windrichtung|
+langlookup|HUMIDITY|Luftfeuchte|
+langlookup|PRESSURE|Luftdruck|
+langlookup|RAIN|Niederschlag|
 #
 langlookup|Current|aktuell|
-langlookup|CURRENT|AKTUELL|
+langlookup|CURRENT|Aktuell|
 langlookup|Now|jetzt|
 langlookup|Records and Stats|Rekorde und Statistiken|
 langlookup|5 minutes ago|vor 5 Minuten|
@@ -271,25 +271,25 @@ langlookup|rain day this year|Regentag dieses jahr|
 langlookup|rain days this year|Regentage dieses jahr|
 langlookup|total last year at this time|Summe letztes Jahr um diese Zeit|
 
-langlookup|TEMPERATURE HIGHS|HÖCHSTTEMPERATUREN|
+langlookup|TEMPERATURE HIGHS|Höchsttemperaturen|
 langlookup|HOT DAYS THIS MONTH|HEISSE TAGE DIESER MONAT|
 langlookup|days|Tage|
 langlookup|day|Tag|
 langlookup|Warmest day|Wärmster Tag|
 langlookup|Warmest night|Wärmste Nacht|
 
-langlookup|TEMPERATURE LOWS|TIEFSTTEMPERATUREN|
+langlookup|TEMPERATURE LOWS|Tiefsttemperaturen|
 langlookup|COLD DAYS THIS MONTH|KALTE TAGE DIESER MONAT|
 langlookup|Coldest day|kältester Tag|
 langlookup|Coldest night|kälteste Nacht|
 
 langlookup|BAROMETER HIGHS|HÖCHSTE LUFTDRUCKWERTE|
-langlookup|WIND CHILL LOWS|TIEFSTE WINCHILLWERTE|
+langlookup|WIND CHILL LOWS|Tiefste winchillwerte|
 langlookup|EVAPOTRANSPIRATION|EVAPOTRANSPIRATION|
 langlookup|SOLAR HIGHS|HÖCHSTE SOLARSTRAHLUNG|
 langlookup|UV HIGHS|HÖCHSTE UV-STRAHLUNG|
 langlookup|Wind Data|Winddaten|
-langlookup|WIND GUST HIGHS|HÖCHSTE WINDBÖEN|
+langlookup|WIND GUST HIGHS|Höchste windböen|
 langlookup|WIND GUST AVERAGE HIGHS|HÖCHSTE DURCHSCHNITTLICHE WINDBÖEN|
 langlookup|WIND RUN|WINDRUN|
 # --- end of new trends-inc.php translations
@@ -426,7 +426,7 @@ langlookup|UV Index|UV-Index|
 langlookup|Statistics|Statistiken|
 langlookup|Wind/Sea scale|Wind/Meer Skala|
 langlookup|Sun/Moon Almanac|Sonne/Mond Almanach|
-langlookup|Calendar 2016|Kalender 2016|
+langlookup|Calendar 2017|Kalender 2017|
 langlookup|Weather station info|Wetterstation Info|
 langlookup|External links|Außenstehende Links|
 langlookup|European meteo links|Europäische Wetter Links|

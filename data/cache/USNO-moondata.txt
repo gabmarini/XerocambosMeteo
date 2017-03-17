@@ -1,5 +1,9 @@
 HTTP/1.1 200 OK
+<<<<<<< HEAD
 Date: Fri, 17 Mar 2017 15:54:42 GMT
+=======
+Date: Fri, 17 Mar 2017 16:36:15 GMT
+>>>>>>> 47b587fa9d834798c1a1b42173a6e66545458226
 Server: Apache
 Access-Control-Allow-Origin: *
 Connection: close

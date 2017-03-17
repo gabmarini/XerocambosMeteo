@@ -90,3 +90,57 @@ langlookup|http://www.xerocamboscreta.com/V.uk.htm|http://www.xerocamboscreta.co
 langlookup|http://www.xerocamboscreta.com/Amici%20uk.htm|http://www.xerocamboscreta.com/Amici%20D.htm|
 langlookup|http://www.xerocamboscreta.com/Vento%20uk.htm|http://www.xerocamboscreta.com/Vento.D.htm|
 langlookup|http://www.xerocamboscreta.com/Temperature%20uk.htm|http://www.xerocamboscreta.com/Temperature.D.htm|
+langlookup|Home Page|Indexseite|
+langlookup|Xerocampos|Xerokampos|
+langlookup|Description|Beschreibung|
+langlookup|Photos|Fotos|
+langlookup|Drone|Drohne|
+langlookup|How to reach|Wie man erreicht|
+langlookup|Accomodations|Unterkünfte|
+langlookup|Houses & land|Häuser &amp; Land|
+langlookup|Friends|Freunde|
+langlookup|http://www.xerocamboscreta.com/Description%20uk.htm|http://www.xerocamboscreta.com/Descrizione%20XD.htm|
+langlookup|http://www.xerocamboscreta.com/Photographic%20Album.htm|http://www.xerocamboscreta.com/Photographic%20Album%20D.htm|
+langlookup|http://www.xerocamboscreta.com/Volare.uk.htm|http://www.xerocamboscreta.com/Volare.D.htm|
+langlookup|http://www.xerocamboscreta.com/Comearuk.htm|http://www.xerocamboscreta.com/ComearD.htm|
+langlookup|http://www.xerocamboscreta.com/Appuk.htm|http://www.xerocamboscreta.com/AppD.htm|
+langlookup|http://www.xerocamboscreta.com/V.uk.htm|http://www.xerocamboscreta.com/V.D.htm|
+langlookup|http://www.xerocamboscreta.com/Amici%20uk.htm|http://www.xerocamboscreta.com/Amici%20D.htm|
+langlookup|Real-time data|Echtzeitdaten|
+langlookup|Satellite Greece|Satelliten Griechenland|
+langlookup|UV Index|UV-Index|
+langlookup|Statistics|Statistiken|
+langlookup|Meteo database|Wetterdatenbank|
+langlookup|Yesterday (it)|Gestern (it)|
+langlookup|From 2004 (it)|Seit 2004 (it)|
+langlookup|Winds graphs|Wind Grafiken|
+langlookup|Temperatures graphs|Temperatur Grafiken|
+langlookup|Wind/Sea scale|Wind/Meer Skala|
+langlookup|Sun/Moon Almanac|Sonne/Mond Almanach|
+langlookup|Calendar 2016|Kalender 2016|
+langlookup|Weather station info|Wetterstation Info|
+langlookup|External links|Außenstehende Links|
+langlookup|European meteo links|Europäische Wetter Links|
+langlookup|http://www.xerocamboscreta.com/Vento%20uk.htm|http://www.xerocamboscreta.com/Vento.D.htm|
+langlookup|http://www.xerocamboscreta.com/Temperature%20uk.htm|http://www.xerocamboscreta.com/Temperature.D.htm|
+langlookup|https://en.wikipedia.org/wiki/Beaufort_scale|https://de.wikipedia.org/wiki/Beaufortskala|
+langlookup|http://www.xerocamboscreta.com/Meteo.Xero.uk.htm|http://www.xerocamboscreta.com/Meteo.Xero.D.htm|
+langlookup|Real-time data|Echtzeitdaten|
+langlookup|Satellite Greece|Satelliten Griechenland|
+langlookup|UV Index|UV-Index|
+langlookup|Statistics|Statistiken|
+langlookup|Meteo database|Wetterdatenbank|
+langlookup|Yesterday (it)|Gestern (it)|
+langlookup|From 2004 (it)|Seit 2004 (it)|
+langlookup|Winds graphs|Wind Grafiken|
+langlookup|Temperatures graphs|Temperatur Grafiken|
+langlookup|Wind/Sea scale|Wind/Meer Skala|
+langlookup|Sun/Moon Almanac|Sonne/Mond Almanach|
+langlookup|Calendar 2017|Kalender 2017|
+langlookup|Weather station info|Wetterstation Info|
+langlookup|External links|Außenstehende Links|
+langlookup|European meteo links|Europäische Wetter Links|
+langlookup|http://www.xerocamboscreta.com/Vento%20uk.htm|http://www.xerocamboscreta.com/Vento.D.htm|
+langlookup|http://www.xerocamboscreta.com/Temperature%20uk.htm|http://www.xerocamboscreta.com/Temperature.D.htm|
+langlookup|https://en.wikipedia.org/wiki/Beaufort_scale|https://de.wikipedia.org/wiki/Beaufortskala|
+langlookup|http://www.xerocamboscreta.com/Meteo.Xero.uk.htm|http://www.xerocamboscreta.com/Meteo.Xero.D.htm|

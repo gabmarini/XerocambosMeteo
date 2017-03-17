@@ -47,7 +47,7 @@ include("menubar.php");
 
 <div id="main-copy">
   
-  
+  <h1 class="title"></h1>
    <?php if(isset($SITE['trendsPage']) and file_exists($SITE['trendsPage'])) {
 	   include_once($SITE['trendsPage']);
    } else { 
@@ -61,7 +61,7 @@ include("menubar.php");
    
    }?>     
 
- 
+ <h1 class="title"></h1>
 </div><!-- end main-copy -->
 
 <?php

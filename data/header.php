@@ -67,7 +67,7 @@ $tuom = '&deg;' . $tuom[1];
  	  </div>
 
       <div class="subHeader">
-        <?php echo $SITE['location']; ?>
+        <?php echo langtransstr($SITE['location']); ?>
 		<?php if($SITE['allowLanguageSelect']) { // insert code for language select ?>
 			   <br />
 		<!-- begin language select -->

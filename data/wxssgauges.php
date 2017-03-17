@@ -129,14 +129,14 @@ print '<!-- default HTML is being used -->
         <canvas id="canvas_temp" width="221" height="221"></canvas>
       </div>
       <input id="rad_temp1" type="radio" name="rad_temp" value="out" checked onclick="gauges.doTemp(this);"><label id="lab_temp1" for="rad_temp1">Outside</label>
-      <input id="rad_temp2" type="radio" name="rad_temp" value="in" onclick="gauges.doTemp(this);"><label id="lab_temp2" for="rad_temp2">Inside</label>
+      <input id="rad_temp2" type="radio" name="rad_temp" value="in" onclick="gauges.doTemp(this);"><label id="lab_temp2" for="rad_temp2">langtransstr("Inside")</label>
     </div>
     <div class="gauge">
       <div id="tip_1">
         <canvas id="canvas_dew" width="221" height="221"></canvas>
       </div>
       <input id="rad_dew1" type="radio" name="rad_dew" value="dew" onclick="gauges.doDew(this);"><label id="lab_dew1" for="rad_dew1">Dew Point</label>
-      <input id="rad_dew2" type="radio" name="rad_dew" value="app" checked onclick="gauges.doDew(this);"><label id="lab_dew2" for="rad_dew2">Apparent</label>
+      <input id="rad_dew2" type="radio" name="rad_dew" value="app" checked onclick="gauges.doDew(this);"><label id="lab_dew2" for="rad_dew2">langtransstr("Apparent");</label>
       <br>
       <input id="rad_dew3" type="radio" name="rad_dew" value="wnd" onclick="gauges.doDew(this);"><label id="lab_dew3" for="rad_dew3">Wind Chill</label>
       <input id="rad_dew4" type="radio" name="rad_dew" value="hea" onclick="gauges.doDew(this);"><label id="lab_dew4" for="rad_dew4">Heat Index</label>
@@ -148,7 +148,7 @@ print '<!-- default HTML is being used -->
         <canvas id="canvas_hum" width="221" height="221"></canvas>
       </div>
       <input id="rad_hum1" type="radio" name="rad_hum" value="out" checked onclick="gauges.doHum(this);"><label id="lab_hum1" for="rad_hum1">Outside</label>
-      <input id="rad_hum2" type="radio" name="rad_hum" value="in" onclick="gauges.doHum(this);"><label id="lab_hum2" for="rad_hum2">Inside</label>
+      <input id="rad_hum2" type="radio" name="rad_hum" value="in" onclick="gauges.doHum(this);"><label id="lab_hum2" for="rad_hum2">langtransstr("Inside")</label>
     </div>
   </div>
   <div class="row">
