@@ -7,17 +7,23 @@ UV Index{wxuvforecast.php}[Indice UV{}|UV-Index{}|Indice UV{}|Δείκτης UV{
 
 Statistics{wxtrends.php}[Statistiche{}|Statistiken{}|Statistiques{}|Στατιστικά στοιχεία{}]
 
+Meteo database{}[Archivio Meteo{}|Wetterdatenbank{}|Archives météo{}|Αρχείο καιρού{}]
+-Yesterday (it){http://www.xerocamboscreta.com/Nov16.htm}[Ieri{}|Gestern (it){}|Hier (it){}|Εχθές (it){}]
+-From 2004 (it){http://www.xerocamboscreta.com/Storico%20Clima%20X.htm}[Dal 2004{}|Seit 2004 (it){}|À partir de 2004 (it){}|Από το 2004 (it){}]
+-Winds graphs{http://www.xerocamboscreta.com/Vento%20uk.htm}[Grafici vento{http://www.xerocamboscreta.com/Vento.htm}|Wind Grafiken{http://www.xerocamboscreta.com/Vento.D.htm}|Graphiques du vent{http://www.xerocamboscreta.com/Vento.F.htm}|Διαγράμματα ανέμου{http://www.xerocamboscreta.com/Vento.gr.htm}]
+-Temperatures graphs{http://www.xerocamboscreta.com/Temperature%20uk.htm}[Grafici temperature{http://www.xerocamboscreta.com/Temperature.htm}|Temperatur Grafiken{http://www.xerocamboscreta.com/Temperature.D.htm}|Graphiques température{http://www.xerocamboscreta.com/Temperature.F.htm}|Διαγράμματα θερμοκρασίας{http://www.xerocamboscreta.com/Temperature.gr.htm}]
+
 Wind/Sea scale{https://en.wikipedia.org/wiki/Beaufort_scale}[Scale Vento/Mare{http://www.xerocamboscreta.com/Scale%20vento%20e%20mare.htm}|Wind/Meer Skala{https://de.wikipedia.org/wiki/Beaufortskala}|Vent/Mer échelle{https://fr.wikipedia.org/wiki/%C3%89chelle_de_Beaufort}|Άνεμο/θάλασσα κλίμακας{https://el.wikipedia.org/wiki/%CE%9A%CE%BB%CE%AF%CE%BC%CE%B1%CE%BA%CE%B1_%CE%9C%CF%80%CE%BF%CF%86%CF%8C%CF%81}]
 
 Sun/Moon Almanac{wxastronomy.php}[Almanacco Sole/Luna{}|Sonne/Mond Almanach{}|Almanach Soleil/Lune{}|Ημερολόγιο Ηλιου/Σελήνης{}]
 
-Calendar 2016{http://www.xerocamboscreta.com/Calendario.16.htm}[Calendario 2016{}|Kalender 2016{}|Calendrier 2016{}|Ημερολόγιο 2016{}]
+Calendar 2017{http://www.xerocamboscreta.com/Calendario.17.htm}[Calendario 2017{}|Kalender 2017{}|Calendrier 2017{}|Ημερολόγιο 2017{}]
 
 Weather station info{wxabout.php}[Info stazione meteo{}|Wetterstation Info{}|Infos station météo{}|Πληροφορίες σταθμού{}]
 
 External links{}[Links esterni{}|Außenstehende Links{}|Liens externes{}|Σύνδεσμοι{}]
 -Meteokrites (el){http://meteokrites.gr/stations.php}[|||]
--Windytv(de-el-en-fr-it){https://www.windytv.com/?35.461,25.362,8}[|||]
+-Windytv (de-el-en-fr-it){https://www.windytv.com/?35.461,25.362,8}[|||]
 -Poseidon (el-en){http://www.poseidon.hcmr.gr/weather_forecast.php?area_id=gr}[|||]
 -Windfinder{http://www.xerocamboscreta.com/Meteo.Xero.uk.htm}[{http://www.xerocamboscreta.com/Meteo.Xero.it.htm}|{http://www.xerocamboscreta.com/Meteo.Xero.D.htm}|{http://www.xerocamboscreta.com/Meteo.Xero.F.htm}|{http://www.xerocamboscreta.com/Meteo.Xero.gr.htm}]
 

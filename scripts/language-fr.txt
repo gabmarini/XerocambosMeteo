@@ -90,3 +90,57 @@ langlookup|http://www.xerocamboscreta.com/V.uk.htm|http://www.xerocamboscreta.co
 langlookup|http://www.xerocamboscreta.com/Amici%20uk.htm|http://www.xerocamboscreta.com/Amici%20F.htm|
 langlookup|http://www.xerocamboscreta.com/Vento%20uk.htm|http://www.xerocamboscreta.com/Vento.F.htm|
 langlookup|http://www.xerocamboscreta.com/Temperature%20uk.htm|http://www.xerocamboscreta.com/Temperature.F.htm|
+langlookup|Home Page|Page d'index|
+langlookup|Xerocampos|Xérocambos|
+langlookup|Description|Description|
+langlookup|Photos|Photos|
+langlookup|Drone|Drone|
+langlookup|How to reach|Comment s'y rendre|
+langlookup|Accomodations|Hébergements|
+langlookup|Houses & land|Maisons &amp; terrains|
+langlookup|Friends|Amis|
+langlookup|http://www.xerocamboscreta.com/Description%20uk.htm|http://www.xerocamboscreta.com/Description%20F.htm|
+langlookup|http://www.xerocamboscreta.com/Photographic%20Album.htm|http://www.xerocamboscreta.com/Photographic%20Album%20F.htm|
+langlookup|http://www.xerocamboscreta.com/Volare.uk.htm|http://www.xerocamboscreta.com/Volare.F.htm|
+langlookup|http://www.xerocamboscreta.com/Comearuk.htm|http://www.xerocamboscreta.com/ComearF.htm|
+langlookup|http://www.xerocamboscreta.com/Appuk.htm|http://www.xerocamboscreta.com/AppF.htm|
+langlookup|http://www.xerocamboscreta.com/V.uk.htm|http://www.xerocamboscreta.com/V.F.htm|
+langlookup|http://www.xerocamboscreta.com/Amici%20uk.htm|http://www.xerocamboscreta.com/Amici%20F.htm|
+langlookup|Real-time data|Données en temps réel|
+langlookup|Satellite Greece|Satellite Grèce|
+langlookup|UV Index|Indice UV|
+langlookup|Statistics|Statistiques|
+langlookup|Meteo database|Archives météo|
+langlookup|Yesterday (it)|Hier (it)|
+langlookup|From 2004 (it)|À partir de 2004 (it)|
+langlookup|Winds graphs|Graphiques du vent|
+langlookup|Temperatures graphs|Graphiques température|
+langlookup|Wind/Sea scale|Vent/Mer échelle|
+langlookup|Sun/Moon Almanac|Almanach Soleil/Lune|
+langlookup|Calendar 2016|Calendrier 2016|
+langlookup|Weather station info|Infos station météo|
+langlookup|External links|Liens externes|
+langlookup|European meteo links|Liens européens météo|
+langlookup|http://www.xerocamboscreta.com/Vento%20uk.htm|http://www.xerocamboscreta.com/Vento.F.htm|
+langlookup|http://www.xerocamboscreta.com/Temperature%20uk.htm|http://www.xerocamboscreta.com/Temperature.F.htm|
+langlookup|https://en.wikipedia.org/wiki/Beaufort_scale|https://fr.wikipedia.org/wiki/%C3%89chelle_de_Beaufort|
+langlookup|http://www.xerocamboscreta.com/Meteo.Xero.uk.htm|http://www.xerocamboscreta.com/Meteo.Xero.F.htm|
+langlookup|Real-time data|Données en temps réel|
+langlookup|Satellite Greece|Satellite Grèce|
+langlookup|UV Index|Indice UV|
+langlookup|Statistics|Statistiques|
+langlookup|Meteo database|Archives météo|
+langlookup|Yesterday (it)|Hier (it)|
+langlookup|From 2004 (it)|À partir de 2004 (it)|
+langlookup|Winds graphs|Graphiques du vent|
+langlookup|Temperatures graphs|Graphiques température|
+langlookup|Wind/Sea scale|Vent/Mer échelle|
+langlookup|Sun/Moon Almanac|Almanach Soleil/Lune|
+langlookup|Calendar 2017|Calendrier 2017|
+langlookup|Weather station info|Infos station météo|
+langlookup|External links|Liens externes|
+langlookup|European meteo links|Liens européens météo|
+langlookup|http://www.xerocamboscreta.com/Vento%20uk.htm|http://www.xerocamboscreta.com/Vento.F.htm|
+langlookup|http://www.xerocamboscreta.com/Temperature%20uk.htm|http://www.xerocamboscreta.com/Temperature.F.htm|
+langlookup|https://en.wikipedia.org/wiki/Beaufort_scale|https://fr.wikipedia.org/wiki/%C3%89chelle_de_Beaufort|
+langlookup|http://www.xerocamboscreta.com/Meteo.Xero.uk.htm|http://www.xerocamboscreta.com/Meteo.Xero.F.htm|

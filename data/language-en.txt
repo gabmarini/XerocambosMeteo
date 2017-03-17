@@ -455,3 +455,5 @@ langlookup|Winter Total|Winter Total|
 langlookup|within|Within|
 langlookup|WXSIM forecast|Forecast|
 langlookup|WXSIM Forecast is not available|WXSIM Forecast is not available|
+
+langlookup|Xerokampos Lassithi Creta Est Grecia|Xerokampos &#124; Lassithi &#124; East Crete &#124; Greece|

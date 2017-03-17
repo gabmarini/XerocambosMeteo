@@ -4,13 +4,19 @@
 <item caption="Satellite Greece" link="wxradar.php"/>
 <item caption="UV Index" link="wxuvforecast.php"/>
 <item caption="Statistics" link="wxtrends.php"/>
+<item caption="Meteo database" link="">
+	<item caption="Yesterday (it)" link="http://www.xerocamboscreta.com/Nov16.htm"/>
+	<item caption="From 2004 (it)" link="http://www.xerocamboscreta.com/Storico%20Clima%20X.htm"/>
+	<item caption="Winds graphs" link="http://www.xerocamboscreta.com/Vento%20uk.htm"/>
+	<item caption="Temperatures graphs" link="http://www.xerocamboscreta.com/Temperature%20uk.htm"/>
+</item>
 <item caption="Wind/Sea scale" link="https://en.wikipedia.org/wiki/Beaufort_scale"/>
 <item caption="Sun/Moon Almanac" link="wxastronomy.php"/>
-<item caption="Calendar 2016" link="http://www.xerocamboscreta.com/Calendario.16.htm"/>
+<item caption="Calendar 2017" link="http://www.xerocamboscreta.com/Calendario.17.htm"/>
 <item caption="Weather station info" link="wxabout.php"/>
 <item caption="External links" link="">
 	<item caption="Meteokrites (el)" link="http://meteokrites.gr/stations.php"/>
-	<item caption="Windytv(de-el-en-fr-it)" link="https://www.windytv.com/?35.461,25.362,8"/>
+	<item caption="Windytv (de-el-en-fr-it)" link="https://www.windytv.com/?35.461,25.362,8"/>
 	<item caption="Poseidon (el-en)" link="http://www.poseidon.hcmr.gr/weather_forecast.php?area_id=gr"/>
 	<item caption="Windfinder" link="http://www.xerocamboscreta.com/Meteo.Xero.uk.htm"/>
 </item>

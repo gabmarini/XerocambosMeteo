@@ -110,7 +110,7 @@ $SITE['monthNames'] = array(  // for wxastronomy page .. replace with month name
 
 $SITE['organ']			= 'Meteo Xerocambos';
 $SITE['copyr']			= '&copy; ' . gmdate("Y",time()) . ', www.xerocamboscreta.com by Andrea Maria Marini';
-$SITE['location']       = 'Xerokampos | Lassithi | Creta Est | Grecia';
+$SITE['location']       = 'Xerokampos Lassithi Creta Est Grecia';
 $SITE['email']			= 'mailto:andrea18@otenet.gr';
 
 # Station location: latitude, longitude, cityname

@@ -66,20 +66,20 @@ e
 #Links
 ##Link to
 #Local Time
-Lon 
-Long Beach Weather Scripts
-M
-Mag   
-Magnitude
-Map
-mb
-Meteokrites
-mm
-mph
-Name
+#Lon 
+#Long Beach Weather Scripts
+#M
+#Mag   
+#Magnitude
+##Map
+#mb
+#Meteokrites
+#mm
+#mph
+#Name
 Need update to
-no
-NO
+#no
+#NO
 NOT available
 Note
 Note sul Sito
@@ -87,7 +87,7 @@ not functional
 Origin
 Outside
 ozone 
-Poseidon
+#Poseidon
 Pressure
 Questo sito utilizza il template design di 
 Radar
@@ -108,10 +108,10 @@ This is a sample page
 Time 
 UK Earthquakes in the last 50 days
 Until
-USGS
-UV 
+#USGS
+#UV 
 UV forecast courtesy of and 
-v
+#v
 valid from
 Version
 Version Description
@@ -124,7 +124,7 @@ WeatherUnderground
 Weather Underground
 WeatherUnderground 
 Wind Chill
-Wind Finder
+#Wind Finder
 Wind Rose drawn using 
 Wind Speed
 with a query set for 
