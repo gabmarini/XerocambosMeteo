@@ -1,41 +1,41 @@
 HTTP/1.1 200 OK
-Date: Thu, 16 Mar 2017 17:03:21 GMT
+Date: Fri, 17 Mar 2017 14:48:54 GMT
 Server: Apache
 Access-Control-Allow-Origin: *
 Connection: close
 Transfer-Encoding: chunked
 Content-Type: application/json
 
-2c9
+2ca
 {
 "error":false,
 "apiversion":"2.0.0",
 "year":2017,
 "month":3,
-"day":16,
-"dayofweek":"Thursday",
+"day":17,
+"dayofweek":"Friday",
 "datechanged":false,
 "lon":26.227628,
 "lat":35.043122,
 "tz":2,
 
 "sundata":[
-            {"phen":"BC", "time":"05:59"},
-            {"phen":"R", "time":"06:24"},
-            {"phen":"U", "time":"12:24"},
-            {"phen":"S", "time":"18:23"},
-            {"phen":"EC", "time":"18:49"}],
+            {"phen":"BC", "time":"05:58"},
+            {"phen":"R", "time":"06:23"},
+            {"phen":"U", "time":"12:23"},
+            {"phen":"S", "time":"18:24"},
+            {"phen":"EC", "time":"18:50"}],
 
 "moondata":[
-            {"phen":"U", "time":"02:57"},
-            {"phen":"S", "time":"08:39"},
-            {"phen":"R", "time":"22:04"}],
+            {"phen":"U", "time":"03:41"},
+            {"phen":"S", "time":"09:14"},
+            {"phen":"R", "time":"22:58"}],
 
 "prevmoondata":[
-            {"phen":"R","time":"21:09"}],
+            {"phen":"R","time":"22:04"}],
 
-"closestphase":{"phase":"Full Moon","date":"March 12, 2017","time":"16:54"},
-"fracillum":"86%",
+"closestphase":{"phase":"Last Quarter","date":"March 20, 2017","time":"17:58"},
+"fracillum":"79%",
 "curphase":"Waning Gibbous"
 }
 0

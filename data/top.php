@@ -118,8 +118,6 @@ if(isset($useHTML5) and $useHTML5) {
     <link rel="stylesheet" type="text/css" href="<?php echo $SITE['CSSprint']; ?>" media="print" />
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-
-	<script type="text/javascript" src="cssrefresh.js"></script>
 <?php 
 if(isset($useHTML5) and $useHTML5) { // no pragma/cache-control for us
 

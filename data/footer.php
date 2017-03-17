@@ -34,28 +34,28 @@ require_once("Settings.php");
 require_once("common.php");
 ############################################################################
 ?>
-    <!-- ##### Footer ##### -->
+		<!-- ##### Footer ##### -->
 
-    <div id="footer">
-      <div class="doNotPrint">
-        <a href="#header"><?php langtrans('Top'); ?></a> |
+		<div id="footer">
+			<div class="doNotPrint">
+				<a href="#header"><?php langtrans('Top'); ?></a> |
 
-        <a href="<?php print $SITE['email']; ?>" title="E-mail us"><?php langtrans('Contact Us'); ?></a>
-        <script type="text/javascript">
-        <!--
-        if (navigator.appName == 'Microsoft Internet Explorer' && 
-        parseInt(navigator.appVersion) >= 4)
-        {
-        document.write('| <a href=\"#\" onclick=\"javascript:window.external.AddFavorite        (location.href,document.title)\">');
-        document.write('<?php langtrans('Bookmark Page'); ?></a>');
-        }else
-        {var msg = '| <a href="" title="<?php langtrans('Bookmark Page'); ?>" onClick="alert(' + "'Hit CTRL-D to bookmark this page'"+ ');"><?php langtrans('Bookmark Page'); ?></a>';
-        if(navigator.appName == "Netscape") msg += " (CTRL-D)";
+				<a href="<?php print $SITE['email']; ?>" title="E-mail us"><?php langtrans('Contact Us'); ?></a>
+				<script type="text/javascript">
+				<!--
+				if (navigator.appName == 'Microsoft Internet Explorer' && 
+				parseInt(navigator.appVersion) >= 4)
+				{
+				document.write('| <a href=\"#\" onclick=\"javascript:window.external.AddFavorite        (location.href,document.title)\">');
+				document.write('<?php langtrans('Bookmark Page'); ?></a>');
+				}else
+				{var msg = '| <a href="" title="<?php langtrans('Bookmark Page'); ?>" onClick="alert(' + "'Hit CTRL-D to bookmark this page'"+ ');"><?php langtrans('Bookmark Page'); ?></a>';
+				if(navigator.appName == "Netscape") msg += " (CTRL-D)";
 document.write(msg);
-        }
-        // -->
-        </script>
-      </div><!-- end doNotPrint -->
+				}
+				// -->
+				</script>
+			</div><!-- end doNotPrint -->
 
 <div>
 	<?php print $SITE['copyr'] ?><span class="doNotPrint"> |  
@@ -66,7 +66,7 @@ document.write(msg);
 	<a href="http://jigsaw.w3.org/css-validator/check/referer"><?php langtrans('Valid'); ?> CSS</a> 
 	</span><br class="doNotPrint" />
 	
-    <!--<br/><?php langtrans('Never base important decisions on this or any weather information obtained from the Internet'); ?>.<br class="doNotPrint" />-->
+		<!--<br/><?php langtrans('Never base important decisions on this or any weather information obtained from the Internet'); ?>.<br class="doNotPrint" />-->
 
 </div>
 
@@ -90,8 +90,8 @@ document.write(msg);
 <!--			<a href="http://www.histats.com/it/" target="_blank"> -->
 			<img src="http://s103.histats.com/stats/0.gif?293098&1" alt="contatore free" border="0"></a></noscript>
 			<!-- Histats.com END counter ANDREA-->
-      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+			<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+			<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 
 
@@ -103,32 +103,40 @@ eliminato collegamento informativa -->
 <!--<a href=""> Informativa cookie </a>-->
 
 
-    </div><!-- end id="footer" -->
-  </div><!-- end id="page" wrapper -->
+		</div><!-- end id="footer" -->
+	</div><!-- end id="page" wrapper -->
 
 <script type="text/javascript">  
 $(document).ready(function () {
-    $(".dropdown").click(function () {
-        $('.dropdown > ul').not($(this).children("ul").toggle()).hide();        
-    });
+		$(".dropdown").click(function () {
+				$('.dropdown > ul').not($(this).children("ul").toggle("slow"));
+				if ($(this).children("a").hasClass("drop-open")){
+					$(this).children("a").removeClass("drop-open");
+					$(this).children("a").css("color","").css("background-color", "");
+					$(this).children("ul").fadeOut(1000);
+				} else {
+					$(this).children("a").addClass("drop-open");
+					$(this).children("a").css("color","#000066").css("background-color", "#AAFFFF");
+				}        
+		});
 
-    $(".drop-link").click(function(e) {
-    e.preventDefault(); // one way 
-  });
+		$(".drop-link").click(function(e) {
+		e.preventDefault(); // one way 
+	});
 });
 </script>
-  </body>
+	</body>
 </html>
 <?php 
 # Leave this code here .. it will help you see what language translations are missing by running any page on your
 # website with a ?show=missing argument
 #
-  global $missingTrans,$SITE;
-  if(isset($_REQUEST['show']) and strtolower($_REQUEST['show']) == 'missing') {
+	global $missingTrans,$SITE;
+	if(isset($_REQUEST['show']) and strtolower($_REQUEST['show']) == 'missing') {
 	echo "<!-- missing langlookup entries for lang=".$SITE['lang']." \n";
 	foreach ($missingTrans as $key => $val) {
 		echo "langlookup|$key|$key|\n";
 	}
 	echo "\n ".count($missingTrans)." entries.  End of missing langlookup entries -->\n";
-  }
+	}
 ?>
