@@ -1210,98 +1210,43 @@ $json = json_encode($filelist);
             <font color="#AAFFFF">Contattateci</font></a>&nbsp;|</font>
 
 
-
-<!--	
-        inserito come segnaposto
-        <br>
-		(formato - class=datahead = tx bianco e sfondo)
-		(formato - class=data1 = tx bianco, bordo sotto, no sfondo)
-		(formato - senza class = eredita celeste xero, no bordo sotto, no sfondo)
--->
       </td>
     </tr>
    <tr>
       <td colspan="3" style="text-align: center">
-<!--	
-        inserito come segnaposto
-                
-		(formato - class=datahead = tx bianco e sfondo)
-		(formato - class=data1 = tx bianco, bordo sotto, no sfondo)
-		(formato - senza class = eredita celeste xero, no bordo sotto, no sfondo)
--->
+
       </td>
     </tr>
    <tr>
       <td colspan="3" style="text-align: center">
 		<br>
-<!--      
-/* modificato MASSI
-avevo messo qui il counter
-poi messo nel footer.php
-così lo carica automaticamente in tutte le pagine
             
-<!--      
-/* modificato MASSI
-inserito caricamento PHP della frase
-e disattivato dal pie di pagina "footer.php"
-per non averlo doppio-->
 -----
 <br/><?php langtrans('Never base important decisions on this or any weather information obtained from the Internet'); ?>.<br class="doNotPrint" />
 -----
             
-<!--	
-        inserito come segnaposto
-        
-		(formato - class=datahead = tx bianco e sfondo)
-		(formato - class=data1 = tx bianco, bordo sotto, no sfondo)
-		(formato - senza class = eredita celeste xero, no bordo sotto, no sfondo)
--->
+
       </td>
     </tr>
     
     
     <tr>
       <td colspan="3" style="text-align: center">
-<!--	
-        inserito come segnaposto
-        
-		(formato - class=datahead = tx bianco e sfondo)
-		(formato - class=data1 = tx bianco, bordo sotto, no sfondo)
-		(formato - senza class = eredita celeste xero, no bordo sotto, no sfondo)
--->
+
         </td>
 	</tr>
     
     <tr>
       <td colspan="3" style="text-align: center">
-<!--	
-        inserito come segnaposto
-        
-		(formato - class=datahead = tx bianco e sfondo)
-		(formato - class=data1 = tx bianco, bordo sotto, no sfondo)
-		(formato - senza class = eredita celeste xero, no bordo sotto, no sfondo)
--->
+
       </td>
     </tr>
 	<tr>
       <td colspan="3" style="text-align: center">
-<!--	
-        inserito come segnaposto
-        
-		(formato - class=datahead = tx bianco e sfondo)
-		(formato - class=data1 = tx bianco, bordo sotto, no sfondo)
-		(formato - senza class = eredita celeste xero, no bordo sotto, no sfondo)
--->
+
         </td>
 	</tr>
 </table>
-
-
-<!-- >>>> FINE TABELLA PREVISIONI -->
-<!-- -------------------------------------------------------------------------------------------------------------------- -->
-<!--
-/* modificato MASSI fine -->
-
 
  
  

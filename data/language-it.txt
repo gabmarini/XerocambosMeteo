@@ -515,7 +515,7 @@ langlookup|Coldest day|Giorno più fresco|
 langlookup|Coldest night|Notte più fresca|
 
 langlookup|BAROMETER HIGHS|ESTREMI BAROMETRICI|
-langlookup|WIND CHILL LOWS|Wind chill min|
+langlookup|WIND CHILL LOWS|Temperatura percepita min|
 langlookup|EVAPOTRANSPIRATION|EVAPOTRSPIRAZIONE|
 langlookup|SOLAR HIGHS|RAD. SOLARE MAX|
 langlookup|UV HIGHS|INDICE UV MAX|
@@ -843,7 +843,7 @@ langlookup|Description|Descrizione|
 langlookup|Photos|Fotografie|
 langlookup|Drone|Drone|
 langlookup|How to reach|Come arrivarci|
-langlookup|Accomodations|Alloggi|
+langlookup|Accommodations|Alloggi|
 langlookup|Houses & land|Terreni &amp; case|
 langlookup|Friends|Amici|
 langlookup|Meteo database (it)|Archivio Meteo|

@@ -374,7 +374,7 @@ langlookup|Distances|Distances|
 langlookup|Car Rental|Locations de voitures|
 langlookup|Public transport|Bus publics (en)|
 langlookup|Hicking|Randonnée|
-langlookup|Accomodations|Hébergements|
+langlookup|Accommodations|Hébergements|
 langlookup|Crete by Yacht|Crète par Yacht|
 langlookup|District Chania|Région Chania|
 langlookup|Kastelli/Kissamos|Kastelli/Kissamos|

@@ -376,7 +376,7 @@ langlookup|Distances|Αποστάσεις|
 langlookup|Car Rental|Ενοικίαση αυτοκινήτου|
 langlookup|Public transport|Λεωφορεία Κ.Τ.Ε.Λ|
 langlookup|Hicking|Πεζοπορία|
-langlookup|Accomodations|Καταλύματα|
+langlookup|Accommodations|Καταλύματα|
 langlookup|Crete by Yacht|Κρήτη με γιοτ|
 langlookup|District Chania|Νομός Χανίων|
 langlookup|Kastelli/Kissamos|Κίσσαμος/Καστέλι|
