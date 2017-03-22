@@ -1057,7 +1057,7 @@ VUOTA COME BASE
       <td valign="top" style="text-align: center">
 		Immagine dal satellite sulla Grecia
 		<br>
-		<p align=center><a href="wxradar.php" target="_blank"><IMG SRC="http://api.sat24.com/animated/GR/visual/1/GTB%20Standard%20Time/3023890" width="180"></a></p>
+		<p align=center><a href="wxradar.php" target="_blank"><IMG SRC="http://api.sat24.com/animated/GR/visual/1/GTB%20Standard%20Time/3023890" width="155"></a></p>
       </td>
       
       <td valign="top" style="text-align: center">
