@@ -442,7 +442,7 @@ langlookup|UV Index|Δείκτης UV|
 langlookup|Statistics|Στατιστικά στοιχεία|
 langlookup|Wind/Sea scale|¶νεμο/θάλασσα κλίμακας|
 langlookup|Sun/Moon Almanac|Ημερολόγιο Ηλιου/Σελήνης|
-langlookup|Calendar 2016|Ημερολόγιο 2016|
+langlookup|Calendar 2017|Ημερολόγιο 2017|
 langlookup|Weather station info|Πληροφορίες σταθμού|
 langlookup|External links|Σύνδεσμοι|
 langlookup|European meteo links|Σύνδεσμοι καιρούΕυρώπης|
@@ -456,7 +456,7 @@ langlookup|How to reach|Πως θα το Βρείτε|
 langlookup|Accomodations|Καταλύματα|
 langlookup|Houses & land|Σπίτια &amp; οικόπεδα|
 langlookup|Friends|Φίλοι|
-langlookup|Meteo database (it)|Αρχείο καιρού (it)|
+langlookup|Meteo database|Αρχείο καιρού (it)|
 langlookup|Yesterday (it)|Εχθές (it)|
 langlookup|From 2004 (it)|Από το 2004 (it)|
 langlookup|Winds graphs|Διαγράμματα ανέμου|
@@ -558,6 +558,12 @@ langlookup|Winter Total|Σύνολο χειμώνας|
 langlookup|within|Εντός|
 langlookup|WXSIM forecast|Πρόβλεψη|
 langlookup|WXSIM Forecast is not available|Πρόβλεψη WXSIM δεν είναι διαθέσιμη|
+langlookup|InfoCrete|Info (en)|
+langlookup|Live Webcam from Xerocampos|ζωντανή εικόνα από webcam|
+langlookup|Satellite image over Greece|Δορυφορική εικόνα Ελλάδας|
+langlookup|Yesterday in 60 seconds|Χθες σε 60 δευτερόλεπτα|
+langlookup|http://www.xerocamboscreta.com/Webcam.Kavalo1.Xero.uk.php|http://www.xerocamboscreta.com/Webcam.Kavalo1.Xero.gr.php|
+langlookup|http://www.xerocamboscreta.com/slide.kavalo1.uk.php|http://www.xerocamboscreta.com/slide.kavalo1.gr.php|
 
 
 

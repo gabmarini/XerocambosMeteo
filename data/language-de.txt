@@ -441,7 +441,7 @@ langlookup|How to reach|Wie man erreicht|
 langlookup|Accomodations|Unterkünfte|
 langlookup|Houses & land|Häuser &amp; Land|
 langlookup|Friends|Freunde|
-langlookup|Meteo database (it)|Wetterdatenbank (it)|
+langlookup|Meteo database|Wetterdatenbank (it)|
 langlookup|Yesterday (it)|Gestern (it)|
 langlookup|From 2004 (it)|Seit 2004 (it)|
 langlookup|Winds graphs|Wind Grafiken|
@@ -542,6 +542,9 @@ langlookup|Winter Total|Winter-Gesamt|
 langlookup|within|Innerhalb|
 langlookup|WXSIM forecast|Prognose|
 langlookup|WXSIM Forecast is not available|WXSIM Prognose ist nicht verfügbar|
-
-
-
+langlookup|InfoCrete|Info (en)|
+langlookup|Live Webcam from Xerocampos|Live Webcam Xerokampos|
+langlookup|Satellite image over Greece|Satellitenbilder Griechenland|
+langlookup|Yesterday in 60 seconds|Gestern in 60 Sekunden|
+langlookup|http://www.xerocamboscreta.com/Webcam.Kavalo1.Xero.uk.php|http://www.xerocamboscreta.com/Webcam.Kavalo1.Xero.D.php|
+langlookup|http://www.xerocamboscreta.com/slide.kavalo1.uk.php|http://www.xerocamboscreta.com/slide.kavalo1.D.php|

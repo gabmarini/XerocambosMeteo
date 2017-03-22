@@ -85,7 +85,6 @@ document.write(msg);
 			</script>
 
 			<script  type="text/javascript" language="javascript" src="http://s11.histats.com/js9.js"></script>
-			</a>
 			<noscript>
 <!--			<a href="http://www.histats.com/it/" target="_blank"> -->
 			<img src="http://s103.histats.com/stats/0.gif?293098&1" alt="contatore free" border="0"></a></noscript>
@@ -125,6 +124,48 @@ $(document).ready(function () {
 	});
 });
 </script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        var handle = $( "#custom-handle" );
+        var prova = <?php echo $json; ?>;
+        var max = prova.length-1;
+        var i = 0;
+        var intervalID;
+
+        function startTimelapse() {
+            intervalID = setInterval(function(){
+                prova[i] != undefined ? i : i=0;
+                $('#image').attr('src', '../Kavalo1/FI9900P_00626E65B357/snap/'+prova[i]);
+                $('#slider').slider('value', i);
+                handle.text(i);
+                i++;
+            }, 500);
+        }
+
+
+        handle.focusout(function() {
+            startTimelapse();
+        });
+
+        $( "#slider" ).slider({
+            max: max,
+            create: function() {
+                handle.text( $( this ).slider( "value" ) );
+            },
+            start: function( event, ui ) {
+                clearInterval(intervalID);
+            },
+            slide: function( event, ui ) {
+                handle.text( ui.value );
+                $('#image').attr('src', '../Kavalo1/FI9900P_00626E65B357/snap/'+prova[ui.value]);
+                i = ui.value;
+            }
+        });
+        startTimelapse();
+    });
+    </script>
+
 	</body>
 </html>
 <?php 

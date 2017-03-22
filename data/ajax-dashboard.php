@@ -1048,24 +1048,22 @@ VUOTA COME BASE
 <!--inizio cella divisa in 3 - tramite propietà 'colspan="3"'-->
 	<tr>
       <td valign="top" style="text-align: center">
-		Webcam in diretta da Xerocambos
+		<?php echo langtransstr("Live Webcam from Xerocampos")?>
 		<br>
-		<p align=center><a href="http://www.xerocamboscreta.com/Webcam.Kavalo1.Xero.it.php" target="_blank">
+		<p align=center><a href="<?php echo langtransstr("http://www.xerocamboscreta.com/Webcam.Kavalo1.Xero.uk.php") ?>" target="_blank">
 		<IMG SRC="http://jm2682.myfoscam.org:88//cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=visitatore&pwd=kavalo1&cnt=" width="200"></a></p>
       </td>
       
       <td valign="top" style="text-align: center">
-    <p align=center><a href="wxradar.php" target="_blank"><IMG SRC="http://api.sat24.com/animated/GR/visual/1/GTB%20Standard%20Time/3023890" width="200"></a></p>
-		Immagine dal satellite sulla Grecia
+		<?php echo langtransstr("Satellite image over Greece")?>
 		<br>
+    <p align=center><a href="wxradar.php" target="_blank"><IMG SRC="http://api.sat24.com/animated/GR/visual/1/GTB%20Standard%20Time/3023890" width="200"></a></p>
       </td>
       
       <td valign="top" style="text-align: center">
-		La giornata di ieri in 60 secondi
+		<?php echo langtransstr("Yesterday in 60 seconds") ?>
 		<br>
         
-<!-- INIZIO PROVA_01 SLIDE ------------------------------------------------------------------------- -->        
-
 
 <head>
 <style fprolloverstyle="">A:hover {color: #AAFFFF; font-family: Comic Sans MS;}
@@ -1097,7 +1095,7 @@ $json = json_encode($filelist);
 </head>
 
 
-		<p align=center><a href="http://www.xerocamboscreta.com/slide.kavalo1.it.php" target="_blank">
+		<p align=center><a href="<?php echo langtransstr("http://www.xerocamboscreta.com/slide.kavalo1.uk.php") ?>" target="_blank">
 
 		<img id="image" src="../Kavalo1/FI9900P_00626E65B357/snap/<?php echo $filelist[0];?>" width="200" alt="timelapse kavalo1"></a></p>
                 
@@ -1105,46 +1103,6 @@ $json = json_encode($filelist);
 		<div id="custom-handle" class="ui-slider-handle"></div>
 	</div>
 
-<script type="text/javascript">
-    $(document).ready(function(){
-        var handle = $( "#custom-handle" );
-        var prova = <?php echo $json; ?>;
-        var max = prova.length-1;
-        var i = 0;
-        var intervalID;
-
-        function startTimelapse() {
-            intervalID = setInterval(function(){
-                prova[i] != undefined ? i : i=0;
-                $('#image').attr('src', '../Kavalo1/FI9900P_00626E65B357/snap/'+prova[i]);
-                $('#slider').slider('value', i);
-                handle.text(i);
-                i++;
-            }, 500);
-        }
-
-
-        handle.focusout(function() {
-            startTimelapse();
-        });
-
-        $( "#slider" ).slider({
-            max: max,
-            create: function() {
-                handle.text( $( this ).slider( "value" ) );
-            },
-            start: function( event, ui ) {
-                clearInterval(intervalID);
-            },
-            slide: function( event, ui ) {
-                handle.text( ui.value );
-                $('#image').attr('src', '../Kavalo1/FI9900P_00626E65B357/snap/'+prova[ui.value]);
-                i = ui.value;
-            }
-        });
-        startTimelapse();
-    });
-    </script>
     
 <!-- FINE PROVA_01 SLIDE ------------------------------------------------------------------------- -->        
         
