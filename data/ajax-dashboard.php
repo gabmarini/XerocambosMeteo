@@ -1051,13 +1051,13 @@ VUOTA COME BASE
 		Webcam in diretta da Xerocambos
 		<br>
 		<p align=center><a href="http://www.xerocamboscreta.com/Webcam.Kavalo1.Xero.it.php" target="_blank">
-		<IMG SRC="http://jm2682.myfoscam.org:88//cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=visitatore&pwd=kavalo1&cnt=" width="200" height="150px"></a></p>
+		<IMG SRC="http://jm2682.myfoscam.org:88//cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=visitatore&pwd=kavalo1&cnt=" width="200"></a></p>
       </td>
       
       <td valign="top" style="text-align: center">
 		Immagine dal satellite sulla Grecia
 		<br>
-		<p align=center><a href="wxradar.php" target="_blank"><IMG SRC="http://api.sat24.com/animated/GR/visual/1/GTB%20Standard%20Time/3023890" width="200" height="150px"></a></p>
+		<p align=center><a href="wxradar.php" target="_blank"><IMG SRC="http://api.sat24.com/animated/GR/visual/1/GTB%20Standard%20Time/3023890" width="180"></a></p>
       </td>
       
       <td valign="top" style="text-align: center">
