@@ -423,7 +423,6 @@ langlookup|reported in last 7 days|Reported in last 7 days|
 langlookup|Sample Blank Page|Sample Blank Page|
 langlookup|Select Forecast|Select Forecast|
 langlookup|Sitemap|Sitemap|
-langlookup|Situazione meteo Real Time|Situazione meteo Real Time|
 langlookup|Solar|Solar|
 langlookup|Some File|Some File|
 langlookup|Station Status|Station Status|
@@ -455,6 +454,6 @@ langlookup|Winter Total|Winter Total|
 langlookup|within|Within|
 langlookup|WXSIM forecast|Forecast|
 langlookup|WXSIM Forecast is not available|WXSIM Forecast is not available|
-
-langlookup|Xerokampos Lassithi Creta Est Grecia|Xerokampos &#124; Lassithi &#124; East Crete &#124; Greece|
 langlookup|InfoCrete|Info|
+langlookup|Xerokampos Lassithi Creta Est Grecia|Xerocampos &#124; Municipality of Sitia &#124; District of Lassithi &#124; East Crete &#124; Greece|
+langlookup|Meteo Xerocambos|Xerocampos Weather|

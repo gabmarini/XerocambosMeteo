@@ -549,3 +549,5 @@ langlookup|Satellite image over Greece|Image satellite Grèce|
 langlookup|Yesterday in 60 seconds|Hier en 60 secondes chrono|
 langlookup|http://www.xerocamboscreta.com/Webcam.Kavalo1.Xero.uk.php|http://www.xerocamboscreta.com/Webcam.Kavalo1.Xero.F.php|
 langlookup|http://www.xerocamboscreta.com/slide.kavalo1.uk.php|http://www.xerocamboscreta.com/slide.kavalo1.F.php|
+langlookup|Xerokampos Lassithi Creta Est Grecia|Xerocambos &#124; Municipalité de Sitia &#124; La région de Lassithi &#124; Est de la Crète &#124; Grèce|
+langlookup|Meteo Xerocambos|Xerocambos Météo|

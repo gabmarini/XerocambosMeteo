@@ -445,7 +445,7 @@ langlookup|Sun/Moon Almanac|Ημερολόγιο Ηλιου/Σελήνης|
 langlookup|Calendar 2017|Ημερολόγιο 2017|
 langlookup|Weather station info|Πληροφορίες σταθμού|
 langlookup|External links|Σύνδεσμοι|
-langlookup|European meteo links|Σύνδεσμοι καιρούΕυρώπης|
+langlookup|European meteo links|Σύνδεσμοι καιρού Ευρώπης|
 langlookup|https://en.wikipedia.org/wiki/Beaufort_scale|https://el.wikipedia.org/wiki/%CE%9A%CE%BB%CE%AF%CE%BC%CE%B1%CE%BA%CE%B1_%CE%9C%CF%80%CE%BF%CF%86%CF%8C%CF%81|
 langlookup|http://www.xerocamboscreta.com/Meteo.Xero.uk.htm|http://www.xerocamboscreta.com/Meteo.Xero.gr.htm|
 langlookup|Home Page|Αρχική Σελίδα|
@@ -564,6 +564,5 @@ langlookup|Satellite image over Greece|Δορυφορική εικόνα Ελλάδας|
 langlookup|Yesterday in 60 seconds|Χθες σε 60 δευτερόλεπτα|
 langlookup|http://www.xerocamboscreta.com/Webcam.Kavalo1.Xero.uk.php|http://www.xerocamboscreta.com/Webcam.Kavalo1.Xero.gr.php|
 langlookup|http://www.xerocamboscreta.com/slide.kavalo1.uk.php|http://www.xerocamboscreta.com/slide.kavalo1.gr.php|
-
-
-
+langlookup|Xerokampos Lassithi Creta Est Grecia|Ξερόκαμπος &#124; Δήμος Σητείας &#124; Νομός Λασιθίου &#124; Ανατολική Κρήτη &#124; Ελλάδα|
+langlookup|Meteo Xerocambos|Kαιρός Ξερόκαμπος|

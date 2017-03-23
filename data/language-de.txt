@@ -510,7 +510,7 @@ langlookup|reported in last 7 days|Berichtet in den letzten 7 Tagen|
 langlookup|Sample Blank Page|Beispiel Leere Seite|
 langlookup|Select Forecast|Wählen Sie Prognose|
 langlookup|Sitemap|Site Map|
-langlookup|Situazione meteo Real Time|Wetterlage  in Echtzeit|
+langlookup|Situazione meteo Real Time|Wetterlage in Echtzeit|
 langlookup|Solar|Solar|
 langlookup|Some File|Einige Dateien|
 langlookup|Station Status|Stationsstatus|
@@ -548,3 +548,5 @@ langlookup|Satellite image over Greece|Satellitenbilder Griechenland|
 langlookup|Yesterday in 60 seconds|Gestern in 60 Sekunden|
 langlookup|http://www.xerocamboscreta.com/Webcam.Kavalo1.Xero.uk.php|http://www.xerocamboscreta.com/Webcam.Kavalo1.Xero.D.php|
 langlookup|http://www.xerocamboscreta.com/slide.kavalo1.uk.php|http://www.xerocamboscreta.com/slide.kavalo1.D.php|
+langlookup|Xerokampos Lassithi Creta Est Grecia|Xerokampos &#124; Gemeinde Sitia &#124; Regionalbezirks Lassithi &#124; Ost-Kreta &#124; Griechenland|
+langlookup|Meteo Xerocambos|Wetter Xerocampos|
