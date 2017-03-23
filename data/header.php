@@ -48,7 +48,7 @@ $tuom = '&deg;' . $tuom[1];
 <div id="page"><!-- page wrapper -->
 <!-- header -->
     <div id="header">
-      <h1 class="headerTitle">
+      <h1 class="headerTitle" style="border-top: 1px solid rgb(216,210,195);">
       	<img style="display: block; margin: 0 auto;" src="<?php echo langtransstr('imgTitle')?>">
         <!-- <a title="Browse to homepage"><?php echo langtransstr($SITE['organ']); ?></a> -->
       </h1>	
