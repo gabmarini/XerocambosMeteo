@@ -344,6 +344,8 @@ for ($i=1;$i<count($MENU);$i++) { // loop over all menu items -1
   $img = $MENU[$i]['img'];
   $align = $MENU[$i]['align'];
   $wxonly = $MENU[$i]['wxonly'];
+  $dynamicDate = $MENU[$i]['caption'] == 'Yesterday (it)' ? 1 : 0;
+  $monthMap = ['Jan' => 'Gen', 'Feb' => 'Feb', 'Mar' => 'Mar', 'Apr' => 'Apr', 'May' => 'Mag', 'Jun' => 'Giu', 'Jul' => 'Lug', 'Aug' => 'Ago', 'Sep' => 'Set', 'Oct' => 'Ott', 'Nov' => 'Nov', 'Dec' => 'Dic'];
   $wxonlydisplay = '';
   $wxonlyPrefix = '';
   $wxonlySuffix = '';
@@ -370,9 +372,21 @@ for ($i=1;$i<count($MENU);$i++) { // loop over all menu items -1
   
   if ($link <> '') {
     if (!preg_match('/https|http|www/', langtransstr($link))) {
+      if ($dynamicDate == 1) {
+        $month = date('M');
+        $year = date('y');
+        $link = 'href="http://www.xerocamboscreta.com/'.$monthMap[$month].$year.'.htm" target="_blank"';
+      } else {
       $link = 'href="' . langtransstr($link) . '"';
+      }
     } else {
+      if ($dynamicDate == 1) {
+        $month = date('M');
+        $year = date('y');
+        $link = 'href="http://www.xerocamboscreta.com/'.$monthMap[$month].$year.'.htm" target="_blank"';
+      } else {
       $link = 'href="' . langtransstr($link) . '" target="_blank"';
+      }
     }
   } else {
     $link = 'href="' . "#" . '"';
