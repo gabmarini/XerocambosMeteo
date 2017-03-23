@@ -490,7 +490,6 @@ dd {
   /*color: black;*/
   background-color: transparent;
   text-decoration: underline;
-  font-weight: bold;
 }
 
 #footer a:visited {
@@ -864,6 +863,10 @@ margin-bottom: 10px;
 
 #topNavBar a:hover {
   text-decoration: none;
+}
+
+#footer #topNavBar {
+  margin-bottom: 30px;
 }
 
 #footer #topNavBar a {

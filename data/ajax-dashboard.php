@@ -1190,23 +1190,6 @@ $json = json_encode($filelist);
       </td>
     </tr>
     
-    
-    <tr>
-      <td colspan="3" style="text-align: center">
-
-        </td>
-	</tr>
-    
-    <tr>
-      <td colspan="3" style="text-align: center">
-
-      </td>
-    </tr>
-	<tr>
-      <td colspan="3" style="text-align: center">
-
-        </td>
-	</tr>
 </table>
 
  

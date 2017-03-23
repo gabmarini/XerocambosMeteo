@@ -42,25 +42,6 @@ require_once("common.php");
 			<p id="topNavBar" style="font-weight: normal;"><?php echo langtransstr("topNavBar");?><p>
 		</div>
 
-			<div class="doNotPrint">
-				<!-- <a href="#header"><?php langtrans('Top'); ?></a> | -->
-
-				<a href="<?php print $SITE['email']; ?>" title="E-mail us"><?php langtrans('Contact Us'); ?></a>
-				<script type="text/javascript">
-				<!--
-				if (navigator.appName == 'Microsoft Internet Explorer' && 
-				parseInt(navigator.appVersion) >= 4)
-				{
-				document.write('| <a href=\"#\" onclick=\"javascript:window.external.AddFavorite        (location.href,document.title)\">');
-				document.write('<?php langtrans('Bookmark Page'); ?></a>');
-				}else
-				{var msg = '| <a href="" title="<?php langtrans('Bookmark Page'); ?>" onClick="alert(' + "'Hit CTRL-D to bookmark this page'"+ ');"><?php langtrans('Bookmark Page'); ?></a>';
-				if(navigator.appName == "Netscape") msg += " (CTRL-D)";
-document.write(msg);
-				}
-				// -->
-				</script>
-			</div><!-- end doNotPrint -->
 
 <div>
 	<?php print $SITE['copyr'] ?><span class="doNotPrint"> |  
