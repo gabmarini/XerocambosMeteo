@@ -850,3 +850,17 @@ margin-bottom: 10px;
   font-size: 15.3pt;
   text-align: center;
 }
+
+#topNavBar {
+  margin-bottom: -10px;
+  text-align: center;
+}
+
+#topNavBar a {
+    color: #AAFFFF;
+    text-decoration: underline;
+}
+
+#topNavBar a:hover {
+  text-decoration: none;
+}

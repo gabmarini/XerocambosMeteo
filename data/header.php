@@ -44,19 +44,11 @@ $tuom = '&deg;' . $tuom[1];
 
 
 
+<p id="topNavBar" ><?php echo langtransstr("topNavBar");?><p>
 <div id="page"><!-- page wrapper -->
 <!-- header -->
     <div id="header">
       <h1 class="headerTitle">
-
-<!--
-	/* modificato MASSI
-	disattivato il collegamento
-    attivo nell'intestazione
-    cliccando su "Meteo Xerocambos"
-	/* <a href="index.php" title="Browse to homepage"><?php echo langtransstr($SITE['organ']); ?></a> */
--->
-      
         <a title="Browse to homepage"><?php echo langtransstr($SITE['organ']); ?></a>
       </h1>	
 	  <div class="headerTemp">
