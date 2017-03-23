@@ -865,3 +865,7 @@ margin-bottom: 10px;
 #topNavBar a:hover {
   text-decoration: none;
 }
+
+#footer #topNavBar a {
+  font-weight: normal;
+}

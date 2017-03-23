@@ -37,6 +37,11 @@ require_once("common.php");
 		<!-- ##### Footer ##### -->
 
 		<div id="footer">
+
+		<div>
+			<p id="topNavBar" style="font-weight: normal;"><?php echo langtransstr("topNavBar");?><p>
+		</div>
+
 			<div class="doNotPrint">
 				<!-- <a href="#header"><?php langtrans('Top'); ?></a> | -->
 

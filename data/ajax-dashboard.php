@@ -1137,6 +1137,8 @@ $json = json_encode($filelist);
 -->
       </td>
     </tr>
+
+    <!--
    <tr>
       <td colspan="3" style="text-align: center">
       <br>
@@ -1170,6 +1172,7 @@ $json = json_encode($filelist);
 
       </td>
     </tr>
+    -->
    <tr>
       <td colspan="3" style="text-align: center">
 
