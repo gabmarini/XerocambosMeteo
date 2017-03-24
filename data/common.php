@@ -426,7 +426,7 @@ function print_language_selects_linear() {
 
       if($SITE['useLanguageFlags'] == true) {
            $string .= '<a href="'. $_SERVER['PHP_SELF'] .'?lang='.$k.'" title="'. $v .'">
-<img src="'. $SITE['imagesDir'] . 'flag-'. $k .'.gif" alt="'. $v .'" title="'. $v .'" border="0" /></a>
+<img src="'. $SITE['imagesDir'] . 'flag-'. $k .'.gif" alt="'. $v .'" title="'. $v .'" style="border:solid 2px white;" /></a>
 ';
       }else{
            $k_print = $k;
@@ -486,7 +486,7 @@ $flag = '';
 
 	  if($_REQUEST['lang'] == $k) {
 	    $selected = ' selected="selected"';
-        $flag = '<img src="'. $SITE['imagesDir'] . 'flag-'. $k .'.gif" alt="'. $v .'" title="'. $v .'" style="border: 0" />';
+        $flag = '<img src="'. $SITE['imagesDir'] . 'flag-'. $k .'.gif" alt="'. $v .'" title="'. $v .'" style="border: solid 2px white;" />';
 	  } else {
 	    $selected = '';
 	  }
