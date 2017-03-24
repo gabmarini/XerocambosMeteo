@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head> 
+<html><head>
   
   <meta name="DESCRIPTION" content="Webcam dal vivo a Xerocambos - Creta Orientale">
   
@@ -84,12 +84,7 @@ in Creta</font></a></span><span style="font-family: Comic Sans MS; font-size: 8p
     <tr>
       <td align="center" height="1" width="760">
       <p style="margin-top: 0pt; margin-bottom: 0pt;" align="center">
-      <div style="position: relative;"> 
-      <!--webbot bot="HTMLMarkup" --><!--webbot bot="HTMLMarkup" startspan --> 
-        <img id="image" style="width: 760px; height: 428px; position: relative;" src="Kavalo1/FI9900P_00626E65B357/snap/<?php echo $filelist[0];?>" alt="timelapse kavalo1">
-        <img id="overlap" style="width: 760px; height: 428px; position: absolute; display: block; top: 0px;" src="Kavalo1/FI9900P_00626E65B357/snap/<?php echo $filelist[0];?>" alt="timelapse kavalo1"> 
-      </div>
-      </p>
+      <!--webbot bot="HTMLMarkup" --><!--webbot bot="HTMLMarkup" startspan --> <img id="image" style="width: 760px; height: 428px;" src="Kavalo1/FI9900P_00626E65B357/snap/<?php echo $filelist[0];?>" alt="timelapse kavalo1"> </p>
       <div id="slider"> 
       	<div id="custom-handle" class="ui-slider-handle"></div>
       </div>
@@ -192,15 +187,7 @@ border="0"></a></noscript><!-- Histats.com  END  --> </p>
         function startTimelapse() {
             intervalID = setInterval(function(){
                 prova[i] != undefined ? i : i=0;
-                prova[i+1] != undefined ? index=i+1 : index = i
-                var oldImage = $('#image').attr('src');
-                var newImage = 'Kavalo1/FI9900P_00626E65B357/snap/' + prova[index];
-                $('#overlap').attr('src',newImage);
-                $('#overlap').fadeIn(400, function(){
-                  $('#image').attr('src', 'Kavalo1/FI9900P_00626E65B357/snap/'+prova[index]);
-                  $('#overlap').hide();
-                  $('#image').show();
-                });
+                $('#image').attr('src', 'Kavalo1/FI9900P_00626E65B357/snap/'+prova[i]);
                 $('#slider').slider('value', i);
                 handle.text(i);
                 i++;

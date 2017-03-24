@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<head>
+
+<META NAME="DESCRIPTION" CONTENT="Webcam en direct à Xérocambos - Est de la Crète">
+
+<META NAME="KEYWORDS" CONTENT="webcam,diffusion,Xerokampos,Crète,images,streaming,en direct,Foscam,côte,mer,paysage,vidéo,conditions météorologiques,mer,vent,soleil,humidité,météo,pression,nébulosité,ensoleillé">
+
+<META NAME="OWNER" CONTENT="andrea18@otenet.gr">
+
+<META NAME="COPYRIGHT" CONTENT="Andrea Maria Marini 2016">
+
+<META NAME="AUTHOR" CONTENT="Andrea Maria Marini">
+
+<meta http-equiv="Content-Language" content="fr">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+
+<meta name="ProgId" content="FrontPage.Editor.Document">
+
+<title>Time lapse | Webcam Kavalo 1 | Xérocambos | Municipalité de Sitia | La région de Lassithi | Crète orientale</title>
+
+<style fprolloverstyle>A:hover {color: #AAFFFF; font-family: Comic Sans MS; font-weight: bold}
+
+</style>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<style>
+
+#custom-handle {
+    width: 3em;
+    height: 1.6em;
+    top: 50%;
+    margin-top: -.8em;
+    text-align: center;
+    line-height: 1.6em;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px #0000FF;
+}
+
+.ui-widget-content {
+    background: #AAFFFF
+}
+</style>
+<link REL="shortcut icon" HREF="http://www.xerocamboscreta.com/favicon.ico">
+<?php
+$data = file_get_contents("Kavalo1/FI9900P_00626E65B357/snap/slides.txt");
+$filelist = unserialize($data);
+$json = json_encode($filelist);
+?>
+</head>
+
+<body link="#0000FF" vlink="#0000FF" alink="#0000FF" bgcolor="#000066" text="#AAFFFF" topmargin="0" leftmargin="0" style="color: #AAFFFF; font-family: Comic Sans MS; text-align: center">
+
+    <table align=center border=1 border="1" cellspacing="1" width="780" height="25" bordercolor="#AAFFFF">
+      <tr>
+        <td width="778" height="20">
+          <p align="center" style="margin-top: 0; margin-bottom: 0"><font color="#AAFFFF">
+          <span style="font-family: Comic Sans MS; font-size: 8.0pt"><a href="index%20F.htm" target="_blank">
+          <span style="left: -12; top: 222"><font color="#AAFFFF">Home page</font></span></a>&nbsp;
+          |&nbsp; <a href="Vettori.aerei.F.htm" target="_blank">
+          <span style="left: -12; top: 222"><font color="#AAFFFF">Vols vers la Crète</font></span></a>&nbsp; 
+          |&nbsp; </span>
+        <span style="left: -12; top: 222; font-family: Comic Sans MS; font-size: 8.0pt"><a href="Autonoleggio%20F.htm" target="_blank">
+        <font color="#AAFFFF">Locations de voitures en Crète</font></a></span><span style="font-family: Comic Sans MS; font-size: 8.0pt">&nbsp; 
+          |&nbsp; </span>
+      <span style="font-family: Comic Sans MS; left: -12; top: 222; font-size: 8.0pt">
+      <a target="_blank" href="Vacanze.Creta.F.htm">
+      <font color="#AAFFFF">Locations d'appartements</font></a></span><span style="font-family: Comic Sans MS; font-size: 8.0pt">&nbsp; 
+          |&nbsp; </span>
+          </font><font color="#aaffff">
+        <span style="font-family: Comic Sans MS; font-size: 8pt; top: 222px; left: -12px">
+        <a href="Index%20Road%20Maps%20F.htm" target="_blank">
+        <font color="#AAFFFF">Cartes routières</font></a></span></font><font color="#AAFFFF"><span style="font-family: Comic Sans MS; font-size: 8.0pt">&nbsp; 
+          |&nbsp; </span>
+          </font><span style="font-family: Comic Sans MS; font-size: 8.0pt"><font color="#AAFFFF">
+          <a href="Distanze.Creta.F.htm" target="_blank">
+          <span style="left: -12; top: 222"><font color="#AAFFFF">Distances en Crète</font></span></a></font></span><font color="#AAFFFF"><span style="font-family: Comic Sans MS; font-size: 8.0pt">&nbsp; 
+          |&nbsp;
+      <a target="_blank" href="mailto:andrea18@otenet.gr">
+            <font color="#AAFFFF">Contact</font></a></span></font></td>
+      </tr>
+    </table>
+  <table align=center border="0" width="780" height="1" cellspacing="10">
+    <tr>
+      <td width="760" height="1" align="center">
+        <p style="margin-top: 0; margin-bottom: 0">
+        <span style="font-size: 16.0pt">Time lapse webcam &quot;Kavalo 1&quot; -
+        Xérocambos</span></td>
+    </tr>
+  </table>
+  <table align=center border="0" width="780" height="1" cellspacing="10">
+    <tr>
+      <td width="760" height="1" align="center">
+        <p align="center" style="margin-top: 0; margin-bottom: 0">
+        
+        <!--webbot bot="HTMLMarkup" --><!--webbot bot="HTMLMarkup" startspan --><img id="image" style="width:760px; height:428px;" src="Kavalo1/FI9900P_00626E65B357/snap/<?php echo $filelist[0]; ?>" alt="timelapse kavalo1" />
+    <div id="slider">
+        <div id="custom-handle" class="ui-slider-handle"></div>
+    </div>    
+<!--webbot bot="HTMLMarkup" endspan i-checksum="46492" --></td>
+
+    </tr>
+  </table>
+ <table align=center border="1" width="780" height="1" cellspacing="10">
+    <tr>
+      <td width="760" height="25" align="center">
+        <p align="center" style="margin-top: 0; margin-bottom: 0">
+      <a href="index%20F.htm">
+      <span style="font-family: Comic Sans MS; color: #AAFFFF; font-size: 12.0pt">
+      <img border="0" src="home.gif" width="107" height="28"></span></a></td>
+    </tr>
+    <tr>
+      <td width="760" height="25" align="center">
+        <p align="center" style="margin-top: 0; margin-bottom: 0">
+      <span style="font-family: Comic Sans MS; color: #AAFFFF; font-size: 12.0pt">
+      <a target="_blank" href="slide.kavalo1.it.php"><img border="2" src="bItaliamicro.gif" alt="Versione in lingua italiana" width="17" height="11"></a>&nbsp;&nbsp;
+      <a target="_blank" href="slide.kavalo1.gr.php">
+      <img border="2" src="bGreciamicro.jpg" alt="Greek version"></a>&nbsp;&nbsp;
+      <a target="_blank" href="slide.kavalo1.D.php"><img border="2" src="b%20Germania.gif" alt="German version" width="17" height="11"></a>&nbsp;&nbsp;
+      <a target="_blank" href="slide.kavalo1.uk.php"><img border="2" src="bInghilterramicro.gif" alt="English version" width="17" height="11"></a></span></td>
+    </tr>
+    <tr>
+      <td width="760" height="25">
+        <p align="center" style="margin-top: 0; margin-bottom: 0">
+      <font color="#aaffff">
+      <span style="font-family: Comic Sans MS; font-size:8pt; left:-12px; top:222px">
+      <a target="_blank" href="Autonoleggio%20F.htm"><font color="#AAFFFF">Locations de voitures</font></a></span></font><font color="#AAFFFF"><span style="font-family: Comic Sans MS; font-size: 8.0pt">&nbsp; 
+          |&nbsp; </span>
+          </font>
+      <font color="#aaffff">
+      <span style="font-size: 8pt; ">
+            <a target="_blank" href="AppF.htm">
+          <span style="font-family: Comic Sans MS; left: -12px; top: 222px; font-size: 8pt">
+      <font color="#AAFFFF">Locations de vacances à Xérocambos</font></span></a></span></font><font color="#AAFFFF"><span style="font-family: Comic Sans MS; font-size: 8.0pt">&nbsp; 
+          |&nbsp; </span>
+          </font>
+      <font color="#aaffff">
+      <span style="font-size: 8pt; left: -12px; top: 222px"> <a href="mailto:andrea18@otenet.gr">
+      <span style="font-family: Comic Sans MS; font-size: 8pt; left:-12px; top:222px"> 
+      <font color="#AAFFFF">Informations</font></span></a></span></font></td>
+    </tr>
+  </table>
+ <table align=center border="0" cellspacing="10" width="780" height="10">
+    <tr>
+      <td width="680" height="80" align="center">
+      <p align="center" style="margin-top: 0; margin-bottom: 0">
+      <span style="left: -12; top: 222; font-family: Comic Sans MS; font-size: 8.0pt">
+      <font color="#AAFFFF">©Web-Master Andrea Marini<span lang="it"> </span> </font>
+      <a target="_blank" href="mailto:andrea18@otenet.gr"><font color="#AAFFFF">
+      andrea18@otenet.gr</font></a><span lang="it"> -
+      <a href="mailto:marinator2001@yahoo.com"><font color="#AAFFFF">
+      marinator2001@yahoo.com</font></a></span></span></p>
+      <p style="margin-top: 0; margin-bottom: 0">
+      <span style="font-size: 8.0pt; left: -12; top: 222; font-family: Comic Sans MS">
+      <font color="#AAFFFF">Enregistrée dans le Registre des entreprises 
+      touristiques de l'Organisation grecque du Tourisme (EOT) depuis 25/09/2013 
+      avec le numéro d'autorisation 1040<span lang="it">E</span> 6061 01822 01</font></span></td>
+      <td width="70" height="40" align="center">
+      <p align="center" style="margin-top: 0; margin-bottom: 0">
+        <img border="0" src="eot.gif" width="70" height="63"></td>
+      </tr>
+    </table>
+   <table align=center border="0" width="780" height="162" cellspacing="10">
+    <tr>
+      <td width="760" height="60" align="center">
+        <p>
+            <font color="#AAFFFF">
+        <span style="left: -12; top: 222; font-size: 8.0pt; font-family: Comic Sans MS; ">
+        <!--webbot bot="HTMLMarkup" startspan --><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.fr"><img alt="Licenza Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/StillImage" property="dct:title" rel="dct:type">Tous les textes, photos, graphiques, vidéos et les images de cette page sont propriété de Andrea Marini - www.xerocamboscreta.com</span><a xmlns:cc="http://creativecommons.org/ns#" href="www.xerocamboscreta.com" property="cc:attributionName" rel="cc:attributionURL"></a><!--webbot bot="HTMLMarkup" endspan i-checksum="39275" --></span></font></td>
+        </tr>
+    <tr>
+      <td width="760" height="21" align="center" valign="bottom">
+        <p>     <!-- Histats.com  START  -->
+ <a href="http://www.histats.com/it/" target="_blank" title="contatore free" >
+ <script  type="text/javascript" language="javascript">
+
+ var s_sid = 293098;var st_dominio = 4;
+ var cimg = 424;var cwi =112;var che =75;
+        </script>
+ <script  type="text/javascript" language="javascript" src="http://s11.histats.com/js9.js"></script>
+ </a>
+ <noscript>
+        <a href="http://www.histats.com/it/" target="_blank">
+ <img  src="http://s103.histats.com/stats/0.gif?293098&1" alt="contatore free" border="0"></a></noscript>
+
+ <!-- Histats.com  END  -->
+      </td>
+        </tr>
+    <tr>
+      <td width="760" height="32" align="center" valign="bottom">
+<!--webbot bot="HTMLMarkup" endspan --></td>
+        </tr>
+  </table>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+        var handle = $( "#custom-handle" );
+        var prova = <?php echo $json; ?>;
+        var max = prova.length-1;
+        var i = 0;
+        var intervalID;
+
+        function startTimelapse() {
+            intervalID = setInterval(function(){
+                prova[i] != undefined ? i : i=0;
+                $('#image').attr('src', 'Kavalo1/FI9900P_00626E65B357/snap/'+prova[i]);
+                $('#slider').slider('value', i);
+                handle.text(i);
+                i++;
+            }, 500);
+        }
+
+
+        handle.focusout(function() {
+            startTimelapse();
+        });
+
+        $( "#slider" ).slider({
+            max: max,
+            create: function() {
+                handle.text( $( this ).slider( "value" ) );
+            },
+            start: function( event, ui ) {
+                clearInterval(intervalID);
+            },
+            slide: function( event, ui ) {
+                handle.text( ui.value );
+                $('#image').attr('src', 'Kavalo1/FI9900P_00626E65B357/snap/'+prova[ui.value]);
+                i = ui.value;
+            }
+        });
+        startTimelapse();
+    });
+    </script>
+
+
+</body>
+
+</html>

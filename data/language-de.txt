@@ -552,3 +552,4 @@ langlookup|Xerokampos Lassithi Creta Est Grecia|Xerokampos &#124; Gemeinde Sitia
 langlookup|Meteo Xerocambos|Wetter Xerocampos|
 langlookup|topNavBar|<a target="_blank" href="http://www.xerocamboscreta.com/index%20D.htm">Home page</a> &#124; <a target="_blank" href="http://www.xerocamboscreta.com/Vettori.aerei.D.htm">Flügenach Kreta</a> &#124; <a target="_blank" href="http://www.xerocamboscreta.com/Autonoleggio%20D.htm">Autovermietung in Kreta</a> &#124; <a target="_blank" href="http://www.xerocamboscreta.com/Vacanze.Creta.D.htm">Ferien-Wohnungen</a> &#124; <a target="_blank" href="http://www.xerocamboscreta.com/Index%20Road%20Maps%20D.htm">Straßenkarten</a> &#124; <a target="_blank" href="http://www.xerocamboscreta.com/Distanze.Creta.D.htm">Entfernungen in Kreta</a> &#124; <a href="mailto:andrea18@otenet.gr">Kontact</a>|
 langlookup|imgTitle|meteo.D.gif|
+langlookup|http://www.xerocamboscreta.com/Guestbook.uk.htm|http://www.xerocamboscreta.com/Guestbook.D.htm|

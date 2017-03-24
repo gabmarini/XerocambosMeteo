@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<head>
+
+<META NAME="DESCRIPTION" CONTENT="&#950;&#969;&#957;&#964;&#945;&#957;&#942; &#954;&#940;&#956;&#949;&#961;&#945; &#963;&#964;&#959; &#926;&#949;&#961;&#972;&#954;&#945;&#956;&#960;&#959; - &#913;&#957;&#945;&#964;&#959;&#955;&#953;&#954;&#942; &#922;&#961;&#942;&#964;&#951;">
+
+<META NAME="KEYWORDS" CONTENT="&#954;&#940;&#956;&#949;&#961;&#945;,&#949;&#954;&#960;&#959;&#956;&#960;&#942;,&#926;&#949;&#961;&#972;&#954;&#945;&#956;&#960;&#959;&#962;,&#922;&#961;&#942;&#964;&#951;,&#949;&#953;&#954;&#972;&#957;&#949;&#962;,&#950;&#969;&#957;&#964;&#945;&#957;&#940;,Foscam,&#945;&#954;&#964;&#942;,&#952;&#940;&#955;&#945;&#963;&#963;&#945;,&#964;&#959;&#960;&#943;&#959;,&#946;&#943;&#957;&#964;&#949;&#959;,&#956;&#949;&#964;&#949;&#969;&#961;&#959;&#955;&#959;&#947;&#953;&#954;&#941;&#962;,&#954;&#945;&#953;&#961;&#953;&#954;&#941;&#962; &#963;&#965;&#957;&#952;&#942;&#954;&#949;&#962;,&#952;&#940;&#955;&#945;&#963;&#963;&#945;,&#940;&#957;&#949;&#956;&#959;,&#942;&#955;&#953;&#959;,&#965;&#947;&#961;&#945;&#963;&#943;&#945;,&#960;&#943;&#949;&#963;&#951;,&#957;&#941;&#966;&#969;&#963;&#951;,&#951;&#955;&#953;&#972;&#955;&#959;&#965;&#963;&#964;&#951;">
+
+<META NAME="OWNER" CONTENT="andrea18@otenet.gr">
+
+<META NAME="COPYRIGHT" CONTENT="Andrea Maria Marini 2016">
+
+<META NAME="AUTHOR" CONTENT="Andrea Maria Marini">
+
+<meta http-equiv="Content-Language" content="el">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+
+<meta name="ProgId" content="FrontPage.Editor.Document">
+
+<title>Time lapse | Webcam Κάβαλο 1 | Ξερόκαμπος | Δήμος Σητείας | Νομός Λασιθίου | Ανατολική Κρήτη</title>
+
+<style fprolloverstyle>A:hover {color: #AAFFFF; font-family: Comic Sans MS; font-weight: bold}
+</style>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<style>
+
+#custom-handle {
+    width: 3em;
+    height: 1.6em;
+    top: 50%;
+    margin-top: -.8em;
+    text-align: center;
+    line-height: 1.6em;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px #0000FF;
+}
+
+.ui-widget-content {
+    background: #AAFFFF
+}
+</style>
+<link REL="shortcut icon" HREF="http://www.xerocamboscreta.com/favicon.ico">
+<?php
+$data = file_get_contents("Kavalo1/FI9900P_00626E65B357/snap/slides.txt");
+$filelist = unserialize($data);
+$json = json_encode($filelist);
+?>
+</head>
+
+<body link="#0000FF" vlink="#0000FF" alink="#0000FF" bgcolor="#000066" text="#AAFFFF" topmargin="0" leftmargin="0" style="color: #AAFFFF; font-family: Comic Sans MS; text-align: center">
+
+    <table align=center border=1 border="1" cellspacing="1" width="780" height="25" bordercolor="#AAFFFF">
+      <tr>
+        <td width="778" height="20">
+          <p align="center" style="margin-top: 0; margin-bottom: 0"><font color="#AAFFFF">
+          <span style="font-family: Comic Sans MS; font-size: 8.0pt"><a href="index%20gr.htm" target="_blank">
+          <span style="left: -12; top: 222"><font color="#AAFFFF"><SPAN class="hps">
+          Αρχική σελίδα</SPAN></font></span></a>&nbsp;
+          |&nbsp; <a href="Vettori.aerei.gr.htm" target="_blank">
+          <span style="left: -12; top: 222"><font color="#AAFFFF">Πτήσεις</font></span></a>&nbsp; 
+          <span lang="it">|</span>&nbsp; </span>
+          </font>
+        <span style="left: -12; top: 222; font-family: Comic Sans MS; font-size: 8.0pt"><font color="#AAFFFF">
+        <a href="Car%20Rental%20gr.htm" target="_blank">
+        <font color="#AAFFFF">Ενοικίαση Αυτοκινήτου στην Κρήτη</font></a></font></span><font color="#AAFFFF"><span style="font-family: Comic Sans MS; font-size: 8.0pt">&nbsp; 
+          <span lang="it">|</span>&nbsp; <a href="Vacanze.Creta.gr.htm" target="_blank">
+        <font color="#AAFFFF">Διανυκτέρευση</font></a>&nbsp; 
+          <span lang="it">|</span>&nbsp; </span>
+          </font>
+        <span style="font-family: Comic Sans MS; font-size: 8.0pt"><font color="#AAFFFF">
+          <a href="Raccordo%20Carte%20Stradali%20gr.htm" target="_blank">
+        <font color="#AAFFFF">Οδικός Χάρτης</font></a></font></span><font color="#AAFFFF"><span style="font-family: Comic Sans MS; font-size: 8.0pt">&nbsp; 
+          <span lang="it">|</span>&nbsp; <a href="Distanze.Creta.gr.htm" target="_blank">
+          <span style="left: -12; top: 222"><font color="#AAFFFF">Αποστάσεις στην Κρήτη</font></span></a>&nbsp; 
+          <span lang="it">|</span>&nbsp;
+      <a target="_blank" href="mailto:andrea18@otenet.gr">
+            <font color="#AAFFFF">Επαφή</font></a></span></font></td>
+      </tr>
+    </table>
+  <table align=center border="0" width="780" height="1" cellspacing="10">
+    <tr>
+      <td width="760" height="1" align="center">
+        <p style="margin-top: 0; margin-bottom: 0">
+        <span style="font-size: 16.0pt">Time lapse webcam &quot;Κάβαλο 1&quot; -
+        <span lang="el">Ξερόκαμπος</span></span></td>
+    </tr>
+  </table>
+  <table align=center border="0" width="780" height="1" cellspacing="10">
+    <tr>
+      <td width="760" height="1" align="center">
+        <p align="center" style="margin-top: 0; margin-bottom: 0">
+       
+ <!--webbot bot="HTMLMarkup" --><!--webbot bot="HTMLMarkup" startspan --><img id="image" style="width:760px; height:428px;" src="Kavalo1/FI9900P_00626E65B357/snap/<?php echo $filelist[0]; ?>" alt="timelapse kavalo1" />
+    <div id="slider">
+        <div id="custom-handle" class="ui-slider-handle"></div>
+    </div>
+ <!--webbot bot="HTMLMarkup" endspan i-checksum="42908" --></td>
+   
+  </tr>
+  </table>
+ <table align=center border="1" width="780" height="1" cellspacing="10">
+    <tr>
+      <td width="760" height="25" align="center">
+        <p align="center" style="margin-top: 0; margin-bottom: 0">
+      <a href="index%20gr.htm">
+        <span style="font-size: 12.0pt; font-family:Comic Sans MS; color:#AAFFFF">
+      <img border="0" src="home.gif" width="107" height="28"></span></a></td>
+    </tr>
+    <tr>
+      <td width="760" height="25" align="center">
+        <p align="center" style="margin-top: 0; margin-bottom: 0">
+      <span style="font-family: Comic Sans MS; color: #AAFFFF; font-size: 12.0pt">
+      <a target="_blank" href="slide.kavalo1.it.php"><img border="2" src="bItaliamicro.gif" alt="Versione in lingua italiana" width="17" height="11"></a>&nbsp;&nbsp;
+      <a target="_blank" href="slide.kavalo1.F.php">
+      <img border="2" src="bFranciamicro.gif" alt="Version fran aise"></a>&nbsp;&nbsp;
+      <a target="_blank" href="slide.kavalo1.D.php"><img border="2" src="b%20Germania.gif" alt="German version" width="17" height="11"></a>&nbsp;&nbsp;
+      <a target="_blank" href="slide.kavalo1.uk.php"><img border="2" src="bInghilterramicro.gif" alt="English version" width="17" height="11"></a></span></td>
+    </tr>
+    <tr>
+      <td width="760" height="25">
+        <p align="center" style="margin-top: 0; margin-bottom: 0"><font color="#AAFFFF">
+        <span style="left: -12; top: 222; font-family: Comic Sans MS; font-size: 8.0pt"><a href="Car%20Rental%20gr.htm" target="_blank">
+        <font color="#AAFFFF">Ενοικίαση Αυτοκινήτου στην Κρήτη</font></a>&nbsp; <span lang="it">|</span>&nbsp; </span>
+        <span style="font-family: Comic Sans MS; font-size: 8.0pt"> <a href="Appgr.htm" target="_blank">
+        <font color="#AAFFFF">Διανυκτέρευση στο Ξερόκαμπος</font></a></span><span style="left: -12; top: 222; font-family: Comic Sans MS; font-size: 8.0pt">&nbsp;
+        <span lang="it">|</span>&nbsp; </span>
+        <span style="font-family: Comic Sans MS; font-size: 8.0pt"> <a onclick="window.event.cancelBubble=true;" href="mailto:andrea18@otenet.gr" target="_parent">
+        <span style="FONT-FAMILY: Comic Sans MS; font-size:8.0pt; top:222; left:-12">
+            <font color="#AAFFFF">Πληροφορίες</font></span></a></span></font></td>
+    </tr>
+  </table>
+ <table align=center border="0" cellspacing="10" width="780" height="10">
+    <tr>
+      <td width="680" height="80" align="center">
+      <p align="center" style="margin-top: 0; margin-bottom: 0">
+      <span style="left: -12; top: 222; font-family: Comic Sans MS; font-size: 8.0pt">
+      <font color="#AAFFFF">©Web-Master Andrea Marini<span lang="it"> </span> </font>
+      <a target="_blank" href="mailto:andrea18@otenet.gr"><font color="#AAFFFF">
+      andrea18@otenet.gr</font></a><span lang="it"> -
+      <a href="mailto:marinator2001@yahoo.com"><font color="#AAFFFF">
+      marinator2001@yahoo.com</font></a></span></span></p>
+      <p style="margin-top: 0; margin-bottom: 0">
+      <span style="font-size: 8.0pt; left: -12; top: 222; font-family: Comic Sans MS">
+      <font color="#AAFFFF">Εγγεγραμμένος στο Μητρώο του Ελληνικού Οργανισμού Τουρισμού (Ε.Ο.Τ.) με ημερομηνία 25/09/2013 με αριθμό αδείας</font></span><p style="margin-top: 0; margin-bottom: 0">
+      <span style="font-size: 8.0pt; left: -12; top: 222; font-family: Comic Sans MS">
+      <font color="#AAFFFF">1040E 6061 01822 01</font></span></td>
+      <td width="70" height="40" align="center">
+      <p align="center" style="margin-top: 0; margin-bottom: 0">
+        <img border="0" src="eot.gif" width="70" height="63"></td>
+      </tr>
+    </table>
+   <table align=center border="0" width="780" height="162" cellspacing="10">
+    <tr>
+      <td width="760" height="60" align="center">
+        <p>
+            <font color="#AAFFFF">
+        <span style="left: -12; top: 222; font-size: 8.0pt; font-family: Comic Sans MS; ">
+        <!--webbot bot="HTMLMarkup" startspan --><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.el"><img alt="Licenza Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/StillImage" property="dct:title" rel="dct:type">&#908;&#955;&#945; &#964;&#945; &#954;&#949;&#943;&#956;&#949;&#957;&#945;, &#947;&#961;&#945;&#966;&#953;&#954;&#940;, &#949;&#953;&#954;&#972;&#957;&#949;&#962; &#960;&#959;&#965; &#960;&#945;&#961;&#959;&#965;&#963;&#953;&#940;&#950;&#959;&#957;&#964;&#945;&#953; &#963;&#949; &#959;&#960;&#959;&#953;&#959;&#948;&#942;&#960;&#959;&#964;&#949; &#964;&#956;&#942;&#956;&#945; &#964;&#959;&#965; site &#945;&#960;&#959;&#964;&#949;&#955;&#959;&#973;&#957; &#960;&#957;&#949;&#965;&#956;&#945;&#964;&#953;&#954;&#942; &#953;&#948;&#953;&#959;&#954;&#964;&#951;&#963;&#943;&#945; &#964;&#959;&#965; Andrea Marini www.xerocamboscreta.com</span><a xmlns:cc="http://creativecommons.org/ns#" href="www.xerocamboscreta.com" property="cc:attributionName" rel="cc:attributionURL"></a><!--webbot bot="HTMLMarkup" endspan i-checksum="40845" --></span></font></td>
+        </tr>
+    <tr>
+      <td width="760" height="21" align="center" valign="bottom">
+        <p>     <!-- Histats.com  START  -->
+ <a href="http://www.histats.com/it/" target="_blank" title="contatore free" >
+ <script  type="text/javascript" language="javascript">
+
+ var s_sid = 293098;var st_dominio = 4;
+ var cimg = 424;var cwi =112;var che =75;
+        </script>
+ <script  type="text/javascript" language="javascript" src="http://s11.histats.com/js9.js"></script>
+ </a>
+ <noscript>
+        <a href="http://www.histats.com/it/" target="_blank">
+ <img  src="http://s103.histats.com/stats/0.gif?293098&1" alt="contatore free" border="0"></a></noscript>
+
+ <!-- Histats.com  END  -->
+      </td>
+        </tr>
+    <tr>
+      <td width="760" height="32" align="center" valign="bottom">
+<!--webbot bot="HTMLMarkup" endspan --></td>
+        </tr>
+  </table>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+        var handle = $( "#custom-handle" );
+        var prova = <?php echo $json; ?>;
+        var max = prova.length-1;
+        var i = 0;
+        var intervalID;
+
+        function startTimelapse() {
+            intervalID = setInterval(function(){
+                prova[i] != undefined ? i : i=0;
+                $('#image').attr('src', 'Kavalo1/FI9900P_00626E65B357/snap/'+prova[i]);
+                $('#slider').slider('value', i);
+                handle.text(i);
+                i++;
+            }, 500);
+        }
+
+
+        handle.focusout(function() {
+            startTimelapse();
+        });
+
+        $( "#slider" ).slider({
+            max: max,
+            create: function() {
+                handle.text( $( this ).slider( "value" ) );
+            },
+            start: function( event, ui ) {
+                clearInterval(intervalID);
+            },
+            slide: function( event, ui ) {
+                handle.text( ui.value );
+                $('#image').attr('src', 'Kavalo1/FI9900P_00626E65B357/snap/'+prova[ui.value]);
+                i = ui.value;
+            }
+        });
+        startTimelapse();
+    });
+    </script>
+
+
+</body>
+
+</html>
