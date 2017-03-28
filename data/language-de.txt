@@ -68,9 +68,9 @@ langlookup|Baro Trend|Luftdruck-Trend|
 langlookup|Wind|Wind|
 langlookup|Rain|Regen|
 langlookup|Outlook|Vorhersage|
-langlookup|Rain Today|Niederschlag heute|
+langlookup|Rain Today|Niederschlag Heute|
 langlookup|Rain Rate|Niederschlagsrate|
-langlookup|Rain Yesterday|Niederschlag gestern|
+langlookup|Rain Yesterday|Niederschlag Gestern|
 langlookup|Storm Rain|Storm Rain|
 langlookup|This Month|Diesen Monat|
 langlookup|Season Total|Saison Summe|
@@ -79,8 +79,8 @@ langlookup|days since last rain|Tage seit letztem Niederschlag|
 langlookup|rain day in|Tage mit Niederschlag in|
 langlookup|rain days in|Tage mit Niederschlag in|
 langlookup|Snow|Schnee|
-langlookup|Snow Today|Schnee heute|
-langlookup|Snow Yesterday|Schnee gestern|
+langlookup|Snow Today|Schnee Heute|
+langlookup|Snow Yesterday|Schnee Gestern|
 langlookup|Snow Depth|Schneehöhe|
 langlookup|Winter Total|Summe Winter|
 langlookup|snow day in|Tag mit Schnee in|
@@ -217,7 +217,7 @@ langlookup|Start of Winter|Winterbeginn|
 langlookup|Weather Trend Graphs|Grafiken Wettertrend|
 langlookup|Last 24 Hours|letzte 24 Stunden|
 langlookup|Last 72 Hours|letzte 72 Stunden|
-langlookup|Month to Date|Monat bis heute|
+langlookup|Month to Date|Monat bis Heute|
 #
 # V1.01 - trends-inc.php native PHP conversion translation items
 #
@@ -236,16 +236,16 @@ langlookup|CURRENT|Aktuell|
 langlookup|Now|jetzt|
 langlookup|Records and Stats|Rekorde und Statistiken|
 langlookup|5 minutes ago|vor 5 Minuten|
-langlookup|10 minutes ago|vor 10 minuten|
-langlookup|15 minutes ago|vor 15 minuten|
-langlookup|20 minutes ago|vor 20 minuten|
-langlookup|30 minutes ago|vor 30 minuten|
-langlookup|45 minutes ago|vor 45 minuten|
-langlookup|60 minutes ago|vor 60 minuten|
-langlookup|75 minutes ago|vor 75 minuten|
-langlookup|90 minutes ago|vor 90 minuten|
-langlookup|105 minutes ago|vor 105 minuten|
-langlookup|120 minutes ago|vor 120 minuten|
+langlookup|10 minutes ago|vor 10 Minuten|
+langlookup|15 minutes ago|vor 15 Minuten|
+langlookup|20 minutes ago|vor 20 Minuten|
+langlookup|30 minutes ago|vor 30 Minuten|
+langlookup|45 minutes ago|vor 45 Minuten|
+langlookup|60 minutes ago|vor 60 Minuten|
+langlookup|75 minutes ago|vor 75 Minuten|
+langlookup|90 minutes ago|vor 90 Minuten|
+langlookup|105 minutes ago|vor 105 Minuten|
+langlookup|120 minutes ago|vor 120 Minuten|
 # following three entries are used for <condition> on <date> and <condition> at <time>
 langlookup|on|um|
 langlookup|at|um|
@@ -255,8 +255,8 @@ langlookup|last hour|letzte Stunde|
 langlookup|over last 7 days|in den letzten 7 Tagen|
 langlookup|last month|letzter Monat|
 #
-langlookup|Today|heute|
-langlookup|Yest.|gestern|
+langlookup|Today|Heute|
+langlookup|Yest.|Gestern|
 langlookup|Week|Woche|
 langlookup|Month|Monat|
 langlookup|Year|Jahr|
@@ -325,8 +325,8 @@ langlookup|Minimum pressure|niedrigster Luftdruck|
 langlookup|Maximum windspeed|höchste Windgeschwindigkeit|
 langlookup|Maximum gust speed|höchste Windböen|
 langlookup|Maximum heat index|größter Hitzeindex|
-langlookup|Sunshine hours month to date|Sonnenstunden dieser Monat bis heute|
-langlookup|Sunshine hours year to date|Sonnenstunden dieses Jahr bis heute|
+langlookup|Sunshine hours month to date|Sonnenstunden dieser Monat bis Heute|
+langlookup|Sunshine hours year to date|Sonnenstunden dieses Jahr bis Heute|
 langlookup|hrs|hours|
 #
 # --- end of include-wxhistory.php translations
@@ -492,7 +492,7 @@ langlookup|Local Time|Lokalzeit|
 langlookup|Magnitude|Größenordnung|
 langlookup|Map and data courtesy of|Karte und Daten mit freundlicher Genehmigung von|
 langlookup|Month report|Monatsbericht|
-langlookup|Month to Date|Monat bis heute|
+langlookup|Month to Date|Monat bis Heute|
 langlookup|Moon|Mond|
 langlookup|National Radar|Nationale Radar|
 langlookup|Nearby METAR Reports|In der Nähe METAR Reports|
