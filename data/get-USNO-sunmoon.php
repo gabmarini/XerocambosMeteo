@@ -350,19 +350,23 @@ $datenow   = date($useDateFormat);
 $datenext  = date($useDateFormat,strtotime("+1 day"));
 
 $mtype = 'sun';
-foreach ($MoonJSON['sundata'] as $n => $d) {
-	$mt = $mtype . $phen_lookup[$d['phen']];
-	if(preg_match('|civil|i',$mt)) {
-		$mt = $phen_lookup[$d['phen']]; // no 'sun' in civil entries
-	}
-	$Data[$mt] = $d['time'];
-	$Data[$mt.'date'] = $datenow;
+if (is_array($MoonJSON['sundata'])) {
+  foreach ($MoonJSON['sundata'] as $n => $d) {
+  	$mt = $mtype . $phen_lookup[$d['phen']];
+  	if(preg_match('|civil|i',$mt)) {
+  		$mt = $phen_lookup[$d['phen']]; // no 'sun' in civil entries
+  	}
+  	$Data[$mt] = $d['time'];
+  	$Data[$mt.'date'] = $datenow;
+  }
 }
 $mtype = 'moon';
-foreach ($MoonJSON['moondata'] as $n => $d) {
-	$mt = $mtype . $phen_lookup[$d['phen']];
-	$Data[$mt] = $d['time'];
-	$Data[$mt.'date'] = $datenow;
+if (is_array($MoonJSON['moondata'])) {
+  foreach ($MoonJSON['moondata'] as $n => $d) {
+  	$mt = $mtype . $phen_lookup[$d['phen']];
+  	$Data[$mt] = $d['time'];
+  	$Data[$mt.'date'] = $datenow;
+  }
 }
 
 $mtype = 'moon';
