@@ -800,7 +800,7 @@ langlookup|http://www.xerocamboscreta.com/Distanze.Creta.uk.htm|http://www.xeroc
 langlookup|http://www.xerocamboscreta.com/Car%20Rental%20uk.htm|http://www.xerocamboscreta.com/Autonoleggio%20it.htm|
 langlookup|https://rethymnon.com/TheBus-Bus-Service-Crete/default.html|https://rethymnon.com/TheBus-Bus-Service-Crete/default.html|
 langlookup|http://www.xerocamboscreta.com/Sentieri.uk.htm|http://www.xerocamboscreta.com/Sentieri.it.htm|
-langlookup|http://www.xerocamboscreta.com/Vacanze.Creta.uk.htm|http://www.xerocamboscreta.com/Vacanze.Creta.uk.htm|
+langlookup|http://www.xerocamboscreta.com/Vacanze.Creta.uk.htm|http://www.xerocamboscreta.com/Vacanze.Creta.it.htm|
 langlookup|http://www.xerocamboscreta.com/Creta.bk.uk.htm|http://www.xerocamboscreta.com/Creta.bk.it.htm|
 langlookup|http://www.xerocamboscreta.com/Kissamosuk.htm|http://www.xerocamboscreta.com/Kissamosit.htm|
 langlookup|http://www.xerocamboscreta.com/Falassarna.uk.htm|http://www.xerocamboscreta.com/Falassarna.it.htm|
@@ -954,8 +954,9 @@ langlookup|Satellite image over Greece|Immagine dal satellite sulla Grecia|
 langlookup|Yesterday in 60 seconds|La giornata di ieri in 60 secondi|
 langlookup|http://www.xerocamboscreta.com/Webcam.Kavalo1.Xero.uk.php|http://www.xerocamboscreta.com/Webcam.Kavalo1.Xero.it.php|
 langlookup|http://www.xerocamboscreta.com/slide.kavalo1.uk.php|http://www.xerocamboscreta.com/slide.kavalo1.it.php|
-langlookup|Xerokampos Lassithi Creta Est Grecia|Xerocampos &#124; Lassithi &#124; Creta Est &#124; Grecia|
+langlookup|Xerokampos Lassithi Creta Est Grecia|Xerocambos &#124; Lassithi &#124; Creta Est &#124; Grecia|
 langlookup|Meteo Xerocambos|Meteo Xerocambos|
 langlookup|topNavBar|<a target="_blank" href="http://www.xerocamboscreta.com/index.htm"> Home page</a> &#124; <a target="_blank" href="http://www.xerocamboscreta.com/Vettori%20aerei%20it.htm">Voli per Creta</a> &#124; <a target="_blank" href="http://www.xerocamboscreta.com/Autonoleggio%20it.htm">Autonoleggio in Creta</a> &#124; <a target="_blank" href="http://www.xerocamboscreta.com/Vacanze.Creta.it.htm">Appartamenti vacanze</a> &#124; <a target="_blank" href="http://www.xerocamboscreta.com/InfoCreta.htm">Info Creta</a> &#124; <a target="_blank" href="http://www.xerocamboscreta.com/Raccordo%20Carte%20Stradali.htm">Carte stradali</a> &#124; <a target="_blank" href="http://www.xerocamboscreta.com/Distanze.Creta.it.htm">Distanze a Creta</a> &#124; <a href="mailto:andrea18@otenet.gr">Contattateci</a>|
 langlookup|imgTitle|meteo.it.gif|
 langlookup|http://www.xerocamboscreta.com/Guestbook.uk.htm|http://www.xerocamboscreta.com/Guestbook.htm|
+langlookup|few clouds|poco nuovoloso|

@@ -350,7 +350,7 @@ $datenow   = date($useDateFormat);
 $datenext  = date($useDateFormat,strtotime("+1 day"));
 
 $mtype = 'sun';
-if (is_array($MoonJSON['sundata'])) {
+if (isset($MoonJSON['sundata'])) {
   foreach ($MoonJSON['sundata'] as $n => $d) {
   	$mt = $mtype . $phen_lookup[$d['phen']];
   	if(preg_match('|civil|i',$mt)) {
@@ -361,7 +361,7 @@ if (is_array($MoonJSON['sundata'])) {
   }
 }
 $mtype = 'moon';
-if (is_array($MoonJSON['moondata'])) {
+if (isset($MoonJSON['moondata'])) {
   foreach ($MoonJSON['moondata'] as $n => $d) {
   	$mt = $mtype . $phen_lookup[$d['phen']];
   	$Data[$mt] = $d['time'];
